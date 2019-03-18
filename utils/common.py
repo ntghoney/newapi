@@ -11,7 +11,6 @@ from config.config import ENV
 from utils.log import log
 
 
-
 class MyConf(ConfigParser):
     def __init__(self, defaults=None):
         ConfigParser.__init__(self, defaults=None)
@@ -34,7 +33,6 @@ class __Http(object):
 
     def __init__(self, bind="fp01"):
         env = ENV.get(bind)
-        print(env)
         if not env:
             raise Exception("请求域名为空，bind %s在配置文件中不存在" % bind)
         self.env = env
@@ -48,17 +46,27 @@ class __Http(object):
         return res
 
 
-def request_api(host, my_params, my_headers, request_method,bind="fp01"):
+def request_api(host, my_params, my_headers, request_method, bind="fp01"):
     """
     接口请求
     """
-    http=__Http(bind=bind)
+    http = __Http(bind=bind)
     if request_method == "POST":
         res = http.post(host, params=my_params, headers=my_headers)
     elif request_method == "GET":
         res = http.get(host, params=my_params, headers=my_headers)
     else:
-        log.error("ERRRR:暂不支持%s这种请求方式"%request_method)
-        return "ERRRR：暂不支持%s这种请求方式"%request_method
+        log.error("ERRRR:暂不支持%s这种请求方式" % request_method)
+        return "ERRRR：暂不支持%s这种请求方式" % request_method
         # 如果调用创建用户或登录接口，将headers信息写入配置文件
     return res
+
+
+def get_current_time():
+    """
+    获得当前时间
+    :return: eg:2019/03/18 10:05:03
+    """
+    import datetime
+    now = datetime.datetime.now()
+    return now.strftime("%Y/%m/%d %H:%M:%S")

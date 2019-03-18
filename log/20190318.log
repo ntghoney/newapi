@@ -1,0 +1,661 @@
+2019-03-18 11:13:16,716 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 11:13:16,723 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 11:13:16,728 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 11:13:16,730 - ERROR -sqls.py : 117 :insert_data - sql语句错误---->INSERT INTO apiinfo SET apiId='api_1',apiHost='/s5/create_user',(1366, "Incorrect integer value: 'api_1' for column 'apiId' at row 1")
+2019-03-18 11:13:16,730 - ERROR -sqls.py : 117 :insert_data - sql语句错误---->INSERT INTO testcase SET apiId='api_1',caseDescribe='sss',apiHost='/s5/create_user',isExcute='y',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-18 11:14:58,306 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 11:14:58,315 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 11:14:58,321 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 11:14:58,324 - ERROR -sqls.py : 117 :insert_data - sql语句错误---->INSERT INTO testcase SET apiId='1',caseDescribe='sss',apiHost='/s5/create_user',isExcute='y',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-18 11:19:51,077 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 11:20:20,169 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 11:20:20,176 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 11:20:20,181 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 11:20:20,182 - ERROR -sqls.py : 117 :insert_data - sql语句错误---->INSERT INTO apiinfo SET apiId='api_1',apiHost='/s5/create_user',(1366, "Incorrect integer value: 'api_1' for column 'apiId' at row 1")
+2019-03-18 11:20:20,182 - ERROR -sqls.py : 117 :insert_data - sql语句错误---->INSERT INTO testcase SET apiId='api_1',caseDescribe='sss',apiHost='/s5/create_user',isExcute='y',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-18 11:20:59,617 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 11:20:59,622 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 11:20:59,626 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 11:20:59,626 - ERROR -sqls.py : 117 :insert_data - sql语句错误---->INSERT INTO apiinfo SET apiId='api_1',apiHost='/s5/create_user',(1366, "Incorrect integer value: 'api_1' for column 'apiId' at row 1")
+2019-03-18 11:20:59,627 - ERROR -sqls.py : 117 :insert_data - sql语句错误---->INSERT INTO testcase SET apiId='api_1',caseDescribe='sss',apiHost='/s5/create_user',(1366, "Incorrect integer value: 'api_1' for column 'apiId' at row 1")
+2019-03-18 11:24:39,544 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 11:24:39,549 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 11:24:39,552 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 11:24:39,553 - ERROR -sqls.py : 117 :insert_data - sql语句错误---->INSERT INTO testcase SET apiId='api_1',caseDescribe='sss',apiHost='/s5/create_user',(1364, "Field 'caseId' doesn't have a default value")
+2019-03-18 11:25:05,888 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 11:25:05,895 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 11:25:05,900 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 11:25:05,901 - ERROR -sqls.py : 117 :insert_data - sql语句错误---->INSERT INTO testcase SET apiId='1',caseDescribe='sss',apiHost='/s5/create_user',(1364, "Field 'caseId' doesn't have a default value")
+2019-03-18 11:34:13,239 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 11:34:13,245 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 11:34:13,249 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 11:36:26,122 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 11:36:26,129 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 11:36:26,133 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 11:36:40,563 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 11:36:40,568 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 11:36:40,571 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 11:37:43,075 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 11:37:43,080 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 11:37:43,083 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 11:38:21,606 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 11:38:21,611 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 11:38:21,614 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 11:38:59,680 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 11:38:59,684 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 11:38:59,687 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 11:38:59,687 - ERROR -sqls.py : 105 :insert_data - sql语句错误---->INSERT INTO apiinfo SET  apiId=1, apiHost=/s5/create_user, method=None, apiParams=None, apiHeaders=None, relatedApi=None, relatedParams=None,(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/s5/create_user, method=None, apiParams=None, apiHeaders=None, relatedApi=None, ' at line 1")
+2019-03-18 11:38:59,687 - ERROR -sqls.py : 105 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=case_1, apiId=1, caseDescribe=sss, apiHost=/s5/create_user, testData=None, apiParams=None, apiHeaders=None, method=None, relatedApi=None, relatedParams=None, expect=None, sqlStatement=None, databaseExpect=None,(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/s5/create_user, testData=None, apiParams=None, apiHeaders=None, method=None, re' at line 1")
+2019-03-18 11:40:08,245 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 11:40:08,255 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 11:40:08,261 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 11:40:08,262 - ERROR -sqls.py : 104 :insert_data - sql语句错误---->INSERT INTO apiinfo SET  apiId=1, apiHost=/s5/create_user, method=None, apiParams=None, apiHeaders=None, relatedApi=None, relatedParams=None,,(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/s5/create_user, method=None, apiParams=None, apiHeaders=None, relatedApi=None, ' at line 1")
+2019-03-18 11:40:08,262 - ERROR -sqls.py : 104 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=case_1, apiId=1, caseDescribe=sss, apiHost=/s5/create_user, testData=None, apiParams=None, apiHeaders=None, method=None, relatedApi=None, relatedParams=None, expect=None, sqlStatement=None, databaseExpect=None,,(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/s5/create_user, testData=None, apiParams=None, apiHeaders=None, method=None, re' at line 1")
+2019-03-18 11:40:40,980 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 11:40:40,985 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 11:40:40,988 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 11:40:52,712 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 11:40:52,716 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 11:40:52,719 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 11:40:52,719 - ERROR -sqls.py : 105 :insert_data - sql语句错误---->INSERT INTO apiinfo SET  apiId=1, apiHost=/s5/create_user, method=None, apiParams=None, apiHeaders=None, relatedApi=None, relatedParams=None
+2019-03-18 11:40:52,719 - ERROR -sqls.py : 105 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=case_1, apiId=1, caseDescribe=sss, apiHost=/s5/create_user, testData=None, apiParams=None, apiHeaders=None, method=None, relatedApi=None, relatedParams=None, expect=None, sqlStatement=None, databaseExpect=None
+2019-03-18 11:41:00,913 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 11:41:00,921 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 11:41:00,925 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 11:41:00,926 - ERROR -sqls.py : 105 :insert_data - sql语句错误---->INSERT INTO apiinfo SET  apiId=1, apiHost=/s5/create_user, method=None, apiParams=None, apiHeaders=None, relatedApi=None, relatedParams=None,(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/s5/create_user, method=None, apiParams=None, apiHeaders=None, relatedApi=None, ' at line 1")
+2019-03-18 11:41:00,926 - ERROR -sqls.py : 105 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=case_1, apiId=1, caseDescribe=sss, apiHost=/s5/create_user, testData=None, apiParams=None, apiHeaders=None, method=None, relatedApi=None, relatedParams=None, expect=None, sqlStatement=None, databaseExpect=None,(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/s5/create_user, testData=None, apiParams=None, apiHeaders=None, method=None, re' at line 1")
+2019-03-18 11:44:05,023 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 11:44:05,030 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 11:44:05,035 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 11:44:05,036 - ERROR -sqls.py : 105 :insert_data - sql语句错误---->INSERT INTO apiinfo SET  apiId=1, apiHost=/s5/create_user, method="SDFDS", apiParams=None, apiHeaders=None, relatedApi=None, relatedParams=None,(1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'/s5/create_user, method="SDFDS", apiParams=None, apiHeaders=None, relatedApi=Non\' at line 1')
+2019-03-18 11:44:05,036 - ERROR -sqls.py : 105 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=case_1, apiId=1, caseDescribe=sss, apiHost=/s5/create_user, testData=None, apiParams=None, apiHeaders=None, method="SDFDS", relatedApi=None, relatedParams=None, expect=None, sqlStatement=None, databaseExpect=None,(1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'/s5/create_user, testData=None, apiParams=None, apiHeaders=None, method="SDFDS",\' at line 1')
+2019-03-18 11:50:54,661 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 11:50:54,668 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 11:50:54,673 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 11:50:54,674 - ERROR -sqls.py : 110 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId='case_1', apiId=1, caseDescribe='sss', apiHost='/s5/create_user', testData=Null, apiParams=Null, apiHeaders=Null, method='"SDFDS"', relatedApi=Null, relatedParams=Null, expect=Null, sqlStatement=Null, databaseExpect=Null,(1054, "Unknown column 'testData' in 'field list'")
+2019-03-18 11:56:21,078 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 11:56:21,086 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 11:56:21,091 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 11:56:21,092 - ERROR -sqls.py : 110 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId='case_1', apiId=1, caseDescribe='sss', apiHost='/s5/create_user', testData=Null, apiParams=Null, apiHeaders=Null, method='"SDFDS"', relatedApi=Null, relatedParams=Null, expect=Null, sqlStatement=Null, databaseExpect=Null,(1054, "Unknown column 'testData' in 'field list'")
+2019-03-18 11:57:43,738 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 11:57:43,744 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 11:57:43,747 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 12:40:11,494 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 12:40:11,500 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 12:40:11,511 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 12:41:03,264 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 12:41:03,273 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 12:41:03,277 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 12:41:34,423 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 12:41:34,429 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 12:41:34,432 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 12:43:18,238 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 12:43:18,243 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 12:43:18,246 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 12:45:57,352 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 12:45:57,361 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 12:45:57,365 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 12:46:33,364 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 12:46:33,370 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 12:46:33,374 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 12:47:01,499 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 12:47:01,503 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 12:47:01,506 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 12:47:17,625 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 12:47:17,626 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 12:47:17,638 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 12:47:17,644 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 12:47:27,525 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 12:47:27,525 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 12:47:27,533 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 12:47:27,538 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 12:47:54,932 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 12:47:54,932 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 12:47:54,936 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 12:47:54,939 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 12:54:55,165 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 12:54:55,166 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 12:54:55,170 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 12:54:55,173 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 12:55:32,016 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 12:55:32,016 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 12:55:32,021 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 12:55:32,025 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 12:55:49,453 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 12:55:49,454 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 12:55:49,458 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 12:55:49,461 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 12:57:16,685 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 12:57:16,685 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 12:57:16,691 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 12:57:16,694 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 12:58:03,349 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 12:58:03,349 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 12:58:03,356 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 12:58:03,360 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 12:58:20,615 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 12:58:20,615 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 12:58:20,620 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 12:58:20,624 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 12:58:58,177 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 12:58:58,177 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 12:58:58,186 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 12:58:58,192 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 12:59:10,282 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 12:59:10,282 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 12:59:10,292 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 12:59:10,296 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 13:00:32,791 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 13:00:32,791 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 13:00:32,795 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 13:00:32,798 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 13:01:14,297 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 13:01:14,297 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 13:01:14,308 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 13:01:14,313 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 13:01:37,996 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 13:01:38,010 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 13:01:38,015 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 13:01:51,637 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 13:01:51,637 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 13:01:51,643 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 13:01:51,647 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 13:02:31,619 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 13:02:31,619 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 13:02:31,624 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 13:02:31,627 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 13:02:37,654 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 13:02:37,655 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 13:02:37,663 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 13:02:37,668 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 13:03:19,639 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 13:03:19,640 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 13:03:19,648 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 13:03:19,652 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 13:03:21,294 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 13:03:21,294 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 13:03:21,302 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 13:03:21,305 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 13:33:58,673 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 13:33:58,673 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 13:33:58,682 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 13:33:58,685 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 13:34:23,706 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 13:34:23,706 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 13:34:23,711 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 13:34:23,713 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 13:34:35,717 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 13:34:35,722 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 13:34:35,724 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 13:35:12,942 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 13:35:12,947 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 13:35:12,949 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 13:35:23,467 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 13:35:23,468 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 13:35:23,472 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 13:35:23,476 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 13:35:38,866 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 13:35:38,867 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 13:35:38,875 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 13:35:38,880 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 13:36:21,860 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 13:36:21,860 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 13:36:21,869 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 13:36:21,873 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 13:36:34,985 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 13:36:34,985 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 13:36:34,989 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 13:36:34,992 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 13:36:57,845 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 13:36:57,845 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 13:36:57,850 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 13:36:57,853 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 13:38:07,137 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 13:38:07,138 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 13:38:07,142 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 13:38:07,144 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 13:39:04,763 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 13:39:04,763 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 13:39:04,770 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 13:39:04,774 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 13:39:15,844 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 13:39:15,844 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 13:39:15,854 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 13:39:15,859 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 13:40:46,238 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 13:40:46,238 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 13:40:46,243 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 13:40:46,247 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 13:43:52,170 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 13:43:52,170 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 13:43:52,175 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 13:43:52,179 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 13:44:02,391 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 13:44:02,391 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 13:44:02,400 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 13:44:02,404 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 13:44:39,405 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 13:44:39,405 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 13:44:39,409 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 13:44:39,412 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 13:45:02,438 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 13:45:02,438 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 13:45:02,442 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 13:45:02,445 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 13:46:09,875 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 13:46:09,875 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 13:46:09,880 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 13:46:09,883 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 13:46:19,595 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 13:46:19,595 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 13:46:19,601 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 13:46:19,605 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 13:47:08,969 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 13:47:08,971 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 13:47:08,979 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 13:47:08,984 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 13:47:44,487 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 13:47:44,488 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 13:47:44,498 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 13:47:44,505 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 13:49:42,539 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 13:49:42,545 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 13:49:42,548 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 13:50:34,685 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 13:50:34,690 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 13:50:34,693 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 13:51:59,885 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 13:51:59,889 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 13:51:59,892 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 13:52:34,013 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 13:52:34,021 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 13:52:34,024 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 14:17:04,161 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 14:17:04,166 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 14:17:04,170 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 14:18:32,121 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 14:18:32,127 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 14:18:32,131 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 14:19:04,174 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 14:19:04,178 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 14:19:04,182 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 14:19:07,816 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 14:19:07,823 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 14:19:07,827 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 14:19:39,284 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 14:19:39,292 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 14:19:39,297 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 14:19:52,672 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 14:19:52,681 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 14:19:52,684 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 14:20:02,709 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 14:20:02,717 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 14:20:02,722 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 14:20:24,987 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 14:20:24,995 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 14:20:24,999 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 14:20:41,367 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 14:20:41,372 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 14:20:41,375 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 14:21:20,949 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 14:21:20,954 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 14:21:20,958 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 14:22:56,062 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 14:22:56,071 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 14:22:56,075 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 14:23:08,652 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 14:23:08,657 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 14:23:08,660 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 14:23:26,636 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 14:23:26,644 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 14:23:26,647 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 14:24:26,072 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 14:24:26,077 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 14:24:26,080 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 14:25:01,208 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 14:25:01,215 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 14:25:01,220 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 14:26:00,952 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 14:26:00,957 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 14:26:00,960 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 14:27:15,564 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 14:27:15,573 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 14:27:15,577 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 14:28:07,021 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 14:28:07,025 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 14:28:07,028 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 14:28:17,446 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 14:28:17,450 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 14:28:17,453 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 14:28:25,736 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 14:28:25,741 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 14:28:25,744 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 14:28:39,615 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 14:28:39,623 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 14:28:39,629 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 14:28:55,541 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 14:28:55,546 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 14:28:55,550 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 14:29:07,931 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 14:29:07,936 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 14:29:07,939 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 14:29:27,494 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 14:29:27,502 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 14:29:27,507 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 14:29:37,653 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 14:29:37,657 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 14:29:37,660 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 14:29:53,932 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 14:29:53,937 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 14:29:53,940 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 14:30:14,252 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 14:30:14,257 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 14:30:14,260 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 14:31:32,646 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 14:31:32,655 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 14:31:32,661 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 14:35:25,025 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 14:35:25,031 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 14:35:25,035 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 14:52:13,258 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 14:52:13,263 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 14:52:13,266 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 14:52:33,692 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 14:52:33,692 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 14:52:33,697 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 14:52:33,700 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 14:52:59,200 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 14:52:59,201 - INFO -handle_case.py : 132 :get_cases - 参数不符合json格式
+2019-03-18 14:52:59,209 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 14:52:59,215 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 14:53:31,117 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 14:53:31,122 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 14:53:31,124 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 14:57:02,923 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 14:57:02,928 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 14:57:02,932 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 15:10:38,411 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 15:10:38,421 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 15:10:38,428 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 15:10:38,432 - INFO -main.py : 190 :__excute_case - 当前接口headers信息为None
+2019-03-18 15:10:54,608 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 15:10:54,618 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 15:10:54,624 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 15:10:54,628 - INFO -main.py : 191 :__excute_case - 当前接口headers信息为None
+2019-03-18 15:11:17,169 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 15:11:17,173 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 15:11:17,176 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 15:11:17,178 - INFO -main.py : 192 :__excute_case - 当前接口headers信息为None
+2019-03-18 15:11:23,479 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 15:11:23,483 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 15:11:23,486 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 15:11:23,488 - INFO -main.py : 193 :__excute_case - 当前接口headers信息为None
+2019-03-18 15:11:56,744 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 15:11:56,748 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 15:11:56,751 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 15:11:56,753 - INFO -main.py : 192 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 15:18:18,598 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 15:18:18,606 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 15:18:18,610 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 15:18:43,415 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 15:18:43,421 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 15:18:43,424 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 15:18:43,427 - INFO -main.py : 193 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 15:18:55,286 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 15:18:55,293 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 15:18:55,297 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 15:18:55,299 - INFO -main.py : 193 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 15:19:41,890 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 15:19:41,899 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 15:19:41,905 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 15:19:41,908 - INFO -main.py : 193 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 15:19:46,867 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 15:19:46,871 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 15:19:46,874 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 15:19:46,876 - INFO -main.py : 193 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 15:20:05,566 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 15:20:05,571 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 15:20:05,575 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 15:20:05,577 - INFO -main.py : 193 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 15:20:30,271 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 15:20:30,276 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 15:20:30,279 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 15:20:30,281 - INFO -main.py : 193 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 15:47:50,767 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 15:47:50,773 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 15:47:50,777 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 15:47:50,780 - INFO -main.py : 202 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 15:54:07,470 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 15:54:07,475 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 15:54:07,478 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 15:54:07,478 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO apiinfo SET  apiId=1, apiHost='/s5/create_user', method='GET', apiParams='{"s": "${id}"}', apiHeaders=Null, relatedApi=Null, relatedParams=['a', 'b'],(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['a', 'b']' at line 1")
+2019-03-18 15:54:07,479 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId='case_1', apiId=1, caseDescribe='sss', apiHost='/s5/create_user', apiParams='{"s": "${id}"}', apiHeaders=Null, method='GET', relatedApi=Null, relatedParams=['a', 'b'], expect='{"err_code": "0", "payload.uid": "10"}', sqlStatement=Null, databaseExpect=Null,(1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'[\'a\', \'b\'], expect=\'{"err_code": "0", "payload.uid": "10"}\', sqlStatement=Null, \' at line 1')
+2019-03-18 15:54:07,479 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 16:01:26,012 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 16:01:26,021 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 16:01:26,026 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 16:01:26,029 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 16:01:40,090 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 16:01:40,095 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 16:01:40,098 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 16:01:40,100 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 16:13:56,395 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 16:13:56,400 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 16:13:56,403 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 16:13:56,406 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 16:15:00,811 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 16:15:00,815 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 16:15:00,819 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 16:15:00,821 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 16:15:41,708 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 16:15:41,714 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 16:15:41,719 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 16:15:41,722 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 16:16:16,042 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 16:16:16,050 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 16:16:16,053 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 16:16:16,055 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 16:16:32,431 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 16:16:32,437 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 16:16:32,442 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 16:16:32,444 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 16:16:45,099 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 16:16:45,104 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 16:16:45,106 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 16:16:45,109 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 16:17:04,305 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 16:17:04,311 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 16:17:04,314 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 16:17:04,317 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 16:18:38,904 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 16:18:38,910 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 16:18:38,913 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 16:18:38,915 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 16:19:08,019 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 16:19:08,026 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 16:19:08,031 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 16:19:08,034 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 16:19:48,296 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 16:19:48,312 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 16:19:48,320 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 16:19:48,325 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 16:19:51,952 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 16:19:51,964 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 16:19:51,969 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 16:19:51,972 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 16:19:54,310 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 16:19:54,315 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 16:19:54,319 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 16:19:54,321 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 16:21:15,449 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 16:21:15,455 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 16:21:15,457 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 16:21:15,459 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 16:22:49,585 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 16:22:49,593 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 16:22:49,596 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 16:22:49,598 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 16:23:11,417 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 16:23:11,428 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 16:23:11,435 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 16:23:11,439 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 16:23:55,076 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 16:23:55,080 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 16:23:55,083 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 16:23:55,085 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 16:24:09,751 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 16:24:09,755 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 16:24:09,758 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 16:24:09,760 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 16:24:33,823 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 16:24:33,829 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 16:24:33,833 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 16:24:33,836 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 16:26:32,795 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 16:26:32,800 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 16:26:32,804 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 16:26:32,806 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 16:37:45,936 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 16:37:45,941 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 16:37:45,945 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 16:37:45,947 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 16:38:10,022 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 16:38:10,027 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 16:38:10,030 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 16:38:10,032 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 16:39:00,276 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 16:39:00,282 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 16:39:00,285 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 16:39:00,288 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 16:39:26,154 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 16:39:26,161 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 16:39:26,164 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 16:39:26,166 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 16:39:52,821 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 16:39:52,827 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 16:39:52,830 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 16:39:52,832 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 16:40:12,851 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 16:40:12,856 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 16:40:12,858 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 16:40:12,860 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 16:40:37,188 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 16:40:37,198 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 16:40:37,203 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 16:40:37,205 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 16:40:45,700 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 16:40:45,706 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 16:40:45,710 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 16:40:45,712 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 16:42:28,297 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 16:42:28,305 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 16:42:28,310 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 16:42:28,313 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 16:42:43,330 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 16:42:43,337 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 16:42:43,341 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 16:42:43,344 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 16:43:16,966 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 16:43:16,975 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 16:43:16,981 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 16:43:16,983 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 16:43:35,416 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 16:43:35,421 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 16:43:35,424 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 16:43:35,426 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 16:45:15,598 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 16:45:15,606 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 16:45:15,610 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 16:45:15,612 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 17:03:12,823 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 17:03:12,827 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 17:03:12,830 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 17:03:12,832 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 17:04:49,745 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 17:04:49,751 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 17:04:49,755 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 17:04:49,758 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 17:05:16,266 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 17:05:16,270 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 17:05:16,273 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 17:05:16,275 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 17:05:52,425 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 17:05:52,432 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 17:05:52,437 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 17:05:52,440 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 17:09:18,909 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 17:09:18,914 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 17:09:18,917 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 17:10:08,157 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 17:10:08,161 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 17:10:08,164 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 17:10:44,902 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 17:10:44,907 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 17:10:44,910 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 17:11:30,818 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 17:11:30,823 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 17:11:30,826 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 17:11:58,445 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 17:11:58,451 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 17:11:58,454 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 17:12:44,642 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 17:12:44,648 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 17:12:44,651 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 17:14:49,207 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 17:14:49,211 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 17:14:49,215 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 17:16:24,391 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 17:16:24,398 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 17:16:24,403 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 17:16:24,407 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 17:16:53,677 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 17:16:53,683 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 17:16:53,687 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 17:16:53,689 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 17:17:21,347 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 17:17:21,352 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 17:17:21,355 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 17:17:21,358 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 17:17:37,647 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 17:17:37,651 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 17:17:37,654 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 17:17:37,656 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 17:17:46,206 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 17:17:46,213 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 17:17:46,217 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 17:17:46,220 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 17:26:14,006 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 17:26:14,014 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 17:26:14,018 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 17:26:14,021 - INFO -main.py : 203 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 17:26:54,492 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 17:26:54,502 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 17:26:54,508 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 18:04:49,971 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 18:04:49,975 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 18:04:49,978 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 18:05:00,284 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 18:05:00,290 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 18:05:00,294 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 18:05:11,583 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 18:05:11,590 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 18:05:11,594 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 18:05:11,597 - INFO -main.py : 216 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 18:06:31,946 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 18:06:31,954 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 18:06:31,957 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 18:09:47,387 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 18:09:47,391 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 18:09:47,394 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 18:17:38,381 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 18:17:38,388 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 18:17:38,393 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 18:17:38,396 - INFO -main.py : 216 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 18:26:08,160 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 18:26:08,165 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 18:26:08,168 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 18:26:08,171 - INFO -main.py : 216 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-18 18:27:37,040 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-18 18:27:37,045 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-18 18:27:37,048 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-18 18:27:37,051 - INFO -main.py : 216 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}

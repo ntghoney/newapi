@@ -67,6 +67,19 @@ class __HandleCase(object):
             checkPints[key] = value
         return checkPints
 
+    def __handle_sql_expect(self, sql_point):
+        points = self.__handle_sql_point(sql_point)
+        rv = dict()
+        value_dic = dict()
+        for key, value in points.items():
+            if "," in value:
+                value = value.split(",")
+            a = [t.split("=") for t in value]
+            for i in a:
+                value_dic[i[0]] = i[1]
+            rv[key] = value_dic
+        return rv
+
     def __handle_sql_point(self, sqls):
         """
         处理用例sql语句和sql检查点格式
@@ -101,7 +114,7 @@ class __HandleCase(object):
         :param params:
         :return:
         """
-        return [i for i in params.split("\n")]
+        return params.replace("\n", ",")
 
     def get_cases(self):
         """
@@ -124,6 +137,12 @@ class __HandleCase(object):
                     continue
                 if (k == CASEID or k == APIID or k == RELATEDAPI) and not isinstance(v, str):
                     case[k] = int(v)
+                if k == PARMAS:
+                    try:
+                        case[k] = json.loads(v, encoding="utf8")
+                    except:
+                        case[k] = {}
+                        log.info("参数不符合json格式")
                 if k == METHOD:
                     case[k] = v.upper()
                 if k == RELATEDAPI and isinstance(v, str):
@@ -136,12 +155,16 @@ class __HandleCase(object):
                 if k == EXPECT:
                     v = self.__handle_checkpoint(v)
                     case[k] = v
-                if k == SQLSTATEMENT or k == DATABASEEXPECT or k == TESTDATA or k == APIHEADERS:
+                if k == DATABASEEXPECT:
+                    v = self.__handle_sql_expect(v)
+                    case[k] = v
+                if k == SQLSTATEMENT or k == TESTDATA or k == APIHEADERS:
                     v = self.__handle_sql_point(v)
                     case[k] = v
                 if k == RELEATEDPARAMS:
                     v = self.__handle_related_params(v)
                     case[k] = v
+            case.pop("isExcute")
         return excute_cases
 
 
@@ -160,8 +183,8 @@ def get_api(case):
     api_info.setdefault(METHOD, case[METHOD])
     api_info.setdefault(PARMAS, case[PARMAS])
     api_info.setdefault(APIHEADERS, case[APIHEADERS])
-    api_info.setdefault(RELATEDAPI,case[RELATEDAPI])
-    api_info.setdefault(RELEATEDPARAMS,case[RELEATEDPARAMS])
+    api_info.setdefault(RELATEDAPI, case[RELATEDAPI])
+    api_info.setdefault(RELEATEDPARAMS, case[RELEATEDPARAMS])
 
     return api_info
 

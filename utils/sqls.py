@@ -70,7 +70,7 @@ class ConMysql(object):
             datas = self.cursor.fetchone()
         except Exception as e:
             log.error("sql语句错误---->%s,%s" % (sql, e))
-            return None
+            return {"err":"sql语句错误---->%s" % (sql)}
         return datas
 
     def query_all(self, sql):
@@ -84,7 +84,7 @@ class ConMysql(object):
             datas = self.cursor.fetchall()
         except Exception as e:
             log.error("sql语句错误---->%s,%s" % (sql, e))
-            return None
+            return {"err": "sql语句错误---->%s" % (sql)}
         return datas
 
     def insert_data(self, table, **kwargs):
@@ -94,27 +94,39 @@ class ConMysql(object):
         :param kwargs: (字段=value)
         :return:
         """
-        sql = "INSERT INTO {} SET ".format(table)
-        for key in kwargs.keys():
-            if not key.__eq__(CASEID) and not key.__eq__(TESTDATA) and not key.__eq__(METHOD):
-                if isinstance(kwargs[key], dict):
-                    kwargs[key] = json.dumps(kwargs[key], ensure_ascii=False)
-                elif isinstance(kwargs[key], str):
-                    kwargs[key] = kwargs[key].replace("\'", "\"")
-                elif isinstance(kwargs[key], list):
-                    if kwargs[key]:
-                        kwargs[key] = str(kwargs[key]).replace("\'", "").replace("[", "").replace("]", "")
-                elif isinstance(kwargs[key], int):
-                    kwargs[key] = kwargs[key]
-                elif kwargs[key].__eq__(""):
-                    continue
-                sql += "{}='{}',".format(key, kwargs[key])
+        sql = "INSERT INTO %s SET " % table
+        for key, value in kwargs.items():
+            if key==TESTDATA:
+                continue
+            if value is None :
+                sql += " %s=Null," % (key)
+            elif isinstance(value,str):
+                sql += " %s='%s'," % (key, value)
+            elif isinstance(value,dict):
+                value=json.dumps(value,ensure_ascii=False)
+                sql += " %s='%s'," % (key, value)
+            else:
+                sql += " %s=%s," % (key, value)
         sql = sql[:-1]
         try:
             self.cursor.execute(sql)
             self.conn.commit()
         except Exception as e:
             log.error("sql语句错误---->%s,%s" % (sql, e))
+        # for key in kwargs.keys():
+        #     if not key.__eq__(CASEID) and not key.__eq__(TESTDATA) and not key.__eq__(METHOD):
+        #         if isinstance(kwargs[key], dict):
+        #             kwargs[key] = json.dumps(kwargs[key], ensure_ascii=False)
+        #         elif isinstance(kwargs[key], str):
+        #             kwargs[key] = kwargs[key].replace("\'", "\"")
+        #         elif isinstance(kwargs[key], list):
+        #             if kwargs[key]:
+        #                 kwargs[key] = str(kwargs[key]).replace("\'", "").replace("[", "").replace("]", "")
+        #         elif isinstance(kwargs[key], int):
+        #             kwargs[key] = kwargs[key]
+        #         elif kwargs[key].__eq__(""):
+        #             continue
+        #         sql += "{}='{}',".format(key, kwargs[key])
 
     def update_data(self, sql):
         """
@@ -140,5 +152,5 @@ class ConMysql(object):
 if __name__ == '__main__':
     # cases = HandleCase().get_cases()[0]
     sql = ConMysql()
-    a = sql.query_all("select * from testcase")
+    a = sql.query_one("select * from apiinfo ")
     print(a)
