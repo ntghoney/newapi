@@ -3,7 +3,7 @@
 @File  : main.py
 @Date  : 2019/3/15/015 15:02
 '''
-from utils.handle_case import get_case, get_api
+from utils.handle_case import get_case, get_api, get_excute_case
 from utils.sqls import ConMysql
 from config.config import *
 from utils.parse_config import ParseConfig
@@ -181,6 +181,37 @@ class Run(object):
                 cookie = build_cookie(uid=uid, session=session)
                 case[APIHEADERS] = {"cookie": cookie}
                 api_headers = case[APIHEADERS]
+        # # 检查是否参数化
+        # if self.__is_params(api_params):
+        #     api_params = self.__parameterize(api_params)
+        #     if api_params is None:
+        #         d.setdefault("block", "params参数化设置失败")
+        #         return d
+        #     case[PARMAS] = api_params
+        # if self.__is_params(api_sql):
+        #     api_sql = self.__parameterize(api_sql)
+        #     if api_sql is None:
+        #         d.setdefault("block", "sql语句参数化设置失败")
+        #         return d
+        #     case[SQLSTATEMENT] = api_sql
+        # if self.__is_params(api_headers):
+        #     api_headers = self.__parameterize(api_headers)
+        #     if api_headers is None:
+        #         d.setdefault("block", "headers参数化设置失败")
+        #         return d
+        #     case[APIHEADERS] = api_headers
+        return case
+
+    def __begin_paramertrize(self,case):
+        """
+        开始参数化
+        :param case:
+        :return:
+        """
+        d = dict()
+        api_params = case.get(PARMAS)
+        api_headers = case.get(APIHEADERS)
+        api_sql = case.get(SQLSTATEMENT)
         # 检查是否参数化
         if self.__is_params(api_params):
             api_params = self.__parameterize(api_params)
@@ -202,60 +233,146 @@ class Run(object):
             case[APIHEADERS] = api_headers
         return case
 
+
+    def __get_related_api(self, related_api):
+        """
+        获得关联接口信息
+        :param related_api:用例中related_api的值
+        related_api 可能为接口id，接口路径，接口信息（json格式）
+        :return:
+        """
+        if not related_api:
+            return
+        infos = []
+        while related_api is not None:
+            if isinstance(related_api, dict):
+                infos.append(related_api)
+                related_api = related_api.get(RELATEDAPI)
+                continue
+            try:
+                related_api = json.loads(related_api, encoding="utf8")
+                infos.append(related_api)
+                related_api = related_api.get(RELATEDAPI)
+                continue
+            except (JSONDecodeError, TypeError):
+                info_for_id = self.db_local.query_one(
+                    "SELECT * FROM apiinfo WHERE apiId='%s' " % related_api)
+                if info_for_id is None:
+                    info_for_host = self.db_local.query_one(
+                        "SELECT * FROM apiinfo WHERE apiHost='%s' " % related_api)
+                    if info_for_host is None:
+                        return {"error": "关联接口不存在%s" % related_api}
+                    related_api = info_for_host.get(RELATEDAPI)
+                    infos.append(info_for_host)
+                else:
+                    related_api = info_for_id.get(RELATEDAPI)
+                    infos.append(info_for_id)
+        for api in infos:
+            for key, value in api.items():
+                try:
+                    # 关联接口从数据库中取出来，保存的字典在数据库中只能以字符串保存
+                    # 所以使用时先转换为字典
+                    value = json.loads(value, encoding="utf8")
+                    api[key] = value
+                except (JSONDecodeError, TypeError):
+                    pass
+        # 关联接口列表反转
+        infos.reverse()
+        return infos
+
     def __excute_case(self, case):
 
         # 执行前判断用例必填参数是否为空
         case = self.__before_excute(case)
         if case.get("block") is not None:
             return case
-        api_host = case.get(APIHOST)
-        api_params = case.get(PARMAS)
-        api_method = case.get(METHOD)
+        # api_host = case.get(APIHOST)
+        # api_params = case.get(PARMAS)
+        # api_method = case.get(METHOD)
         api_headers = case.get(APIHEADERS)
-        related_params = case.get(RELEATEDPARAMS)
+        # related_params = case.get(RELEATEDPARAMS)
+        related_api = case.get(RELATEDAPI)
+        # 获得关联接口
+        related_api_info = self.__get_related_api(related_api)
+        # 将当前用例执行的接口信息信息附加在关联接口后
+        related_api_info.append(get_api(case))
+        # 如果关联接口中的headers信息为空，使用当前用例接口的headers信息
+        print("关联接口信息%s" % related_api_info)
         log.info("当前接口headers信息为%s" % api_headers)
-        # log.info("当前用户uid:%s,session:%s")
-        res = request_api(
-            host=api_host,
-            request_method=api_method,
-            my_params=api_params,
-            my_headers=api_headers
-        )
-        # 处理关联参数
-        try:
-            response = res.json()
-            if related_params is None:
+        log.info("当前用户uid:%s,session:%s")
+        for api in related_api_info:
+            api=self.__begin_paramertrize(api)
+            api_host = api.get(APIHOST)
+            api_params = api.get(PARMAS)
+            api_method = api.get(METHOD)
+            related_params = api.get(RELEATEDPARAMS)
+            if api.get(APIHEADERS) is None:
+                # 如果关联接口中的headers信息为空，使用当前用例接口的headers信息
+                api_headers=api_headers
+            res = request_api(
+                host=api_host,
+                request_method=api_method,
+                my_params=api_params,
+                my_headers=api_headers
+            )
+            # 处理关联参数
+            try:
+                response = res.json()
+                if related_params is None:
+                    return response
+                related_params = related_params.split(",")
+                for rp in related_params:
+                    if "." not in rp:
+                        if response.get(rp) is not None:
+                            pc.wirte_info("related_params", rp, str(response.get(rp)))
+                        continue
+                    temp_res = response
+                    for i in rp.split("."):
+                        temp_res = temp_res.get(i)
+                        if not isinstance(temp_res, dict):
+                            pc.wirte_info("related_params", rp, str(temp_res))
+                        if temp_res is None:
+                            return response
                 return response
-            related_params = related_params.split(",")
-            for rp in related_params:
-                if "." not in rp:
-                    if response.get(rp) is not None:
-                        pc.wirte_info("related_params", rp, str(response.get(rp)))
-                    continue
-                temp_res = response
-                for i in rp.split("."):
-                    temp_res = temp_res.get(i)
-                    if not isinstance(temp_res, dict):
-                        pc.wirte_info("related_params", rp, str(temp_res))
-                    if temp_res is None:
-                        return response
-            return response
-        except JSONDecodeError:
-            return {"error": res}
+            except JSONDecodeError:
+                return {"error": res}
+
+    def __prapare_data(self, data):
+        """
+        准备用例前置数据
+        :param data:用例test_data的值
+        :return:
+        """
+        if not data:
+            return
+        for key, value in data.items():
+            if key == "sql":
+                try:
+                    self.db_server.execute_sql(value)
+                    log.info("执行sql成功%s" % value)
+                except Exception as e:
+                    log.error("sql语句出错：%s,%s" % (value, e))
+            elif key == "sh":
+                try:
+                    os.system(value)
+                except:
+                    log.error("shell文件出错")
+            else:
+                pass
 
     def before_test(self):
         # 清除数据库信息
         self.db_local.truncate_data(APITABLE)
         self.db_local.truncate_data(CASETABLE)
         self.db_local.truncate_data(RESULTTABLE)
-
+        all_case = get_case()  # 获得所有用例
         # 获得本次测试执行的用例
-        self.cases = get_case()
-        print(self.cases)
+        self.cases = get_excute_case(all_case)
+        log.info("本次测试共执行%s条用例" % len(self.cases))
         if not self.cases:
             log.error("用例为空，无匹配格式的.xlsx文件或文件中暂无用例数据")
             return
-        self.api = [get_api(case) for case in self.cases]
+        self.api = [get_api(case) for case in all_case]
         # 数据库保存接口信息
         for api in self.api:
             self.db_local.insert_data(APITABLE, **api)
@@ -270,11 +387,15 @@ class Run(object):
     def begin_test(self):
 
         for case in self.cases:
+            log.info("正在执行caseId为%s的用例" % case.get(CASEID))
             result = Result()
             result.time = get_current_time()
             check_points = case[EXPECT]
-            sqls=case[SQLSTATEMENT]
-            sql_points=case[DATABASEEXPECT]
+            sqls = case[SQLSTATEMENT]
+            sql_points = case[DATABASEEXPECT]
+            test_data = case[TESTDATA]  # 测试前提数据
+            self.__prapare_data(test_data)  # 准备数据，执行sql或者shell
+
             res = self.__excute_case(case)
             result.fact = res
             # 验证检查点
@@ -283,14 +404,14 @@ class Run(object):
                 res=res,
                 result=result
             )
-            #数据库检查
+            # 数据库检查
             self.__check_sql(
                 sql=sqls,
                 sql_checks=sql_points,
                 result=result
             )
             print(result.get_result())
-
+            log.info("caseId为%s的用例完毕" % case.get(CASEID))
 
     def __check_point(self, points, res, result):
         """
@@ -342,38 +463,53 @@ class Run(object):
         :param sql_checks:result: Result对象
         :return:
         """
-        assert isinstance(result,Result)
-        if result.ispass!="pass":
+        assert isinstance(result, Result)
+        if result.ispass != "pass":
             return
-        if isinstance(sql, dict) or isinstance(sql_checks, dict):
-            reason="数据库语句或数据库检查点书写格式错误，无法转换为字典"
-            result.ispass=BLOCK
-            result.reason=reason
+        if sql is None:
+            return
+        if sql is not None and sql_checks is None:
+            reason = "未设置sql检查点"
+            result.ispass = BLOCK
+            result.reason = reason
+            return
+        if not isinstance(sql, dict) or not isinstance(sql_checks, dict):
+            reason = "数据库语句或数据库检查点书写格式错误，无法转换为字典"
+            result.ispass = BLOCK
+            result.reason = reason
             return
 
         for key, value in sql.items():
             sql_res = self.db_server.query_all(value)
-            result.sql_res=sql_res
-            if sql_res.get("block"):
-                result.ispass=BLOCK
-                result.reason=sql_res.get("block")
+            result.sql_res = sql_res
+            if isinstance(sql_res, dict) and sql_res.get("block"):
+                result.ispass = BLOCK
+                result.reason = "sql检查点%s:%s" % (key, sql_res.get("block"))
                 return
             if sql_checks.get(key) is None:
-                reason="sql语句中设置了key为：%s,在sql检查点中没有设置对应key的检查点"%key
-                result.ispass=BLOCK
-                result.reason=reason
+                reason = "sql语句中设置了key为：%s,在sql检查点中没有设置对应key的检查点" % key
+                result.ispass = BLOCK
+                result.reason = reason
                 return
-            for k,v in value.items():
+            for k, v in sql_checks.get(key).items():
+                if k == "len":
+                    if str(len(sql_res)) != str(v):
+                        result.ispass = FAIL
+                        reason = "sql检查点%s中%s的值期望为：%s,实际为：%s" % (
+                            key, k, v, len(sql_res))
+                        result.reason = reason
+                        return
+                    continue
                 if sql_res[0].get(k) is None:
-                    result.ispass=FAIL
-                    reason="sql检查点%s中的%s不在数据库返回结果的字段中"%(key,k)
-                    result.reason=reason
+                    result.ispass = FAIL
+                    reason = "sql检查点%s中的%s不在数据库返回结果的字段中" % (key, k)
+                    result.reason = reason
                     return
-                if sql_res.get(k) !=v:
-                    result.ispass=FAIL
-                    reason="sql检查点%s中%s的值期望为：%s,实际为：%s"%(
-                        key,k,v,sql_res.get(k))
-                    result.reason=reason
+                if str(sql_res[0].get(k)) != str(v):
+                    result.ispass = FAIL
+                    reason = "sql检查点%s中%s的值期望为：%s,实际为：%s" % (
+                        key, k, v, sql_res[0].get(k))
+                    result.reason = reason
                     return
 
     def run(self):

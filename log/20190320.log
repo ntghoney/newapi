@@ -1,0 +1,843 @@
+2019-03-20 09:40:39,331 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 09:41:28,452 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 09:41:44,213 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 09:43:20,313 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 09:43:34,865 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 09:46:28,917 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 09:46:28,926 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 09:46:28,931 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 09:46:28,937 - INFO -main.py : 216 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 09:46:53,022 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 09:46:53,030 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 09:46:53,035 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 09:46:53,038 - INFO -main.py : 216 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 09:47:30,577 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 09:47:30,587 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 09:47:30,594 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 09:47:30,598 - INFO -main.py : 216 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 09:47:54,061 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 09:47:54,066 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 09:47:54,070 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 09:47:54,073 - INFO -main.py : 216 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 09:49:06,554 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 09:49:06,563 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 09:49:06,568 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 09:49:06,571 - INFO -main.py : 216 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 09:49:20,070 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 09:49:20,075 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 09:49:20,078 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 09:49:20,081 - INFO -main.py : 216 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 09:49:20,262 - ERROR -sqls.py : 86 :query_all - sql语句错误---->select * from t_user_verify,(1146, "Table 'api_test.t_user_verify' doesn't exist")
+2019-03-20 09:50:09,183 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 09:50:09,190 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 09:50:09,194 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 09:50:09,197 - INFO -main.py : 216 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 09:50:09,366 - ERROR -sqls.py : 86 :query_all - sql语句错误---->select * from t_user_verify,(1146, "Table 'api_test.t_user_verify' doesn't exist")
+2019-03-20 09:51:11,520 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 09:51:11,526 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 09:51:11,530 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 09:51:11,532 - INFO -main.py : 216 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 09:51:11,733 - ERROR -sqls.py : 86 :query_all - sql语句错误---->select * from t_user_verify,(1146, "Table 'api_test.t_user_verify' doesn't exist")
+2019-03-20 09:51:39,045 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 09:51:39,054 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 09:51:39,059 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 09:51:39,062 - INFO -main.py : 216 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 09:51:39,295 - ERROR -sqls.py : 86 :query_all - sql语句错误---->select * from t_user_verify,(1146, "Table 'api_test.t_user_verify' doesn't exist")
+2019-03-20 09:54:39,945 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 09:54:39,953 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 09:54:39,959 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 09:54:39,962 - INFO -main.py : 216 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 09:54:40,145 - ERROR -sqls.py : 86 :query_all - sql语句错误---->select * from t_user_verify,(1146, "Table 'api_test.t_user_verify' doesn't exist")
+2019-03-20 09:56:27,368 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 09:56:27,372 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 09:56:27,375 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 09:56:27,378 - INFO -main.py : 216 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 09:57:23,316 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 09:57:23,328 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 09:57:23,336 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 09:57:23,340 - INFO -main.py : 216 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 09:59:38,591 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 09:59:38,598 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 09:59:38,603 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 09:59:38,606 - INFO -main.py : 216 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 10:00:08,775 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 10:00:08,783 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 10:00:08,788 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 10:00:08,791 - INFO -main.py : 216 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 10:00:29,014 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 10:00:29,020 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 10:00:29,023 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 10:00:29,026 - INFO -main.py : 216 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 10:00:50,624 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 10:00:50,629 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 10:00:50,632 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 10:00:50,634 - INFO -main.py : 216 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 10:01:20,655 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 10:01:20,661 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 10:01:20,665 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 10:01:20,668 - INFO -main.py : 216 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 10:01:42,373 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 10:01:42,382 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 10:01:42,388 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 10:01:42,390 - INFO -main.py : 216 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 10:02:38,974 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 10:02:38,983 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 10:02:38,989 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 10:02:38,992 - INFO -main.py : 216 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 10:03:05,325 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 10:03:05,333 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 10:03:05,339 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 10:03:05,342 - INFO -main.py : 216 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 10:03:31,089 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 10:03:31,097 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 10:03:31,102 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 10:03:31,105 - INFO -main.py : 216 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 10:03:40,744 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 10:03:40,752 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 10:03:40,757 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 10:03:40,760 - INFO -main.py : 216 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 10:03:57,031 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 10:03:57,041 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 10:03:57,048 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 10:03:57,051 - INFO -main.py : 216 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 10:10:24,247 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 10:10:24,254 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 10:10:24,258 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 10:10:24,291 - ERROR -main.py : 258 :__prapare_data - sql语句出错：select * from test_case
+2019-03-20 10:11:19,868 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 10:11:19,876 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 10:11:19,882 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 10:11:43,996 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 10:11:44,007 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 10:11:44,014 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 10:11:44,056 - ERROR -main.py : 258 :__prapare_data - sql语句出错：select * from test_case,(1146, "Table 'api_test.test_case' doesn't exist")
+2019-03-20 10:11:58,078 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 10:11:58,085 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 10:11:58,089 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 10:11:58,126 - INFO -main.py : 256 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 10:29:23,878 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 10:29:23,885 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 10:29:23,889 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 10:29:23,954 - INFO -main.py : 281 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 10:30:35,471 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 10:30:35,478 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 10:30:35,483 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 10:30:35,570 - INFO -main.py : 281 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 10:30:35,572 - ERROR -sqls.py : 72 :query_one - sql语句错误---->SELECT * FROM apiinfo WHERE apiId=None ,(1054, "Unknown column 'None' in 'where clause'")
+2019-03-20 10:30:35,572 - INFO -main.py : 239 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 10:32:34,890 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 10:32:34,895 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 10:32:34,899 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 10:32:34,944 - INFO -main.py : 285 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 10:32:34,945 - INFO -main.py : 241 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 10:33:20,252 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 10:33:20,260 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 10:33:20,267 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 10:33:20,347 - INFO -main.py : 285 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 10:33:20,348 - INFO -main.py : 241 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 10:35:39,313 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 10:35:39,320 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 10:35:39,325 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 10:35:39,325 - INFO -main.py : 305 :before_test - 本次测试共执行2条用例
+2019-03-20 10:35:39,330 - INFO -main.py : 324 :begin_test - 正在执行caseId为case_1的用例
+2019-03-20 10:35:39,406 - INFO -main.py : 285 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 10:35:39,407 - INFO -main.py : 241 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 10:35:39,638 - INFO -main.py : 324 :begin_test - 正在执行caseId为2的用例
+2019-03-20 10:36:29,827 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 10:36:29,836 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 10:36:29,842 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 10:36:29,842 - INFO -main.py : 305 :before_test - 本次测试共执行2条用例
+2019-03-20 10:36:29,846 - INFO -main.py : 324 :begin_test - 正在执行caseId为case_1的用例
+2019-03-20 10:36:29,895 - INFO -main.py : 285 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 10:36:29,896 - INFO -main.py : 241 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 10:36:30,451 - INFO -main.py : 348 :begin_test - caseId为case_1的用例完毕
+2019-03-20 10:36:30,452 - INFO -main.py : 324 :begin_test - 正在执行caseId为2的用例
+2019-03-20 10:36:30,455 - INFO -main.py : 241 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 10:36:30,646 - INFO -main.py : 348 :begin_test - caseId为2的用例完毕
+2019-03-20 10:39:31,987 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 10:39:31,991 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 10:39:31,994 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 10:39:31,994 - INFO -main.py : 305 :before_test - 本次测试共执行2条用例
+2019-03-20 10:39:31,998 - INFO -main.py : 324 :begin_test - 正在执行caseId为case_1的用例
+2019-03-20 10:39:32,035 - INFO -main.py : 285 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 10:39:32,036 - INFO -main.py : 241 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 10:39:32,266 - INFO -main.py : 348 :begin_test - caseId为case_1的用例完毕
+2019-03-20 10:39:32,266 - INFO -main.py : 324 :begin_test - 正在执行caseId为2的用例
+2019-03-20 10:39:32,266 - INFO -main.py : 241 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 10:39:32,398 - INFO -main.py : 348 :begin_test - caseId为2的用例完毕
+2019-03-20 10:48:01,408 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 10:48:01,408 - INFO -handle_case.py : 157 :get_cases - 关联api解析错误  Expecting value: line 1 column 1 (char 0)
+2019-03-20 10:48:01,413 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 10:48:01,417 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 10:48:01,417 - INFO -main.py : 305 :before_test - 本次测试共执行2条用例
+2019-03-20 10:48:01,420 - INFO -main.py : 324 :begin_test - 正在执行caseId为case_1的用例
+2019-03-20 10:48:01,454 - INFO -main.py : 285 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 10:48:01,455 - INFO -main.py : 242 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 10:48:01,647 - INFO -main.py : 348 :begin_test - caseId为case_1的用例完毕
+2019-03-20 10:48:01,648 - INFO -main.py : 324 :begin_test - 正在执行caseId为2的用例
+2019-03-20 10:48:01,648 - INFO -main.py : 242 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 10:48:01,759 - INFO -main.py : 348 :begin_test - caseId为2的用例完毕
+2019-03-20 10:49:21,737 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 10:49:21,737 - INFO -handle_case.py : 157 :get_cases - 关联api解析错误  Expecting value: line 1 column 1 (char 0)
+2019-03-20 10:49:21,741 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 10:49:21,744 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 10:49:21,744 - INFO -main.py : 305 :before_test - 本次测试共执行2条用例
+2019-03-20 10:49:21,748 - INFO -main.py : 324 :begin_test - 正在执行caseId为case_1的用例
+2019-03-20 10:49:21,836 - INFO -main.py : 285 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 10:49:21,837 - INFO -main.py : 242 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 10:49:22,017 - INFO -main.py : 348 :begin_test - caseId为case_1的用例完毕
+2019-03-20 10:49:22,017 - INFO -main.py : 324 :begin_test - 正在执行caseId为2的用例
+2019-03-20 10:49:22,018 - INFO -main.py : 242 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 10:49:22,169 - INFO -main.py : 348 :begin_test - caseId为2的用例完毕
+2019-03-20 10:50:07,042 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 10:50:07,042 - INFO -handle_case.py : 157 :get_cases - 关联api解析错误  Expecting value: line 1 column 1 (char 0)
+2019-03-20 10:50:07,047 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 10:50:07,050 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 10:50:07,051 - INFO -main.py : 306 :before_test - 本次测试共执行2条用例
+2019-03-20 10:50:07,054 - INFO -main.py : 325 :begin_test - 正在执行caseId为case_1的用例
+2019-03-20 10:50:07,093 - INFO -main.py : 286 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 10:50:07,094 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 10:50:07,212 - INFO -main.py : 349 :begin_test - caseId为case_1的用例完毕
+2019-03-20 10:50:07,212 - INFO -main.py : 325 :begin_test - 正在执行caseId为2的用例
+2019-03-20 10:50:07,213 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 10:50:07,405 - INFO -main.py : 349 :begin_test - caseId为2的用例完毕
+2019-03-20 10:50:35,548 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 10:50:35,549 - INFO -handle_case.py : 157 :get_cases - 关联api解析错误  Expecting value: line 1 column 1 (char 0)
+2019-03-20 10:50:35,558 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 10:50:35,563 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 10:50:35,564 - INFO -main.py : 306 :before_test - 本次测试共执行2条用例
+2019-03-20 10:50:35,570 - INFO -main.py : 325 :begin_test - 正在执行caseId为case_1的用例
+2019-03-20 10:50:35,602 - INFO -main.py : 286 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 10:50:35,603 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 10:50:35,743 - INFO -main.py : 349 :begin_test - caseId为case_1的用例完毕
+2019-03-20 10:50:35,743 - INFO -main.py : 325 :begin_test - 正在执行caseId为2的用例
+2019-03-20 10:50:35,744 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 10:50:35,879 - INFO -main.py : 349 :begin_test - caseId为2的用例完毕
+2019-03-20 10:51:05,172 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 10:51:05,181 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 10:51:05,186 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 10:51:05,186 - INFO -main.py : 306 :before_test - 本次测试共执行2条用例
+2019-03-20 10:51:05,191 - INFO -main.py : 325 :begin_test - 正在执行caseId为case_1的用例
+2019-03-20 10:51:05,263 - INFO -main.py : 286 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 10:51:05,263 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 10:51:05,505 - INFO -main.py : 349 :begin_test - caseId为case_1的用例完毕
+2019-03-20 10:51:05,505 - INFO -main.py : 325 :begin_test - 正在执行caseId为2的用例
+2019-03-20 10:51:05,506 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 10:51:05,709 - INFO -main.py : 349 :begin_test - caseId为2的用例完毕
+2019-03-20 10:52:17,079 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 10:52:17,079 - INFO -handle_case.py : 157 :get_cases - 关联api解析错误  Expecting value: line 1 column 1 (char 0)
+2019-03-20 10:52:17,087 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 10:52:17,092 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 10:52:17,092 - INFO -main.py : 306 :before_test - 本次测试共执行2条用例
+2019-03-20 10:52:17,097 - INFO -main.py : 325 :begin_test - 正在执行caseId为case_1的用例
+2019-03-20 10:52:17,156 - INFO -main.py : 286 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 10:52:17,157 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 10:52:17,336 - INFO -main.py : 349 :begin_test - caseId为case_1的用例完毕
+2019-03-20 10:52:17,336 - INFO -main.py : 325 :begin_test - 正在执行caseId为2的用例
+2019-03-20 10:52:17,337 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 10:52:17,528 - INFO -main.py : 349 :begin_test - caseId为2的用例完毕
+2019-03-20 10:55:10,216 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 10:55:10,216 - INFO -handle_case.py : 157 :get_cases - 关联api解析错误  Expecting value: line 1 column 1 (char 0)
+2019-03-20 10:55:10,220 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 10:55:10,223 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 10:55:10,223 - INFO -main.py : 306 :before_test - 本次测试共执行2条用例
+2019-03-20 10:55:10,226 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=2, apiId=2, caseDescribe='主页，正常请求', apiHost='/s5/dashboard', apiParams=Null, apiHeaders=Null, method='GET', relatedApi='/s5/create_user', relatedParams=Null, expect='{"err_code": "0"}', sqlStatement=Null, databaseExpect=Null,(1366, "Incorrect integer value: '/s5/create_user' for column 'relatedApi' at row 1")
+2019-03-20 10:55:10,226 - INFO -main.py : 325 :begin_test - 正在执行caseId为case_1的用例
+2019-03-20 10:55:10,269 - INFO -main.py : 286 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 10:55:10,270 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 10:55:10,437 - INFO -main.py : 349 :begin_test - caseId为case_1的用例完毕
+2019-03-20 10:55:10,438 - INFO -main.py : 325 :begin_test - 正在执行caseId为2的用例
+2019-03-20 10:55:10,439 - ERROR -sqls.py : 72 :query_one - sql语句错误---->SELECT * FROM apiinfo WHERE apiId=/s5/create_user ,(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/s5/create_user' at line 1")
+2019-03-20 10:55:10,439 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 10:55:10,582 - INFO -main.py : 349 :begin_test - caseId为2的用例完毕
+2019-03-20 10:55:39,014 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 10:55:39,015 - INFO -handle_case.py : 157 :get_cases - 关联api解析错误  Expecting value: line 1 column 1 (char 0)
+2019-03-20 10:55:39,019 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 10:55:39,022 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 10:55:39,022 - INFO -main.py : 306 :before_test - 本次测试共执行2条用例
+2019-03-20 10:55:39,025 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=2, apiId=2, caseDescribe='主页，正常请求', apiHost='/s5/dashboard', apiParams=Null, apiHeaders=Null, method='GET', relatedApi='/s5/create_user', relatedParams=Null, expect='{"err_code": "0"}', sqlStatement=Null, databaseExpect=Null,(1366, "Incorrect integer value: '/s5/create_user' for column 'relatedApi' at row 1")
+2019-03-20 10:55:39,025 - INFO -main.py : 325 :begin_test - 正在执行caseId为case_1的用例
+2019-03-20 10:55:39,055 - INFO -main.py : 286 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 10:55:39,055 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 10:55:39,264 - INFO -main.py : 349 :begin_test - caseId为case_1的用例完毕
+2019-03-20 10:55:39,264 - INFO -main.py : 325 :begin_test - 正在执行caseId为2的用例
+2019-03-20 10:55:39,265 - ERROR -sqls.py : 72 :query_one - sql语句错误---->SELECT * FROM apiinfo WHERE apiId=/s5/create_user ,(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/s5/create_user' at line 1")
+2019-03-20 10:55:39,265 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 10:55:39,439 - INFO -main.py : 349 :begin_test - caseId为2的用例完毕
+2019-03-20 10:59:59,865 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 10:59:59,866 - INFO -handle_case.py : 157 :get_cases - 关联api解析错误  Expecting value: line 1 column 1 (char 0)
+2019-03-20 10:59:59,875 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 10:59:59,881 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 10:59:59,882 - INFO -main.py : 306 :before_test - 本次测试共执行2条用例
+2019-03-20 10:59:59,886 - INFO -main.py : 325 :begin_test - 正在执行caseId为case_1的用例
+2019-03-20 10:59:59,939 - INFO -main.py : 286 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 10:59:59,940 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:00:00,162 - INFO -main.py : 349 :begin_test - caseId为case_1的用例完毕
+2019-03-20 11:00:00,163 - INFO -main.py : 325 :begin_test - 正在执行caseId为2的用例
+2019-03-20 11:00:00,163 - ERROR -sqls.py : 72 :query_one - sql语句错误---->SELECT * FROM apiinfo WHERE apiId=/s5/create_user ,(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/s5/create_user' at line 1")
+2019-03-20 11:00:00,164 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:00:00,355 - INFO -main.py : 349 :begin_test - caseId为2的用例完毕
+2019-03-20 11:02:02,570 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 11:02:02,571 - INFO -handle_case.py : 157 :get_cases - 关联api解析错误  Expecting value: line 1 column 1 (char 0)
+2019-03-20 11:02:02,576 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 11:02:02,580 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 11:02:02,580 - INFO -main.py : 306 :before_test - 本次测试共执行2条用例
+2019-03-20 11:02:02,584 - INFO -main.py : 325 :begin_test - 正在执行caseId为case_1的用例
+2019-03-20 11:02:02,614 - INFO -main.py : 286 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 11:02:02,615 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:02:02,860 - INFO -main.py : 349 :begin_test - caseId为case_1的用例完毕
+2019-03-20 11:02:02,861 - INFO -main.py : 325 :begin_test - 正在执行caseId为2的用例
+2019-03-20 11:02:02,862 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:02:03,062 - INFO -main.py : 349 :begin_test - caseId为2的用例完毕
+2019-03-20 11:02:34,177 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 11:02:34,183 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 11:02:34,187 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 11:02:34,188 - INFO -main.py : 306 :before_test - 本次测试共执行2条用例
+2019-03-20 11:02:34,191 - INFO -main.py : 325 :begin_test - 正在执行caseId为case_1的用例
+2019-03-20 11:02:34,216 - INFO -main.py : 286 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 11:02:34,217 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:02:34,429 - INFO -main.py : 349 :begin_test - caseId为case_1的用例完毕
+2019-03-20 11:02:34,429 - INFO -main.py : 325 :begin_test - 正在执行caseId为2的用例
+2019-03-20 11:02:34,431 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:02:34,609 - INFO -main.py : 349 :begin_test - caseId为2的用例完毕
+2019-03-20 11:15:32,827 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 11:15:32,835 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 11:15:32,840 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 11:15:32,840 - INFO -main.py : 306 :before_test - 本次测试共执行2条用例
+2019-03-20 11:15:32,845 - INFO -main.py : 325 :begin_test - 正在执行caseId为case_1的用例
+2019-03-20 11:15:32,886 - INFO -main.py : 286 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 11:15:32,887 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:15:33,073 - INFO -main.py : 349 :begin_test - caseId为case_1的用例完毕
+2019-03-20 11:15:33,073 - INFO -main.py : 325 :begin_test - 正在执行caseId为2的用例
+2019-03-20 11:15:33,074 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:15:33,201 - INFO -main.py : 349 :begin_test - caseId为2的用例完毕
+2019-03-20 11:16:34,074 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 11:16:34,083 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 11:16:34,089 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 11:16:34,089 - INFO -main.py : 306 :before_test - 本次测试共执行2条用例
+2019-03-20 11:16:34,094 - INFO -main.py : 325 :begin_test - 正在执行caseId为case_1的用例
+2019-03-20 11:16:34,128 - INFO -main.py : 286 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 11:16:34,128 - ERROR -sqls.py : 72 :query_one - sql语句错误---->SELECT * FROM apiinfo WHERE apiId='{'apiHost': 'www.b'}' ,(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'apiHost': 'www.b'}'' at line 1")
+2019-03-20 11:16:34,129 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:16:34,409 - INFO -main.py : 349 :begin_test - caseId为case_1的用例完毕
+2019-03-20 11:16:34,410 - INFO -main.py : 325 :begin_test - 正在执行caseId为2的用例
+2019-03-20 11:16:34,412 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:16:34,555 - INFO -main.py : 349 :begin_test - caseId为2的用例完毕
+2019-03-20 11:17:04,627 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 11:17:04,636 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 11:17:04,642 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 11:17:04,642 - INFO -main.py : 306 :before_test - 本次测试共执行2条用例
+2019-03-20 11:17:04,646 - INFO -main.py : 325 :begin_test - 正在执行caseId为case_1的用例
+2019-03-20 11:17:04,677 - INFO -main.py : 286 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 11:17:04,678 - ERROR -sqls.py : 72 :query_one - sql语句错误---->SELECT * FROM apiinfo WHERE apiId='{'apiHost': 'www.b'}' ,(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'apiHost': 'www.b'}'' at line 1")
+2019-03-20 11:17:04,678 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:17:04,821 - INFO -main.py : 349 :begin_test - caseId为case_1的用例完毕
+2019-03-20 11:17:04,822 - INFO -main.py : 325 :begin_test - 正在执行caseId为2的用例
+2019-03-20 11:17:04,823 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:17:04,958 - INFO -main.py : 349 :begin_test - caseId为2的用例完毕
+2019-03-20 11:17:10,180 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 11:17:10,191 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 11:17:10,196 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 11:17:10,197 - INFO -main.py : 307 :before_test - 本次测试共执行2条用例
+2019-03-20 11:17:10,201 - INFO -main.py : 326 :begin_test - 正在执行caseId为case_1的用例
+2019-03-20 11:17:10,228 - INFO -main.py : 287 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 11:17:10,229 - ERROR -sqls.py : 72 :query_one - sql语句错误---->SELECT * FROM apiinfo WHERE apiId='{'apiHost': 'www.b'}' ,(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'apiHost': 'www.b'}'' at line 1")
+2019-03-20 11:17:10,229 - INFO -main.py : 244 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:17:10,388 - INFO -main.py : 350 :begin_test - caseId为case_1的用例完毕
+2019-03-20 11:17:10,388 - INFO -main.py : 326 :begin_test - 正在执行caseId为2的用例
+2019-03-20 11:17:10,389 - INFO -main.py : 244 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:17:10,520 - INFO -main.py : 350 :begin_test - caseId为2的用例完毕
+2019-03-20 11:19:04,388 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 11:19:04,396 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 11:19:04,402 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 11:19:04,402 - INFO -main.py : 306 :before_test - 本次测试共执行2条用例
+2019-03-20 11:19:04,408 - INFO -main.py : 325 :begin_test - 正在执行caseId为case_1的用例
+2019-03-20 11:19:04,445 - INFO -main.py : 286 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 11:19:04,446 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:19:04,591 - INFO -main.py : 349 :begin_test - caseId为case_1的用例完毕
+2019-03-20 11:19:04,591 - INFO -main.py : 325 :begin_test - 正在执行caseId为2的用例
+2019-03-20 11:19:04,592 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:19:04,712 - INFO -main.py : 349 :begin_test - caseId为2的用例完毕
+2019-03-20 11:30:25,229 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 11:30:25,236 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 11:30:25,239 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 11:30:25,242 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 11:30:25,247 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 11:30:25,250 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 11:30:25,252 - INFO -main.py : 306 :before_test - 本次测试共执行13条用例
+2019-03-20 11:30:25,262 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId='case_1', apiId=1, caseDescribe='sss', apiHost='/s5/create_user', apiParams='{"s": "${id}"}', apiHeaders=Null, method='POST', relatedApi='{"apiHost": "www.b"}', relatedParams='err_code,payload.uid', expect='{"err_code": "0"}', sqlStatement='{"a": "select * from zhuanqian.t_user_verify"}', databaseExpect='{"a": {"len": "5", "id": "2"}}', isExcute='y',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:30:25,262 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=2, apiId=2, caseDescribe='主页，正常请求', apiHost='/s5/dashboard', apiParams=Null, apiHeaders=Null, method='GET', relatedApi=1, relatedParams=Null, expect='{"err_code": "0"}', sqlStatement=Null, databaseExpect=Null, isExcute='y',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:30:25,262 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=1, apiId=6, caseDescribe='开始任务：正常请求', apiHost='/s4/lite.subtask.start', apiParams='{"task_id": 1}', apiHeaders='{"cookie": "mu=123456"}', method='GET', relatedApi='{"a": 1.0}', relatedParams='s,b', expect='{"payload.level_info.next_level_more_coin": "1", "payload.reward": "5", "payload.invalid_apprentice_num": "0", "payload.shoutu_v5_3_open": "1"}', sqlStatement='{"a": "select * from zhuanqian.user where id = ${payload.uid} ", "b": "select * from zhuanqian_1.user where id = ${payload.uid}", "c": "select * from zhuanqian.user_info where user_id=${payload.uid}"}', databaseExpect='{"a": {"len": "1", "create_reward": "1"}, "b": {"len": "1"}, "c": {"len": "1"}}', isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:30:25,262 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId='sub_task_2', apiId='ss', caseDescribe='开始任务：不传task_id', apiHost='/s4/lite.subtask.start', apiParams=Null, apiHeaders=Null, method='GET', relatedApi=2, relatedParams=Null, expect='{"err_code": "0", "err_msg": "缺少参数：task_id"}', sqlStatement=Null, databaseExpect=Null, isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:30:25,263 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId='sub_task_3', apiId=7, caseDescribe='查看任务状态', apiHost='/s4k/subtask.state', apiParams='{"task_id": 1}', apiHeaders=Null, method='GET', relatedApi=Null, relatedParams=Null, expect='{"err_code": "0"}', sqlStatement=Null, databaseExpect=Null, isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:30:25,263 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=1, apiId=1, caseDescribe='创建用户，正常请求', apiHost='/s5/create_user', apiParams=Null, apiHeaders=Null, method='POST', relatedApi=Null, relatedParams='$payload.uid', expect='{"err_code": "0", "err_msg": ""}', sqlStatement='{"a": "select * from zhuanqian.user where id = ${payload.uid} ", "b": "select * from zhuanqian_1.user where id = ${payload.uid}", "c": "select * from zhuanqian.user_info where user_id=${payload.uid}"}', databaseExpect='{"a": {"len": "1", "create_reward": "1"}, "b": {"len": "1"}, "c": {"len": "1"}}', isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:30:25,263 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=2, apiId=2, caseDescribe='主页，正常请求', apiHost='/s5/dashboard', apiParams=Null, apiHeaders=Null, method='GET', relatedApi=Null, relatedParams=Null, expect='{"payload.level_info.next_level_more_coin": "1", "payload.reward": "5", "payload.invalid_apprentice_num": "0", "payload.shoutu_v5_3_open": "1"}', sqlStatement=Null, databaseExpect=Null, isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:30:25,263 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=3, apiId=3, caseDescribe='试玩赚钱列表，正常请求', apiHost='/s4/lite.subtask.list', apiParams=Null, apiHeaders=Null, method='GET', relatedApi=Null, relatedParams=Null, expect='{"err_code": "0", "payload.tasks": "[id=261567]"}', sqlStatement=Null, databaseExpect=Null, isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:30:25,264 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=4, apiId=1, caseDescribe='创建用户，请求方式为get', apiHost='/s5/create_user', apiParams=Null, apiHeaders=Null, method='GET', relatedApi=Null, relatedParams=Null, expect='{"err_code": "405"}', sqlStatement=Null, databaseExpect=Null, isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:30:25,264 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=5, apiId=1, caseDescribe='创建用户，添加cookie信息', apiHost='/s5/create_user', apiParams=Null, apiHeaders='{"cookie": "DIS4=1122151"}', method='POST', relatedApi=Null, relatedParams=Null, expect='{"err_code": "0"}', sqlStatement=Null, databaseExpect=Null, isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:30:25,264 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=6, apiId=1, caseDescribe='创建用户，师傅邀请创建', apiHost='/s5/create_user', apiParams=Null, apiHeaders='{"cookie": "mu=123456"}', method='POST', relatedApi=Null, relatedParams=Null, expect='{"err_code": "0"}', sqlStatement=Null, databaseExpect=Null, isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:30:25,265 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=7, apiId=2, caseDescribe='主页，用户没有领取金币', apiHost='/s5/dashboard', apiParams=Null, apiHeaders=Null, method='GET', relatedApi=Null, relatedParams=Null, expect='{"err_code": "0", "payload.first_claim": "1"}', sqlStatement=Null, databaseExpect=Null, isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:30:25,265 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=8, apiId=2, caseDescribe='主页，用户领取金币', apiHost='/s5/dashboard', apiParams=Null, apiHeaders=Null, method='GET', relatedApi='{"apiHost": "/s5/reward.coin.claim.today", "method": "post", "apiParams": "", "apiHeaders": ""}', relatedParams='$payload.level_info.next_level_more_coin,$err_code', expect='{"err_code": "0", "payload.first_claim": "0"}', sqlStatement=Null, databaseExpect=Null, isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:30:25,265 - INFO -main.py : 325 :begin_test - 正在执行caseId为case_1的用例
+2019-03-20 11:30:25,287 - INFO -main.py : 286 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 11:30:25,287 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:30:25,511 - INFO -main.py : 349 :begin_test - caseId为case_1的用例完毕
+2019-03-20 11:30:25,511 - INFO -main.py : 325 :begin_test - 正在执行caseId为2的用例
+2019-03-20 11:30:25,512 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:30:25,697 - INFO -main.py : 349 :begin_test - caseId为2的用例完毕
+2019-03-20 11:30:25,698 - INFO -main.py : 325 :begin_test - 正在执行caseId为1的用例
+2019-03-20 11:30:25,778 - ERROR -main.py : 288 :__prapare_data - sql语句出错：select * from data,(1146, "Table 'api_test.data' doesn't exist")
+2019-03-20 11:30:25,778 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'mu=123456'}
+2019-03-20 11:30:26,034 - INFO -main.py : 349 :begin_test - caseId为1的用例完毕
+2019-03-20 11:30:26,034 - INFO -main.py : 325 :begin_test - 正在执行caseId为sub_task_2的用例
+2019-03-20 11:30:26,036 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:30:26,160 - INFO -main.py : 349 :begin_test - caseId为sub_task_2的用例完毕
+2019-03-20 11:30:26,160 - INFO -main.py : 325 :begin_test - 正在执行caseId为sub_task_3的用例
+2019-03-20 11:30:26,160 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:30:26,266 - INFO -main.py : 349 :begin_test - caseId为sub_task_3的用例完毕
+2019-03-20 11:30:26,266 - INFO -main.py : 325 :begin_test - 正在执行caseId为1的用例
+2019-03-20 11:30:26,267 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:30:26,587 - INFO -main.py : 349 :begin_test - caseId为1的用例完毕
+2019-03-20 11:30:26,588 - INFO -main.py : 325 :begin_test - 正在执行caseId为2的用例
+2019-03-20 11:30:26,588 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:30:26,793 - INFO -main.py : 349 :begin_test - caseId为2的用例完毕
+2019-03-20 11:30:26,793 - INFO -main.py : 325 :begin_test - 正在执行caseId为3的用例
+2019-03-20 11:30:26,794 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:30:26,994 - INFO -main.py : 349 :begin_test - caseId为3的用例完毕
+2019-03-20 11:30:26,995 - INFO -main.py : 325 :begin_test - 正在执行caseId为4的用例
+2019-03-20 11:30:26,996 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:30:27,176 - INFO -main.py : 349 :begin_test - caseId为4的用例完毕
+2019-03-20 11:30:27,176 - INFO -main.py : 325 :begin_test - 正在执行caseId为5的用例
+2019-03-20 11:30:27,177 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=1122151'}
+2019-03-20 11:30:27,353 - INFO -main.py : 349 :begin_test - caseId为5的用例完毕
+2019-03-20 11:30:27,353 - INFO -main.py : 325 :begin_test - 正在执行caseId为6的用例
+2019-03-20 11:30:27,353 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'mu=123456'}
+2019-03-20 11:30:27,503 - INFO -main.py : 349 :begin_test - caseId为6的用例完毕
+2019-03-20 11:30:27,503 - INFO -main.py : 325 :begin_test - 正在执行caseId为7的用例
+2019-03-20 11:30:27,503 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:30:27,643 - INFO -main.py : 349 :begin_test - caseId为7的用例完毕
+2019-03-20 11:30:27,643 - INFO -main.py : 325 :begin_test - 正在执行caseId为8的用例
+2019-03-20 11:30:27,644 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:30:27,856 - INFO -main.py : 349 :begin_test - caseId为8的用例完毕
+2019-03-20 11:38:48,602 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 11:38:48,607 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 11:38:48,610 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 11:38:48,615 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 11:38:48,620 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 11:38:48,623 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 11:38:48,626 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 11:38:48,630 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 11:38:48,634 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 11:39:15,481 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 11:39:15,485 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 11:39:15,489 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 11:40:51,393 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 11:40:51,398 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 11:40:51,401 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 11:42:50,984 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 11:42:50,989 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 11:42:50,992 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 11:46:23,981 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 11:46:23,985 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 11:46:23,988 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 11:46:23,992 - INFO -main.py : 308 :before_test - 本次测试共执行13条用例
+2019-03-20 11:46:24,001 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId='case_1', apiId=1, caseDescribe='sss', apiHost='/s5/create_user', apiParams='{"s": "${id}"}', apiHeaders=Null, method='POST', relatedApi='{"apiHost": "www.b"}', relatedParams='err_code,payload.uid', expect='{"err_code": "0"}', sqlStatement='{"a": "select * from zhuanqian.t_user_verify"}', databaseExpect='{"a": {"len": "5", "id": "2"}}', isExcute='y',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:46:24,001 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=2, apiId=2, caseDescribe='主页，正常请求', apiHost='/s5/dashboard', apiParams=Null, apiHeaders=Null, method='GET', relatedApi=1, relatedParams=Null, expect='{"err_code": "0"}', sqlStatement=Null, databaseExpect=Null, isExcute='y',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:46:24,002 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=1, apiId=6, caseDescribe='开始任务：正常请求', apiHost='/s4/lite.subtask.start', apiParams='{"task_id": 1}', apiHeaders='{"cookie": "mu=123456"}', method='GET', relatedApi='{"a": 1.0}', relatedParams='s,b', expect='{"payload.level_info.next_level_more_coin": "1", "payload.reward": "5", "payload.invalid_apprentice_num": "0", "payload.shoutu_v5_3_open": "1"}', sqlStatement='{"a": "select * from zhuanqian.user where id = ${payload.uid} ", "b": "select * from zhuanqian_1.user where id = ${payload.uid}", "c": "select * from zhuanqian.user_info where user_id=${payload.uid}"}', databaseExpect='{"a": {"len": "1", "create_reward": "1"}, "b": {"len": "1"}, "c": {"len": "1"}}', isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:46:24,002 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId='sub_task_2', apiId='ss', caseDescribe='开始任务：不传task_id', apiHost='/s4/lite.subtask.start', apiParams=Null, apiHeaders=Null, method='GET', relatedApi=2, relatedParams=Null, expect='{"err_code": "0", "err_msg": "缺少参数：task_id"}', sqlStatement=Null, databaseExpect=Null, isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:46:24,002 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId='sub_task_3', apiId=7, caseDescribe='查看任务状态', apiHost='/s4k/subtask.state', apiParams='{"task_id": 1}', apiHeaders=Null, method='GET', relatedApi=Null, relatedParams=Null, expect='{"err_code": "0"}', sqlStatement=Null, databaseExpect=Null, isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:46:24,002 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=1, apiId=1, caseDescribe='创建用户，正常请求', apiHost='/s5/create_user', apiParams=Null, apiHeaders=Null, method='POST', relatedApi=Null, relatedParams='$payload.uid', expect='{"err_code": "0", "err_msg": ""}', sqlStatement='{"a": "select * from zhuanqian.user where id = ${payload.uid} ", "b": "select * from zhuanqian_1.user where id = ${payload.uid}", "c": "select * from zhuanqian.user_info where user_id=${payload.uid}"}', databaseExpect='{"a": {"len": "1", "create_reward": "1"}, "b": {"len": "1"}, "c": {"len": "1"}}', isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:46:24,002 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=2, apiId=2, caseDescribe='主页，正常请求', apiHost='/s5/dashboard', apiParams=Null, apiHeaders=Null, method='GET', relatedApi=Null, relatedParams=Null, expect='{"payload.level_info.next_level_more_coin": "1", "payload.reward": "5", "payload.invalid_apprentice_num": "0", "payload.shoutu_v5_3_open": "1"}', sqlStatement=Null, databaseExpect=Null, isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:46:24,003 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=3, apiId=3, caseDescribe='试玩赚钱列表，正常请求', apiHost='/s4/lite.subtask.list', apiParams=Null, apiHeaders=Null, method='GET', relatedApi=Null, relatedParams=Null, expect='{"err_code": "0", "payload.tasks": "[id=261567]"}', sqlStatement=Null, databaseExpect=Null, isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:46:24,005 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=4, apiId=1, caseDescribe='创建用户，请求方式为get', apiHost='/s5/create_user', apiParams=Null, apiHeaders=Null, method='GET', relatedApi=Null, relatedParams=Null, expect='{"err_code": "405"}', sqlStatement=Null, databaseExpect=Null, isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:46:24,005 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=5, apiId=1, caseDescribe='创建用户，添加cookie信息', apiHost='/s5/create_user', apiParams=Null, apiHeaders='{"cookie": "DIS4=1122151"}', method='POST', relatedApi=Null, relatedParams=Null, expect='{"err_code": "0"}', sqlStatement=Null, databaseExpect=Null, isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:46:24,006 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=6, apiId=1, caseDescribe='创建用户，师傅邀请创建', apiHost='/s5/create_user', apiParams=Null, apiHeaders='{"cookie": "mu=123456"}', method='POST', relatedApi=Null, relatedParams=Null, expect='{"err_code": "0"}', sqlStatement=Null, databaseExpect=Null, isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:46:24,006 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=7, apiId=2, caseDescribe='主页，用户没有领取金币', apiHost='/s5/dashboard', apiParams=Null, apiHeaders=Null, method='GET', relatedApi=Null, relatedParams=Null, expect='{"err_code": "0", "payload.first_claim": "1"}', sqlStatement=Null, databaseExpect=Null, isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:46:24,006 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=8, apiId=2, caseDescribe='主页，用户领取金币', apiHost='/s5/dashboard', apiParams=Null, apiHeaders=Null, method='GET', relatedApi='{"apiHost": "/s5/reward.coin.claim.today", "method": "post", "apiParams": "", "apiHeaders": ""}', relatedParams='$payload.level_info.next_level_more_coin,$err_code', expect='{"err_code": "0", "payload.first_claim": "0"}', sqlStatement=Null, databaseExpect=Null, isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:46:24,006 - INFO -main.py : 327 :begin_test - 正在执行caseId为case_1的用例
+2019-03-20 11:46:24,078 - INFO -main.py : 286 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 11:46:24,079 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:46:24,335 - INFO -main.py : 351 :begin_test - caseId为case_1的用例完毕
+2019-03-20 11:46:24,335 - INFO -main.py : 327 :begin_test - 正在执行caseId为2的用例
+2019-03-20 11:46:24,336 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:46:24,474 - INFO -main.py : 351 :begin_test - caseId为2的用例完毕
+2019-03-20 11:46:24,475 - INFO -main.py : 327 :begin_test - 正在执行caseId为1的用例
+2019-03-20 11:46:24,541 - ERROR -main.py : 288 :__prapare_data - sql语句出错：select * from data,(1146, "Table 'api_test.data' doesn't exist")
+2019-03-20 11:46:24,543 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'mu=123456'}
+2019-03-20 11:46:24,650 - INFO -main.py : 351 :begin_test - caseId为1的用例完毕
+2019-03-20 11:46:24,650 - INFO -main.py : 327 :begin_test - 正在执行caseId为sub_task_2的用例
+2019-03-20 11:46:24,651 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:46:24,746 - INFO -main.py : 351 :begin_test - caseId为sub_task_2的用例完毕
+2019-03-20 11:46:24,746 - INFO -main.py : 327 :begin_test - 正在执行caseId为sub_task_3的用例
+2019-03-20 11:46:24,746 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:46:24,898 - INFO -main.py : 351 :begin_test - caseId为sub_task_3的用例完毕
+2019-03-20 11:46:24,898 - INFO -main.py : 327 :begin_test - 正在执行caseId为1的用例
+2019-03-20 11:46:24,899 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:46:25,200 - INFO -main.py : 351 :begin_test - caseId为1的用例完毕
+2019-03-20 11:46:25,200 - INFO -main.py : 327 :begin_test - 正在执行caseId为2的用例
+2019-03-20 11:46:25,201 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:46:25,316 - INFO -main.py : 351 :begin_test - caseId为2的用例完毕
+2019-03-20 11:46:25,317 - INFO -main.py : 327 :begin_test - 正在执行caseId为3的用例
+2019-03-20 11:46:25,318 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:46:25,428 - INFO -main.py : 351 :begin_test - caseId为3的用例完毕
+2019-03-20 11:46:25,428 - INFO -main.py : 327 :begin_test - 正在执行caseId为4的用例
+2019-03-20 11:46:25,429 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:46:25,791 - INFO -main.py : 351 :begin_test - caseId为4的用例完毕
+2019-03-20 11:46:25,791 - INFO -main.py : 327 :begin_test - 正在执行caseId为5的用例
+2019-03-20 11:46:25,792 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=1122151'}
+2019-03-20 11:46:25,976 - INFO -main.py : 351 :begin_test - caseId为5的用例完毕
+2019-03-20 11:46:25,977 - INFO -main.py : 327 :begin_test - 正在执行caseId为6的用例
+2019-03-20 11:46:25,977 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'mu=123456'}
+2019-03-20 11:46:26,118 - INFO -main.py : 351 :begin_test - caseId为6的用例完毕
+2019-03-20 11:46:26,118 - INFO -main.py : 327 :begin_test - 正在执行caseId为7的用例
+2019-03-20 11:46:26,119 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:46:26,261 - INFO -main.py : 351 :begin_test - caseId为7的用例完毕
+2019-03-20 11:46:26,261 - INFO -main.py : 327 :begin_test - 正在执行caseId为8的用例
+2019-03-20 11:46:26,262 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:46:26,441 - INFO -main.py : 351 :begin_test - caseId为8的用例完毕
+2019-03-20 11:49:28,482 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 11:49:28,488 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 11:49:28,491 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 11:49:28,498 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 11:49:28,502 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 11:49:28,505 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 11:50:22,293 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 11:50:22,298 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 11:50:22,301 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 11:51:30,485 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 11:51:30,489 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 11:51:30,492 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 11:54:38,832 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 11:54:38,841 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 11:54:38,844 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 11:54:38,844 - INFO -main.py : 309 :before_test - 本次测试共执行11条用例
+2019-03-20 11:54:38,856 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=1, apiId=6, caseDescribe='开始任务：正常请求', apiHost='/s4/lite.subtask.start', apiParams='{"task_id": 1}', apiHeaders='{"cookie": "mu=123456"}', method='GET', relatedApi='{"a": 1.0}', relatedParams='s,b', expect='{"payload.level_info.next_level_more_coin": "1", "payload.reward": "5", "payload.invalid_apprentice_num": "0", "payload.shoutu_v5_3_open": "1"}', sqlStatement='{"a": "select * from zhuanqian.user where id = ${payload.uid} ", "b": "select * from zhuanqian_1.user where id = ${payload.uid}", "c": "select * from zhuanqian.user_info where user_id=${payload.uid}"}', databaseExpect='{"a": {"len": "1", "create_reward": "1"}, "b": {"len": "1"}, "c": {"len": "1"}}', isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:54:38,856 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId='sub_task_2', apiId='ss', caseDescribe='开始任务：不传task_id', apiHost='/s4/lite.subtask.start', apiParams=Null, apiHeaders=Null, method='GET', relatedApi=2, relatedParams=Null, expect='{"err_code": "0", "err_msg": "缺少参数：task_id"}', sqlStatement=Null, databaseExpect=Null, isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:54:38,857 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId='sub_task_3', apiId=7, caseDescribe='查看任务状态', apiHost='/s4k/subtask.state', apiParams='{"task_id": 1}', apiHeaders=Null, method='GET', relatedApi=Null, relatedParams=Null, expect='{"err_code": "0"}', sqlStatement=Null, databaseExpect=Null, isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:54:38,857 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=1, apiId=1, caseDescribe='创建用户，正常请求', apiHost='/s5/create_user', apiParams=Null, apiHeaders=Null, method='POST', relatedApi=Null, relatedParams='$payload.uid', expect='{"err_code": "0", "err_msg": ""}', sqlStatement='{"a": "select * from zhuanqian.user where id = ${payload.uid} ", "b": "select * from zhuanqian_1.user where id = ${payload.uid}", "c": "select * from zhuanqian.user_info where user_id=${payload.uid}"}', databaseExpect='{"a": {"len": "1", "create_reward": "1"}, "b": {"len": "1"}, "c": {"len": "1"}}', isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:54:38,857 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=2, apiId=2, caseDescribe='主页，正常请求', apiHost='/s5/dashboard', apiParams=Null, apiHeaders=Null, method='GET', relatedApi=Null, relatedParams=Null, expect='{"payload.level_info.next_level_more_coin": "1", "payload.reward": "5", "payload.invalid_apprentice_num": "0", "payload.shoutu_v5_3_open": "1"}', sqlStatement=Null, databaseExpect=Null, isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:54:38,857 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=3, apiId=3, caseDescribe='试玩赚钱列表，正常请求', apiHost='/s4/lite.subtask.list', apiParams=Null, apiHeaders=Null, method='GET', relatedApi=Null, relatedParams=Null, expect='{"err_code": "0", "payload.tasks": "[id=261567]"}', sqlStatement=Null, databaseExpect=Null, isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:54:38,857 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=4, apiId=1, caseDescribe='创建用户，请求方式为get', apiHost='/s5/create_user', apiParams=Null, apiHeaders=Null, method='GET', relatedApi=Null, relatedParams=Null, expect='{"err_code": "405"}', sqlStatement=Null, databaseExpect=Null, isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:54:38,858 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=5, apiId=1, caseDescribe='创建用户，添加cookie信息', apiHost='/s5/create_user', apiParams=Null, apiHeaders='{"cookie": "DIS4=1122151"}', method='POST', relatedApi=Null, relatedParams=Null, expect='{"err_code": "0"}', sqlStatement=Null, databaseExpect=Null, isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:54:38,860 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=6, apiId=1, caseDescribe='创建用户，师傅邀请创建', apiHost='/s5/create_user', apiParams=Null, apiHeaders='{"cookie": "mu=123456"}', method='POST', relatedApi=Null, relatedParams=Null, expect='{"err_code": "0"}', sqlStatement=Null, databaseExpect=Null, isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:54:38,860 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=7, apiId=2, caseDescribe='主页，用户没有领取金币', apiHost='/s5/dashboard', apiParams=Null, apiHeaders=Null, method='GET', relatedApi=Null, relatedParams=Null, expect='{"err_code": "0", "payload.first_claim": "1"}', sqlStatement=Null, databaseExpect=Null, isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:54:38,860 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=8, apiId=2, caseDescribe='主页，用户领取金币', apiHost='/s5/dashboard', apiParams=Null, apiHeaders=Null, method='GET', relatedApi='{"apiHost": "/s5/reward.coin.claim.today", "method": "post", "apiParams": "", "apiHeaders": ""}', relatedParams='$payload.level_info.next_level_more_coin,$err_code', expect='{"err_code": "0", "payload.first_claim": "0"}', sqlStatement=Null, databaseExpect=Null, isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:54:38,860 - INFO -main.py : 328 :begin_test - 正在执行caseId为1的用例
+2019-03-20 11:54:39,055 - ERROR -main.py : 288 :__prapare_data - sql语句出错：select * from data,(1146, "Table 'api_test.data' doesn't exist")
+2019-03-20 11:54:39,057 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'mu=123456'}
+2019-03-20 11:54:39,301 - INFO -main.py : 352 :begin_test - caseId为1的用例完毕
+2019-03-20 11:54:39,302 - INFO -main.py : 328 :begin_test - 正在执行caseId为sub_task_2的用例
+2019-03-20 11:54:39,305 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:54:39,382 - INFO -main.py : 352 :begin_test - caseId为sub_task_2的用例完毕
+2019-03-20 11:54:39,383 - INFO -main.py : 328 :begin_test - 正在执行caseId为sub_task_3的用例
+2019-03-20 11:54:39,384 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:54:39,452 - INFO -main.py : 352 :begin_test - caseId为sub_task_3的用例完毕
+2019-03-20 11:54:39,453 - INFO -main.py : 328 :begin_test - 正在执行caseId为1的用例
+2019-03-20 11:54:39,455 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:54:39,781 - INFO -main.py : 352 :begin_test - caseId为1的用例完毕
+2019-03-20 11:54:39,781 - INFO -main.py : 328 :begin_test - 正在执行caseId为2的用例
+2019-03-20 11:54:39,783 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:54:39,985 - INFO -main.py : 352 :begin_test - caseId为2的用例完毕
+2019-03-20 11:54:39,985 - INFO -main.py : 328 :begin_test - 正在执行caseId为3的用例
+2019-03-20 11:54:39,986 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:54:40,104 - INFO -main.py : 352 :begin_test - caseId为3的用例完毕
+2019-03-20 11:54:40,104 - INFO -main.py : 328 :begin_test - 正在执行caseId为4的用例
+2019-03-20 11:54:40,105 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:54:40,205 - INFO -main.py : 352 :begin_test - caseId为4的用例完毕
+2019-03-20 11:54:40,206 - INFO -main.py : 328 :begin_test - 正在执行caseId为5的用例
+2019-03-20 11:54:40,206 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=1122151'}
+2019-03-20 11:54:40,363 - INFO -main.py : 352 :begin_test - caseId为5的用例完毕
+2019-03-20 11:54:40,363 - INFO -main.py : 328 :begin_test - 正在执行caseId为6的用例
+2019-03-20 11:54:40,364 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'mu=123456'}
+2019-03-20 11:54:40,555 - INFO -main.py : 352 :begin_test - caseId为6的用例完毕
+2019-03-20 11:54:40,555 - INFO -main.py : 328 :begin_test - 正在执行caseId为7的用例
+2019-03-20 11:54:40,556 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:54:40,740 - INFO -main.py : 352 :begin_test - caseId为7的用例完毕
+2019-03-20 11:54:40,741 - INFO -main.py : 328 :begin_test - 正在执行caseId为8的用例
+2019-03-20 11:54:40,741 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:54:40,915 - INFO -main.py : 352 :begin_test - caseId为8的用例完毕
+2019-03-20 11:55:44,699 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 11:55:44,706 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 11:55:44,710 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 11:55:44,715 - INFO -main.py : 310 :before_test - 本次测试共执行11条用例
+2019-03-20 11:55:44,725 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=1, apiId=6, caseDescribe='开始任务：正常请求', apiHost='/s4/lite.subtask.start', apiParams='{"task_id": 1}', apiHeaders='{"cookie": "mu=123456"}', method='GET', relatedApi='{"a": 1.0}', relatedParams='s,b', expect='{"payload.level_info.next_level_more_coin": "1", "payload.reward": "5", "payload.invalid_apprentice_num": "0", "payload.shoutu_v5_3_open": "1"}', sqlStatement='{"a": "select * from zhuanqian.user where id = ${payload.uid} ", "b": "select * from zhuanqian_1.user where id = ${payload.uid}", "c": "select * from zhuanqian.user_info where user_id=${payload.uid}"}', databaseExpect='{"a": {"len": "1", "create_reward": "1"}, "b": {"len": "1"}, "c": {"len": "1"}}', isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:55:44,726 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId='sub_task_2', apiId='ss', caseDescribe='开始任务：不传task_id', apiHost='/s4/lite.subtask.start', apiParams=Null, apiHeaders=Null, method='GET', relatedApi=2, relatedParams=Null, expect='{"err_code": "0", "err_msg": "缺少参数：task_id"}', sqlStatement=Null, databaseExpect=Null, isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:55:44,726 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId='sub_task_3', apiId=7, caseDescribe='查看任务状态', apiHost='/s4k/subtask.state', apiParams='{"task_id": 1}', apiHeaders=Null, method='GET', relatedApi=Null, relatedParams=Null, expect='{"err_code": "0"}', sqlStatement=Null, databaseExpect=Null, isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:55:44,726 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=1, apiId=1, caseDescribe='创建用户，正常请求', apiHost='/s5/create_user', apiParams=Null, apiHeaders=Null, method='POST', relatedApi=Null, relatedParams='$payload.uid', expect='{"err_code": "0", "err_msg": ""}', sqlStatement='{"a": "select * from zhuanqian.user where id = ${payload.uid} ", "b": "select * from zhuanqian_1.user where id = ${payload.uid}", "c": "select * from zhuanqian.user_info where user_id=${payload.uid}"}', databaseExpect='{"a": {"len": "1", "create_reward": "1"}, "b": {"len": "1"}, "c": {"len": "1"}}', isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:55:44,727 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=2, apiId=2, caseDescribe='主页，正常请求', apiHost='/s5/dashboard', apiParams=Null, apiHeaders=Null, method='GET', relatedApi=Null, relatedParams=Null, expect='{"payload.level_info.next_level_more_coin": "1", "payload.reward": "5", "payload.invalid_apprentice_num": "0", "payload.shoutu_v5_3_open": "1"}', sqlStatement=Null, databaseExpect=Null, isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:55:44,727 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=3, apiId=3, caseDescribe='试玩赚钱列表，正常请求', apiHost='/s4/lite.subtask.list', apiParams=Null, apiHeaders=Null, method='GET', relatedApi=Null, relatedParams=Null, expect='{"err_code": "0", "payload.tasks": "[id=261567]"}', sqlStatement=Null, databaseExpect=Null, isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:55:44,727 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=4, apiId=1, caseDescribe='创建用户，请求方式为get', apiHost='/s5/create_user', apiParams=Null, apiHeaders=Null, method='GET', relatedApi=Null, relatedParams=Null, expect='{"err_code": "405"}', sqlStatement=Null, databaseExpect=Null, isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:55:44,727 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=5, apiId=1, caseDescribe='创建用户，添加cookie信息', apiHost='/s5/create_user', apiParams=Null, apiHeaders='{"cookie": "DIS4=1122151"}', method='POST', relatedApi=Null, relatedParams=Null, expect='{"err_code": "0"}', sqlStatement=Null, databaseExpect=Null, isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:55:44,728 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=6, apiId=1, caseDescribe='创建用户，师傅邀请创建', apiHost='/s5/create_user', apiParams=Null, apiHeaders='{"cookie": "mu=123456"}', method='POST', relatedApi=Null, relatedParams=Null, expect='{"err_code": "0"}', sqlStatement=Null, databaseExpect=Null, isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:55:44,728 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=7, apiId=2, caseDescribe='主页，用户没有领取金币', apiHost='/s5/dashboard', apiParams=Null, apiHeaders=Null, method='GET', relatedApi=Null, relatedParams=Null, expect='{"err_code": "0", "payload.first_claim": "1"}', sqlStatement=Null, databaseExpect=Null, isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:55:44,728 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testcase SET  caseId=8, apiId=2, caseDescribe='主页，用户领取金币', apiHost='/s5/dashboard', apiParams=Null, apiHeaders=Null, method='GET', relatedApi='{"apiHost": "/s5/reward.coin.claim.today", "method": "post", "apiParams": "", "apiHeaders": ""}', relatedParams='$payload.level_info.next_level_more_coin,$err_code', expect='{"err_code": "0", "payload.first_claim": "0"}', sqlStatement=Null, databaseExpect=Null, isExcute='n',(1054, "Unknown column 'isExcute' in 'field list'")
+2019-03-20 11:55:44,729 - INFO -main.py : 329 :begin_test - 正在执行caseId为1的用例
+2019-03-20 11:55:44,793 - ERROR -main.py : 288 :__prapare_data - sql语句出错：select * from data,(1146, "Table 'api_test.data' doesn't exist")
+2019-03-20 11:55:44,795 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'mu=123456'}
+2019-03-20 11:55:44,882 - INFO -main.py : 353 :begin_test - caseId为1的用例完毕
+2019-03-20 11:55:44,882 - INFO -main.py : 329 :begin_test - 正在执行caseId为sub_task_2的用例
+2019-03-20 11:55:44,885 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:55:45,048 - INFO -main.py : 353 :begin_test - caseId为sub_task_2的用例完毕
+2019-03-20 11:55:45,048 - INFO -main.py : 329 :begin_test - 正在执行caseId为sub_task_3的用例
+2019-03-20 11:55:45,048 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:55:45,178 - INFO -main.py : 353 :begin_test - caseId为sub_task_3的用例完毕
+2019-03-20 11:55:45,178 - INFO -main.py : 329 :begin_test - 正在执行caseId为1的用例
+2019-03-20 11:55:45,180 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:55:45,457 - INFO -main.py : 353 :begin_test - caseId为1的用例完毕
+2019-03-20 11:55:45,457 - INFO -main.py : 329 :begin_test - 正在执行caseId为2的用例
+2019-03-20 11:55:45,458 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:55:45,630 - INFO -main.py : 353 :begin_test - caseId为2的用例完毕
+2019-03-20 11:55:45,630 - INFO -main.py : 329 :begin_test - 正在执行caseId为3的用例
+2019-03-20 11:55:45,632 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:55:45,804 - INFO -main.py : 353 :begin_test - caseId为3的用例完毕
+2019-03-20 11:55:45,805 - INFO -main.py : 329 :begin_test - 正在执行caseId为4的用例
+2019-03-20 11:55:45,805 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:55:45,977 - INFO -main.py : 353 :begin_test - caseId为4的用例完毕
+2019-03-20 11:55:45,977 - INFO -main.py : 329 :begin_test - 正在执行caseId为5的用例
+2019-03-20 11:55:45,978 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=1122151'}
+2019-03-20 11:55:46,164 - INFO -main.py : 353 :begin_test - caseId为5的用例完毕
+2019-03-20 11:55:46,164 - INFO -main.py : 329 :begin_test - 正在执行caseId为6的用例
+2019-03-20 11:55:46,165 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'mu=123456'}
+2019-03-20 11:55:46,363 - INFO -main.py : 353 :begin_test - caseId为6的用例完毕
+2019-03-20 11:55:46,363 - INFO -main.py : 329 :begin_test - 正在执行caseId为7的用例
+2019-03-20 11:55:46,364 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:55:46,554 - INFO -main.py : 353 :begin_test - caseId为7的用例完毕
+2019-03-20 11:55:46,555 - INFO -main.py : 329 :begin_test - 正在执行caseId为8的用例
+2019-03-20 11:55:46,556 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 11:55:46,670 - INFO -main.py : 353 :begin_test - caseId为8的用例完毕
+2019-03-20 11:56:48,344 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 11:56:48,349 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 11:56:48,353 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 11:57:29,869 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 11:57:29,873 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 11:57:29,876 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 11:58:14,981 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 11:58:14,986 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 11:58:14,990 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 11:59:35,853 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 11:59:42,771 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 11:59:42,776 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 11:59:42,779 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 12:37:59,041 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 12:37:59,046 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 12:37:59,049 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 12:37:59,051 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 12:37:59,056 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 12:37:59,058 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 12:42:01,854 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 12:42:01,859 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 12:46:28,917 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 12:46:28,922 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 12:46:28,925 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 12:46:47,569 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 12:46:47,574 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 12:46:47,577 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 12:47:45,599 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 12:47:45,603 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 12:47:45,606 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 12:48:35,136 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 12:48:35,141 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 12:48:35,144 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 12:50:22,345 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 12:50:22,349 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 12:50:22,352 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 12:51:47,386 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 12:51:47,394 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 12:51:47,398 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 12:51:47,398 - INFO -main.py : 305 :before_test - 本次测试共执行2条用例
+2019-03-20 12:51:47,433 - INFO -main.py : 324 :begin_test - 正在执行caseId为case_1的用例
+2019-03-20 12:51:47,481 - INFO -main.py : 286 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 12:51:47,482 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 12:51:47,742 - INFO -main.py : 348 :begin_test - caseId为case_1的用例完毕
+2019-03-20 12:51:47,743 - INFO -main.py : 324 :begin_test - 正在执行caseId为2的用例
+2019-03-20 12:51:47,744 - INFO -main.py : 243 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 12:51:47,905 - INFO -main.py : 348 :begin_test - caseId为2的用例完毕
+2019-03-20 13:35:27,752 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 13:35:27,759 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 13:35:27,764 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 13:35:27,764 - INFO -main.py : 311 :before_test - 本次测试共执行2条用例
+2019-03-20 13:35:27,777 - INFO -main.py : 330 :begin_test - 正在执行caseId为case_1的用例
+2019-03-20 13:35:27,808 - INFO -main.py : 292 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 13:35:27,809 - INFO -main.py : 249 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 13:35:27,932 - INFO -main.py : 354 :begin_test - caseId为case_1的用例完毕
+2019-03-20 13:35:27,932 - INFO -main.py : 330 :begin_test - 正在执行caseId为2的用例
+2019-03-20 13:35:27,933 - INFO -main.py : 249 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 13:35:28,049 - INFO -main.py : 354 :begin_test - caseId为2的用例完毕
+2019-03-20 13:37:50,833 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 13:37:50,842 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 13:37:50,846 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 13:37:50,846 - INFO -main.py : 311 :before_test - 本次测试共执行2条用例
+2019-03-20 13:37:50,859 - INFO -main.py : 330 :begin_test - 正在执行caseId为case_1的用例
+2019-03-20 13:37:50,894 - INFO -main.py : 292 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 13:37:50,895 - INFO -main.py : 249 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 13:37:51,052 - INFO -main.py : 354 :begin_test - caseId为case_1的用例完毕
+2019-03-20 13:37:51,052 - INFO -main.py : 330 :begin_test - 正在执行caseId为2的用例
+2019-03-20 13:37:51,054 - INFO -main.py : 249 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 13:37:51,187 - INFO -main.py : 354 :begin_test - caseId为2的用例完毕
+2019-03-20 13:39:25,195 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 13:39:25,201 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 13:39:25,205 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 13:39:25,206 - INFO -main.py : 311 :before_test - 本次测试共执行2条用例
+2019-03-20 13:39:25,219 - INFO -main.py : 330 :begin_test - 正在执行caseId为case_1的用例
+2019-03-20 13:39:25,294 - INFO -main.py : 292 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 13:39:25,296 - INFO -main.py : 249 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 13:39:25,519 - INFO -main.py : 354 :begin_test - caseId为case_1的用例完毕
+2019-03-20 13:39:25,519 - INFO -main.py : 330 :begin_test - 正在执行caseId为2的用例
+2019-03-20 13:39:25,521 - INFO -main.py : 249 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 13:39:25,722 - INFO -main.py : 354 :begin_test - caseId为2的用例完毕
+2019-03-20 13:39:45,795 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 13:39:45,804 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 13:39:45,807 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 13:39:45,808 - INFO -main.py : 312 :before_test - 本次测试共执行2条用例
+2019-03-20 13:39:45,819 - INFO -main.py : 331 :begin_test - 正在执行caseId为case_1的用例
+2019-03-20 13:39:45,895 - INFO -main.py : 293 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 13:39:45,896 - INFO -main.py : 250 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 13:39:46,126 - INFO -main.py : 355 :begin_test - caseId为case_1的用例完毕
+2019-03-20 13:39:46,126 - INFO -main.py : 331 :begin_test - 正在执行caseId为2的用例
+2019-03-20 13:39:46,129 - INFO -main.py : 250 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 13:39:46,312 - INFO -main.py : 355 :begin_test - caseId为2的用例完毕
+2019-03-20 13:40:32,153 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 13:40:32,157 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 13:40:32,160 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 13:40:32,160 - INFO -main.py : 313 :before_test - 本次测试共执行2条用例
+2019-03-20 13:40:32,170 - INFO -main.py : 332 :begin_test - 正在执行caseId为case_1的用例
+2019-03-20 13:40:32,246 - INFO -main.py : 294 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 13:40:32,247 - INFO -main.py : 251 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 13:40:32,482 - INFO -main.py : 356 :begin_test - caseId为case_1的用例完毕
+2019-03-20 13:40:32,482 - INFO -main.py : 332 :begin_test - 正在执行caseId为2的用例
+2019-03-20 13:40:32,484 - INFO -main.py : 251 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 13:40:32,676 - INFO -main.py : 356 :begin_test - caseId为2的用例完毕
+2019-03-20 13:41:21,475 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 13:41:21,480 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_subtask.xlsx
+2019-03-20 13:41:21,483 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_user.xlsx
+2019-03-20 13:41:21,484 - INFO -main.py : 313 :before_test - 本次测试共执行2条用例
+2019-03-20 13:41:21,495 - INFO -main.py : 332 :begin_test - 正在执行caseId为case_1的用例
+2019-03-20 13:41:21,540 - INFO -main.py : 294 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 13:41:21,541 - INFO -main.py : 251 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 13:41:21,746 - INFO -main.py : 356 :begin_test - caseId为case_1的用例完毕
+2019-03-20 13:41:21,746 - INFO -main.py : 332 :begin_test - 正在执行caseId为2的用例
+2019-03-20 13:41:21,749 - INFO -main.py : 251 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 13:41:21,953 - INFO -main.py : 356 :begin_test - caseId为2的用例完毕
+2019-03-20 13:42:54,878 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 13:42:54,878 - INFO -main.py : 313 :before_test - 本次测试共执行2条用例
+2019-03-20 13:42:54,935 - INFO -main.py : 332 :begin_test - 正在执行caseId为case_1的用例
+2019-03-20 13:42:54,978 - INFO -main.py : 294 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 13:42:54,979 - INFO -main.py : 251 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 13:42:55,218 - INFO -main.py : 356 :begin_test - caseId为case_1的用例完毕
+2019-03-20 13:42:55,218 - INFO -main.py : 332 :begin_test - 正在执行caseId为2的用例
+2019-03-20 13:42:55,224 - INFO -main.py : 251 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 13:42:55,379 - INFO -main.py : 356 :begin_test - caseId为2的用例完毕
+2019-03-20 13:46:50,259 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 13:46:50,259 - INFO -main.py : 314 :before_test - 本次测试共执行1条用例
+2019-03-20 13:46:50,262 - INFO -main.py : 333 :begin_test - 正在执行caseId为case_1的用例
+2019-03-20 13:46:50,293 - INFO -main.py : 295 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 13:46:50,294 - INFO -main.py : 252 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 13:46:50,442 - INFO -main.py : 357 :begin_test - caseId为case_1的用例完毕
+2019-03-20 13:47:10,092 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 13:47:10,093 - INFO -main.py : 313 :before_test - 本次测试共执行1条用例
+2019-03-20 13:47:10,097 - INFO -main.py : 332 :begin_test - 正在执行caseId为case_1的用例
+2019-03-20 13:47:10,121 - INFO -main.py : 294 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 13:47:10,122 - INFO -main.py : 251 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 13:47:10,286 - INFO -main.py : 356 :begin_test - caseId为case_1的用例完毕
+2019-03-20 13:47:49,283 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 13:47:49,283 - INFO -main.py : 312 :before_test - 本次测试共执行2条用例
+2019-03-20 13:47:49,288 - INFO -main.py : 331 :begin_test - 正在执行caseId为case_1的用例
+2019-03-20 13:47:49,350 - INFO -main.py : 293 :__prapare_data - 执行sql成功select * from testcase
+2019-03-20 13:47:49,351 - INFO -main.py : 250 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 13:47:49,528 - INFO -main.py : 355 :begin_test - caseId为case_1的用例完毕
+2019-03-20 13:47:49,529 - INFO -main.py : 331 :begin_test - 正在执行caseId为2的用例
+2019-03-20 13:47:49,534 - INFO -main.py : 250 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 13:47:49,652 - INFO -main.py : 355 :begin_test - caseId为2的用例完毕
+2019-03-20 13:48:16,289 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 13:48:16,289 - INFO -main.py : 312 :before_test - 本次测试共执行1条用例
+2019-03-20 13:48:16,292 - INFO -main.py : 331 :begin_test - 正在执行caseId为2的用例
+2019-03-20 13:48:16,294 - INFO -main.py : 250 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 13:48:16,445 - INFO -main.py : 355 :begin_test - caseId为2的用例完毕
+2019-03-20 13:50:49,457 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 13:50:49,457 - INFO -main.py : 318 :before_test - 本次测试共执行1条用例
+2019-03-20 13:50:49,460 - INFO -main.py : 337 :begin_test - 正在执行caseId为2的用例
+2019-03-20 13:50:49,461 - INFO -main.py : 256 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 13:50:49,576 - INFO -main.py : 361 :begin_test - caseId为2的用例完毕
+2019-03-20 13:51:32,822 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 13:51:32,822 - INFO -handle_case.py : 163 :get_cases - 关联api解析错误  Expecting value: line 1 column 1 (char 0)
+2019-03-20 13:51:32,822 - INFO -main.py : 318 :before_test - 本次测试共执行1条用例
+2019-03-20 13:51:32,827 - INFO -main.py : 337 :begin_test - 正在执行caseId为2的用例
+2019-03-20 13:51:32,828 - INFO -main.py : 256 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 13:51:33,008 - INFO -main.py : 361 :begin_test - caseId为2的用例完毕
+2019-03-20 13:52:36,510 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 13:52:36,511 - INFO -handle_case.py : 163 :get_cases - 关联api解析错误  Expecting value: line 1 column 1 (char 0)
+2019-03-20 13:52:36,511 - INFO -main.py : 319 :before_test - 本次测试共执行1条用例
+2019-03-20 13:52:36,513 - INFO -main.py : 338 :begin_test - 正在执行caseId为2的用例
+2019-03-20 13:52:36,514 - INFO -main.py : 257 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 13:52:36,621 - INFO -main.py : 362 :begin_test - caseId为2的用例完毕
+2019-03-20 13:53:13,616 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 13:53:13,617 - INFO -handle_case.py : 163 :get_cases - 关联api解析错误  Expecting value: line 1 column 1 (char 0)
+2019-03-20 13:53:13,617 - INFO -main.py : 319 :before_test - 本次测试共执行1条用例
+2019-03-20 13:53:13,619 - INFO -main.py : 338 :begin_test - 正在执行caseId为2的用例
+2019-03-20 13:53:13,620 - INFO -main.py : 257 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 13:53:13,782 - INFO -main.py : 362 :begin_test - caseId为2的用例完毕
+2019-03-20 13:53:38,817 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 13:53:38,817 - INFO -handle_case.py : 163 :get_cases - 关联api解析错误  Expecting value: line 1 column 1 (char 0)
+2019-03-20 13:53:38,817 - INFO -main.py : 319 :before_test - 本次测试共执行1条用例
+2019-03-20 13:53:38,820 - INFO -main.py : 338 :begin_test - 正在执行caseId为2的用例
+2019-03-20 13:53:38,821 - INFO -main.py : 257 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 13:53:38,975 - INFO -main.py : 362 :begin_test - caseId为2的用例完毕
+2019-03-20 13:53:55,018 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 13:53:55,018 - INFO -handle_case.py : 163 :get_cases - 关联api解析错误  Expecting value: line 1 column 1 (char 0)
+2019-03-20 13:53:55,019 - INFO -main.py : 318 :before_test - 本次测试共执行1条用例
+2019-03-20 13:53:55,022 - INFO -main.py : 337 :begin_test - 正在执行caseId为2的用例
+2019-03-20 13:53:55,024 - INFO -main.py : 256 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 13:53:55,160 - INFO -main.py : 361 :begin_test - caseId为2的用例完毕
+2019-03-20 13:55:51,361 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 13:55:51,361 - INFO -handle_case.py : 163 :get_cases - 关联api解析错误  Expecting value: line 1 column 1 (char 0)
+2019-03-20 13:55:51,361 - INFO -main.py : 318 :before_test - 本次测试共执行1条用例
+2019-03-20 13:55:51,364 - INFO -main.py : 337 :begin_test - 正在执行caseId为2的用例
+2019-03-20 13:55:51,365 - INFO -main.py : 256 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 13:55:51,504 - INFO -main.py : 361 :begin_test - caseId为2的用例完毕
+2019-03-20 13:56:11,346 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 13:56:11,346 - INFO -handle_case.py : 163 :get_cases - 关联api解析错误  Expecting value: line 1 column 1 (char 0)
+2019-03-20 13:56:11,346 - INFO -main.py : 318 :before_test - 本次测试共执行1条用例
+2019-03-20 13:56:11,349 - INFO -main.py : 337 :begin_test - 正在执行caseId为2的用例
+2019-03-20 13:56:11,350 - INFO -main.py : 256 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 13:56:11,482 - INFO -main.py : 361 :begin_test - caseId为2的用例完毕
+2019-03-20 13:57:32,103 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 13:57:32,103 - INFO -handle_case.py : 163 :get_cases - 关联api解析错误  Expecting value: line 1 column 1 (char 0)
+2019-03-20 13:57:32,103 - INFO -main.py : 318 :before_test - 本次测试共执行1条用例
+2019-03-20 13:57:32,106 - INFO -main.py : 337 :begin_test - 正在执行caseId为2的用例
+2019-03-20 13:57:32,107 - INFO -main.py : 256 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 13:57:32,252 - INFO -main.py : 361 :begin_test - caseId为2的用例完毕
+2019-03-20 13:58:07,832 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 13:58:07,832 - INFO -handle_case.py : 163 :get_cases - 关联api解析错误  Expecting value: line 1 column 1 (char 0)
+2019-03-20 13:58:07,832 - INFO -main.py : 319 :before_test - 本次测试共执行1条用例
+2019-03-20 13:58:07,835 - INFO -main.py : 338 :begin_test - 正在执行caseId为2的用例
+2019-03-20 13:58:07,837 - INFO -main.py : 257 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 13:58:07,973 - INFO -main.py : 362 :begin_test - caseId为2的用例完毕
+2019-03-20 14:05:33,396 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 14:05:33,397 - INFO -handle_case.py : 163 :get_cases - 关联api解析错误  Expecting value: line 1 column 1 (char 0)
+2019-03-20 14:05:33,397 - INFO -main.py : 319 :before_test - 本次测试共执行1条用例
+2019-03-20 14:05:33,401 - INFO -main.py : 338 :begin_test - 正在执行caseId为2的用例
+2019-03-20 14:05:33,403 - INFO -main.py : 257 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 14:05:33,586 - INFO -main.py : 362 :begin_test - caseId为2的用例完毕
+2019-03-20 14:08:44,934 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 14:08:44,934 - INFO -handle_case.py : 163 :get_cases - 关联api解析错误  Expecting value: line 1 column 1 (char 0)
+2019-03-20 14:08:44,934 - INFO -main.py : 321 :before_test - 本次测试共执行1条用例
+2019-03-20 14:08:44,937 - INFO -main.py : 340 :begin_test - 正在执行caseId为2的用例
+2019-03-20 14:08:44,938 - INFO -main.py : 259 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 14:08:45,128 - INFO -main.py : 364 :begin_test - caseId为2的用例完毕
+2019-03-20 14:17:10,204 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 14:17:10,204 - INFO -handle_case.py : 163 :get_cases - 关联api解析错误  Expecting value: line 1 column 1 (char 0)
+2019-03-20 14:17:10,204 - INFO -main.py : 333 :before_test - 本次测试共执行1条用例
+2019-03-20 14:17:10,206 - INFO -main.py : 352 :begin_test - 正在执行caseId为2的用例
+2019-03-20 14:17:10,208 - INFO -main.py : 271 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 14:17:10,359 - INFO -main.py : 376 :begin_test - caseId为2的用例完毕
+2019-03-20 14:28:21,253 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 14:28:21,253 - INFO -handle_case.py : 163 :get_cases - 关联api解析错误  Expecting value: line 1 column 1 (char 0)
+2019-03-20 14:28:21,254 - INFO -main.py : 370 :before_test - 本次测试共执行1条用例
+2019-03-20 14:28:21,258 - INFO -main.py : 389 :begin_test - 正在执行caseId为2的用例
+2019-03-20 14:28:21,261 - INFO -main.py : 302 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 14:28:30,060 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 14:28:30,061 - INFO -handle_case.py : 163 :get_cases - 关联api解析错误  Expecting value: line 1 column 1 (char 0)
+2019-03-20 14:28:30,061 - INFO -main.py : 370 :before_test - 本次测试共执行1条用例
+2019-03-20 14:28:30,063 - INFO -main.py : 389 :begin_test - 正在执行caseId为2的用例
+2019-03-20 14:28:30,064 - INFO -main.py : 302 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 14:28:30,206 - INFO -main.py : 413 :begin_test - caseId为2的用例完毕

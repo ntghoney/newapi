@@ -87,3 +87,7 @@
 #     except JSONDecodeError as e:
 #         print(e)
 #         pass
+
+a=[6,5,4,3,2,1]
+a.reverse()
+print(a)

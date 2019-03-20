@@ -70,7 +70,7 @@ class ConMysql(object):
             datas = self.cursor.fetchone()
         except Exception as e:
             log.error("sql语句错误---->%s,%s" % (sql, e))
-            return {"err":"sql语句错误---->%s" % (sql)}
+            return {"block":"sql语句错误" }
         return datas
 
     def query_all(self, sql):
@@ -84,7 +84,7 @@ class ConMysql(object):
             datas = self.cursor.fetchall()
         except Exception as e:
             log.error("sql语句错误---->%s,%s" % (sql, e))
-            return {"err": "sql语句错误---->%s" % (sql)}
+            return {"block": "sql语句错误" }
         return datas
 
     def insert_data(self, table, **kwargs):
