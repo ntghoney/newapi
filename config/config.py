@@ -4,6 +4,7 @@
 @Date  : 2019/3/15/015 10:08
 '''
 import os
+from qianka_cache import QKCache
 
 CONFIGPATH = os.path.abspath(os.path.dirname(__file__))  # 配置文件路径
 PRODIR = os.path.abspath(os.path.join(CONFIGPATH, "../"))  # 项目路径
@@ -40,7 +41,7 @@ REASON = "reason"
 # 数据库配置信息
 SQLINFO = {
     "local": {
-        "host": "127.0.0.1",
+        "host": "172.16.2.20",
         "port": 3306,
         "user": "root",
         "password": "123456",
@@ -51,7 +52,7 @@ SQLINFO = {
         "port": 3307,
         "user": "root",
         "password": "",
-        "database": "api_test"
+        "database": "zhuanqian"
     }
 }
 

@@ -7,13 +7,16 @@ from utils.handle_case import get_case, get_api, get_excute_case
 from utils.sqls import ConMysql
 from config.config import *
 from utils.parse_config import ParseConfig
-from utils.common import get_current_time, request_api, KeyHeaders, MakeSign
+from utils.common import (get_current_time, request_api,
+                          KeyHeaders, MakeSign, generate_random_str,
+                          login)
 from utils.log import log
-import json, re, time
+import json, re, time, datetime, sys
 from json import JSONDecodeError
 from utils.report import Report
 from utils.html_report import get_html_report
 from utils.hebe_session import HebeSession
+from utils.send_email import send_email_for_all
 
 CASETABLE = "testcase"
 RESULTTABLE = "testresult"
@@ -38,6 +41,8 @@ class Result(object):
         self.expect = None
         self.ispass = "pass"
         self.reason = None
+        if self.ispass == "pass":
+            self.reason = ""
         self.time = get_current_time()
         self.fact = None
         self.databaseResult = None
@@ -85,6 +90,7 @@ def bind_key(session_id):
             log.info("绑定钥匙失败,err_code:%s,payload:%s" % (resp["err_code"], resp["payload"]))
     except:
         log.info("绑定钥匙失败")
+        sys.exit(-1)
 
 
 def install_certificate(sid, db):
@@ -101,6 +107,7 @@ def install_certificate(sid, db):
         log.info("证书安装成功")
     else:
         log.info("证书安装失败")
+        sys.exit(-1)
 
 
 class Run(object):
@@ -112,24 +119,35 @@ class Run(object):
         self.start_time = None
         self.end_time = None
 
-    def __excute_result(self, **kwargs):
-        result = dict()  # 用例执行结果
-        # result.setdefault("statue", 1)  # 执行状态 0：fail，1：success，2：block
-        # 执行状态 0：fail，1：success，2：block
-        result.setdefault("ispass", PASS)
-        result.setdefault("fact", None)  # 用例执行结果
-        result.setdefault("time", get_current_time())
-        result.setdefault("reason", None)  # 执行失败原因，block，fail
-        result.setdefault("databaseResult", None)
-        if kwargs.get("ispass"):
-            result["ispass"] = kwargs.get("ispass")
-        if kwargs.get("time"):
-            result["time"] = kwargs.get("time")
-        if kwargs.get("fact"):
-            result["fact"] = kwargs.get("fact")
-        if kwargs.get("reason"):
-            result["reason"] = kwargs.get("reason")
-        return result
+    def __update_message(self, number):
+        """
+        更新t_user_verify表信息
+        :param number: 用户手机号，从apiParams中获取
+        :return:
+        """
+        result = self.db_server.query_one(
+            "select * from t_user_verify where number ={}"
+                .format(number)
+        )
+        # 十分钟前的时间
+        timedelta = datetime.datetime.now() - datetime.timedelta(minutes=10)
+        if not result:
+            self.db_server.insert_data("t_user_verify",
+                                       number=number,
+                                       call_sid=generate_random_str(32),
+                                       verify="123456",
+                                       date_created=get_current_time(),
+                                       status=1)
+            return
+        if result["date_created"] < timedelta:
+            sql = "update t_user_verify set date_created='{}'where number={}". \
+                format(get_current_time(), number)
+            self.db_server.update_data(sql)
+        if result["status"] == 0:
+            self.db_server.update_data(
+                "update t_user_verify set status=1 where number={}"
+                    .format(number)
+            )
 
     def __replace_params(self, parmas):
         """
@@ -141,6 +159,7 @@ class Run(object):
         p1 = re.compile("\${(.*?)}")
         rp = pc.get_info("related_params")
         s = re.findall(p, parmas)  # 找到${id}整体
+        log.info("参数化前%s" % parmas)
         if not s:
             return parmas
         for i in s:
@@ -151,6 +170,7 @@ class Run(object):
             if v is None:
                 return None
             parmas = parmas.replace(i, v)
+        log.info("参数化后%s" % parmas)
         return parmas
 
     def __parameterize(self, params):
@@ -187,9 +207,6 @@ class Run(object):
             if "$" in params:
                 return True
         return False
-
-    def test(self):
-        self.__excute_case()
 
     def __before_excute(self, case):
         """
@@ -233,25 +250,7 @@ class Run(object):
             if uid and session:
                 cookie = build_cookie(uid=uid, session=session)
                 case[APIHEADERS] = {"cookie": cookie}
-        # # 检查是否参数化
-        # if self.__is_params(api_params):
-        #     api_params = self.__parameterize(api_params)
-        #     if api_params is None:
-        #         d.setdefault("block", "params参数化设置失败")
-        #         return d
-        #     case[PARMAS] = api_params
-        # if self.__is_params(api_sql):
-        #     api_sql = self.__parameterize(api_sql)
-        #     if api_sql is None:
-        #         d.setdefault("block", "sql语句参数化设置失败")
-        #         return d
-        #     case[SQLSTATEMENT] = api_sql
-        # if self.__is_params(api_headers):
-        #     api_headers = self.__parameterize(api_headers)
-        #     if api_headers is None:
-        #         d.setdefault("block", "headers参数化设置失败")
-        #         return d
-        #     case[APIHEADERS] = api_headers
+
         return case
 
     def __begin_paramertrize(self, case):
@@ -297,11 +296,22 @@ class Run(object):
         infos = []
         while related_api is not None:
             if isinstance(related_api, dict):
+                for key, value in related_api.items():
+                    if value == "":
+                        related_api[key] = None
+                    if key == "method":
+                        related_api[key] = value.upper()
                 infos.append(related_api)
                 related_api = related_api.get(RELATEDAPI)
                 continue
             try:
                 related_api = json.loads(related_api, encoding="utf8")
+                for key, value in related_api:
+                    if value == "":
+                        related_api[key] = None
+                    if key == "method":
+                        value = value.upper()
+                        related_api[key] = value
                 infos.append(related_api)
                 related_api = related_api.get(RELATEDAPI)
                 continue
@@ -343,10 +353,10 @@ class Run(object):
         related_api = case.get(RELATEDAPI)
         # 获得关联接口
         related_api_info = self.__get_related_api(related_api)
+        print(related_api)
         # 将当前用例执行的接口信息信息附加在关联接口后
         related_api_info.append(get_api(case))
         # 如果关联接口中的headers信息为空，使用当前用例接口的headers信息
-        # print("关联接口信息%s" % related_api_info)
         log.info("当前接口headers信息为%s" % api_headers)
         log.info("当前用户uid:%s,session:%s")
         for api in related_api_info:
@@ -355,6 +365,12 @@ class Run(object):
             api_params = api.get(PARMAS)
             api_method = api.get(METHOD)
             related_params = api.get(RELEATEDPARAMS)
+            if api_params is not None and \
+                    isinstance(api_params, dict) \
+                    and "phone" in api_params.keys():
+                # self.db_server
+                phone = api_params.get("phone")
+                self.__update_message(phone)
             if api_host is None or api_method is None:
                 return {"error": "接口信息不完整"}
             if api.get(APIHEADERS) is None:
@@ -371,32 +387,44 @@ class Run(object):
                 s_id = re.findall(dis_p, h)[-1]
                 api_headers = {"cookie": "DIS4=%s" % s_id}
                 log.info("调用%s接口，headers信息改变，为%s" % (api_host, api_headers))
-
+            if isinstance(res, dict) and res.get("error"):
+                return {"code": "error",
+                        "status_code": 10086,
+                        "response": res.get("error")}
             # 处理关联参数
             try:
                 response = res.json()
+                if related_params is not None:
+                    related_params = related_params.split(",")
+                    for rp in related_params:
+                        if "." not in rp:
+                            if response.get(rp) is not None:
+                                pc.wirte_info("related_params", rp, str(response.get(rp)))
+                            continue
+                        temp_res = response
+                        for i in rp.split("."):
+                            temp_res = temp_res.get(i)
+                            if not isinstance(temp_res, dict):
+                                # json数组,取第一个json作为关联参数
+                                if isinstance(temp_res, list):
+                                    temp_res = temp_res[0]
+                                    continue
+                                pc.wirte_info("related_params", rp, str(temp_res))
+                            if temp_res is None:
+                                continue
                 # 遍历到最后一个接口，即当前用例接口
                 if related_api_info.index(api) == len(related_api_info) - 1:
-                    return response
-                if related_params is None:
-                    continue
-                related_params = related_params.split(",")
-                for rp in related_params:
-                    if "." not in rp:
-                        if response.get(rp) is not None:
-                            pc.wirte_info("related_params", rp, str(response.get(rp)))
-                        continue
-                    temp_res = response
-                    for i in rp.split("."):
-                        temp_res = temp_res.get(i)
-                        if not isinstance(temp_res, dict):
-                            pc.wirte_info("related_params", rp, str(temp_res))
-                        if temp_res is None:
-                            continue
-            except JSONDecodeError:
+                    # 用例执行完毕后再次参数化
+                    self.__begin_paramertrize(case)
+                    return {"code": "success",
+                            "status_code": res.status_code,
+                            "response": response}
+            except (JSONDecodeError, TypeError):
                 log.info("当前接口%s返回%s,无法转换为json，参数化失败"
                          % (api.get(APIID), res))
-                return {"error": res}
+                return {"code": "error",
+                        "status_code": res.status_code,
+                        "response": "status_code=%s" % res.status_code}
 
     def __prapare_data(self, data):
         """
@@ -422,6 +450,12 @@ class Run(object):
                 pass
 
     def before_test(self):
+        # 登陆,创建一个新用户作为本次测试的用户
+        user_info = login()
+        # 写入配置文件
+        if user_info:
+            pc.wirte_info("user", "session", user_info["sid"])
+            pc.wirte_info("user", "uid", user_info["uid"])
         # 清除数据库信息
         self.db_local.truncate_data(APITABLE)
         self.db_local.truncate_data(CASETABLE)
@@ -435,7 +469,6 @@ class Run(object):
         install_certificate(s_id, self.db_server)
         # 获得本次测试执行的用例
         self.cases = get_excute_case(all_case)
-        print(self.cases)
         log.info("本次测试共执行%s条用例" % len(self.cases))
         if not self.cases:
             log.error("用例为空，无匹配格式的.xlsx文件或文件中暂无用例数据")
@@ -494,7 +527,7 @@ class Run(object):
         # 生成excel报告
         report = Report()
         report.set_result_info(result_info)
-        report.get_report(result_set)
+        exc_path = report.get_report(result_set)
 
         # 生成html报告
         import datetime
@@ -512,6 +545,12 @@ class Run(object):
         )
         self.db_local.close()
         self.db_server.close()
+
+        # 测试完成发送邮件
+        if fail_case == 0 and block_case == 0:
+            send_email_for_all(
+                msg=result_info,
+                part_path=[exc_path, html_path])
 
     def begin_test(self):
         result_set = []  # 用例执行结果集
@@ -534,7 +573,7 @@ class Run(object):
 
             # 请求接口
             res = self.__excute_case(case)
-            result.fact = res
+            result.fact = res.get("response")
             # 验证检查点
             self.__check_point(
                 points=check_points,
@@ -560,13 +599,27 @@ class Run(object):
         """
         assert isinstance(result, Result)
         # 执行用例前，不符合用例书写规则的用例执行结果全部定位block
+        print(res)
+        if res.get("code") == "error":
+            result.ispass = FAIL
+            result.reason = res.get("response")
+            return
         if res.get("block"):
             result.ispass = "block"
             result.reason = res.get("block")
             return
         if result.ispass != "pass":
             return
+        status_code = res.get("status_code")
+        res = res.get("response")
         for key, value in points.items():
+            if key == "status_code":
+                if str(value) != str(status_code):
+                    reason = "status_code预期为%s,实际为%s" % (value, status_code)
+                    result.ispass = FAIL
+                    result.reason = reason
+                    return
+                return
             # 简单检查点 eg:err_code=0
             if "." not in key:
                 if res.get(key) is None:
@@ -576,7 +629,7 @@ class Run(object):
                     return
                 if str(res.get(key)) != str(value):
                     reason = "检查点%s预期结果为:%s,实际结果为:%s" % (
-                        key, str(res.get(key)), value)
+                        key, value, str(res.get(key)))
                     result.ispass = FAIL
                     result.reason = reason
                     return
@@ -680,12 +733,13 @@ class Run(object):
                     return
 
     def run(self):
-        # 执行前
+        # 执行前d
         self.before_test()
         # 执行
         result_set = self.begin_test()
         # 执行完毕生成报告,清除数据
         self.after_test(result_set)
+        #
 
 
 if __name__ == '__main__':

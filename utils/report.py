@@ -162,7 +162,7 @@ class Report(object):
             self.write_line(row, res)
             row += 1
         self.workbook.save(self.reportPath)
-        return self.reportPath,self.report_name
+        return self.reportPath
 
 
 if __name__ == '__main__':

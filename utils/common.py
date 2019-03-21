@@ -6,13 +6,14 @@
 
 from configparser import ConfigParser
 import decimal, json
-import requests,datetime
+import requests, datetime
 from config.config import ENV
 from utils.log import log
 import time
 from utils.md5Helper import digest_helper
 from config.config import SHARED_KEYS_MAPPING
-import hashlib
+import hashlib, random
+
 
 class MyConf(ConfigParser):
     def __init__(self, defaults=None):
@@ -55,6 +56,26 @@ class __Http(object):
         return self.bind
 
 
+def login(bind="fp01"):
+    from json import JSONDecodeError
+    import re
+    dis_p = re.compile(r"DIS4=(.*?);")
+    res = request_api(
+        host="s5/create_user",
+        my_params={},
+        my_headers={},
+        request_method="POST",
+        bind=bind
+    )
+    try:
+        uid = res.json()["payload"]["uid"]
+        s_id = re.findall(dis_p, res.headers["Set-Cookie"])[-1]
+        return {"uid": str(uid), "sid": str(s_id)}
+    except (TypeError, JSONDecodeError):
+        log.info("登陆失败")
+        return None
+
+
 def request_api(host, my_params, my_headers, request_method, bind="fp01"):
     """
     接口请求
@@ -66,7 +87,7 @@ def request_api(host, my_params, my_headers, request_method, bind="fp01"):
         res = http.get(host, params=my_params, headers=my_headers)
     else:
         log.error("ERRRR:暂不支持%s这种请求方式" % request_method)
-        return "ERRRR：暂不支持%s这种请求方式" % request_method
+        return {"error": "暂不支持%s这种请求方式" % request_method}
         # 如果调用创建用户或登录接口，将headers信息写入配置文件
     return res
 
@@ -91,6 +112,20 @@ def get_token_by_idfa(idfa):
         return ''
 
     return digest_helper.md5(idfa)
+
+
+def generate_random_str(randomlength=16):
+    """
+    生成一个指定长度的随机字符串
+    :param randomlength: 指定长度，默认16
+    :return:random_str str
+    """
+    random_str = ''
+    base_str = 'ABCDEFGHIGKLMNOPQRSTUVWXYZabcdefghigklmnopqrstuvwxyz0123456789'
+    length = len(base_str) - 1
+    for i in range(randomlength):
+        random_str += base_str[random.randint(0, length)]
+    return random_str
 
 
 class MakeSign(object):
@@ -146,8 +181,8 @@ class KeyHeaders(object):
         # uuid = '000007A8-26B2-4749-AFF3-0435B6ED525E'
         # self._idfa = idfa
         self._sid = sid
-        self._uuid=kwargs.get("uuid", '000007A8-26B2-4749-AFF3-0435B6ED525E')
-        self._idfa=kwargs.get("idfa", 'A624A1D7-E227-431A-8413-E50638B56C0A')
+        self._uuid = kwargs.get("uuid", '000007A8-26B2-4749-AFF3-0435B6ED525E')
+        self._idfa = kwargs.get("idfa", 'A624A1D7-E227-431A-8413-E50638B56C0A')
         self._bundle_id = kwargs.get('bundle_id', 'com.qqsp.app')
         self._api_key = kwargs.get('api_key',
                                    'c26007f41f472932454ea80deabd612c')

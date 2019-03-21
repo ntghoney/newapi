@@ -51,13 +51,27 @@ class ConMysql(object):
         """
         self.execute_sql("TRUNCATE TABLE {}".format(table))
 
+    # def execute_sql(self, sql):
+    #     """
+    #     执行sql
+    #     :param sql:
+    #     :return:
+    #     """
+    #     self.cursor.execute(sql)
+
     def execute_sql(self, sql):
         """
         执行sql
         :param sql:
         :return:
         """
-        self.cursor.execute(sql)
+        try:
+            rv = self.cursor.execute(sql)
+            self.conn.commit()
+            return rv
+        except Exception as e:
+            print(e)
+            log.error("sql语句错误---->{}".format(sql))
 
     def query_one(self, sql):
         """
@@ -70,7 +84,7 @@ class ConMysql(object):
             datas = self.cursor.fetchone()
         except Exception as e:
             log.error("sql语句错误---->%s,%s" % (sql, e))
-            return {"block":"sql语句错误" }
+            return {"block": "sql语句错误"}
         return datas
 
     def query_all(self, sql):
@@ -84,7 +98,7 @@ class ConMysql(object):
             datas = self.cursor.fetchall()
         except Exception as e:
             log.error("sql语句错误---->%s,%s" % (sql, e))
-            return {"block": "sql语句错误" }
+            return {"block": "sql语句错误"}
         return datas
 
     def insert_data(self, table, **kwargs):
@@ -97,18 +111,18 @@ class ConMysql(object):
         from utils.common import MyEncoder
         sql = "INSERT INTO %s SET " % table
         for key, value in kwargs.items():
-            if key==TESTDATA:
+            if key == TESTDATA:
                 continue
-            if value is None :
+            if value is None:
                 sql += " %s=Null," % (key)
-            elif isinstance(value,str):
+            elif isinstance(value, str):
                 sql += """ %s="%s",""" % (key, value)
-            elif isinstance(value,dict):
-                value=json.dumps(value,ensure_ascii=False,cls=MyEncoder)
+            elif isinstance(value, dict):
+                value = json.dumps(value, ensure_ascii=False, cls=MyEncoder)
                 sql += " %s='%s'," % (key, value)
-            elif isinstance(value,list):
-                value=str(value)
-                sql+=""" %s="%s", """% (key, value)
+            elif isinstance(value, list):
+                value = str(value)
+                sql += """ %s="%s", """ % (key, value)
             else:
                 sql += " %s=%s," % (key, value)
         sql = sql[:-1]
