@@ -86,3 +86,29 @@ SHARED_KEYS_MAPPING = {
     'c26007f41f472932454ea80deabd612c': 'aa005ddfcdfed328878fb81e76cc2969',
     '16b9b1a405fd772ba74549d8b53c3454': 'df240a556341ba71b277e1b298c384e3'
 }
+
+"""
+缓存配置
+"""
+cache = QKCache()
+cache.configure({
+    "CACHE_ENABLED":True,
+    "CACHE_KEY_PREFIX" :'hera:',
+    "CACHE_NODES":{
+          'session':('redis',['redis://fp01.ops.gaoshou.me:6380/0'])
+          # with weight
+        }
+})
+
+"""
+Session UDID UserID相关
+"""
+SESSION_CACHE_KEY = 'sid:info:%s'  # SessionID , 保存当前 SessionID 下的 UDID ，UserID
+SESSION_UID_CACHE_KEY = 'user:sid:%s'  # UserID , 保存当前用户所使用的 SessionID
+IDFA_SESSION_CACHE_KEY = 'idfa:session:%s'  # DIFA对应的最后session id
+UID_UDID_CACHE_KEY = 'user:udid:%s'  # UserID , 保存用户的 UDID
+
+USER_LAST_IDFA_KEY = 'user_last_idfa:%s'  # UserID 保存用户最后一个idfa
+
+# 标识执行了SDK的任务可以完成
+KEY_SDK_IDFA_BUNDLEID = 'sdk_idfa_bundleid:%s:%s'

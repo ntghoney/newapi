@@ -13,6 +13,7 @@ import json, re, time
 from json import JSONDecodeError
 from utils.report import Report
 from utils.html_report import get_html_report
+from utils.hebe_session import HebeSession
 
 CASETABLE = "testcase"
 RESULTTABLE = "testresult"
@@ -84,6 +85,22 @@ def bind_key(session_id):
             log.info("绑定钥匙失败,err_code:%s,payload:%s" % (resp["err_code"], resp["payload"]))
     except:
         log.info("绑定钥匙失败")
+
+
+def install_certificate(sid, db):
+    """
+    安装证书
+    :param sid:session_id
+    :return:
+    """
+    cu = HebeSession(db)
+    udid = "udid07A8-26B2-4749-AFF3-0435B6ED525"
+    cu.bind_sid_udid(sid=sid, udid=udid)
+    info = cu.get_session_info(sid)
+    if info.get("udid", "") == udid:
+        log.info("证书安装成功")
+    else:
+        log.info("证书安装失败")
 
 
 class Run(object):
@@ -414,6 +431,8 @@ class Run(object):
         s_id = pc.get_info("user").get("session")
         # 绑定钥匙
         bind_key(s_id)
+        # 安装证书
+        install_certificate(s_id, self.db_server)
         # 获得本次测试执行的用例
         self.cases = get_excute_case(all_case)
         print(self.cases)
@@ -548,7 +567,7 @@ class Run(object):
         if result.ispass != "pass":
             return
         for key, value in points.items():
-            #简单检查点
+            # 简单检查点 eg:err_code=0
             if "." not in key:
                 if res.get(key) is None:
                     reason = "返回结果中没有检查点字段%s" % key
@@ -562,10 +581,11 @@ class Run(object):
                     result.reason = reason
                     return
             temp_res = res
+            # 多重json，eg:payload.uid=12345
             for point in key.split("."):
                 temp_res = temp_res.get(point)
                 if not isinstance(temp_res, dict):
-                    # json数组检查点
+                    # json数组检查点 eg:payload.tasks=id:(1,2,3)
                     if isinstance(temp_res, list):
                         k, v = value.split("=")
                         p = re.compile(r"\((.*?)\)")
