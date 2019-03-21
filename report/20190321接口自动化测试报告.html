@@ -1,0 +1,356 @@
+
+            <!DOCTYPE html>
+            <html>
+                <head>
+                    
+                <title>2019/03/21接口自动化测试报告</title>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                
+ <style type="text/css">
+        .hidden-detail, .hidden-tr {
+            display: none;
+        }
+        table{
+            width: 100%;
+        }
+        a{
+            color: darkcyan;
+            text-underline: none;
+        }
+        .tr_sign {
+            background: grey;
+        }
+
+        #result_table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        #result_table th,#result_table td{
+            padding: 8px;
+            line-height: 20px;
+            text-align: left;
+            border: 1px solid #ddd;
+            width: 100px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+        .tr_success{
+            background:#fff;
+        }
+        .tr_block{
+            background: darkgray;
+        }
+        .tr_fail{
+            background: lightgrey;
+        }
+        .table {
+            width: 100%;
+            margin-bottom: 20px
+        }
+
+        .table th, .table td {
+            padding: 8px;
+            line-height: 20px;
+            text-align: left;
+            border-top: 1px solid #ddd
+        }
+
+        .table th {
+            font-weight: bold
+        }
+
+
+        .div_top {
+            width: 41.66666667%;
+            margin-top: 56px;
+            margin-left: 45px;
+        }
+
+        .div_content {
+            margin-top: 1px;
+            margin-left: 45px;
+            margin-right: 45px;
+        }
+
+        .button {
+            display: inline-block;
+            margin-bottom: 0;
+            font-weight: normal;
+            text-align: center;
+            vertical-align: middle;
+            -ms-touch-action: manipulation;
+            touch-action: manipulation;
+            cursor: pointer;
+            background-image: none;
+            border: 1px solid transparent;
+            white-space: nowrap;
+            padding: 8px 12px;
+            font-size: 15px;
+            line-height: 1.4;
+            border-radius: 14px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none
+        }
+
+        .btns {
+            position: relative;
+            display: inline-block;
+            *display: inline;
+            *margin-left: .3em;
+            font-size: 0;
+            white-space: nowrap;
+            vertical-align: middle;
+            *zoom: 1
+        }
+
+        .button-primary {
+            -webkit-background-size: 200% 200%;
+            background-size: 200%;
+            background-position: 50%
+        }
+
+        .button-primary {
+            -webkit-background-size: 200% 200%;
+            background-size: 200%;
+            background-position: 50%;
+            background-color: #2196f3
+        }
+
+        .button-primary:focus {
+            background-color: #2196f3
+        }
+
+        .button-primary:hover, .button-primary:active:hover {
+            background-color: #0d87e9
+        }
+
+        .button-primary:active {
+            background-color: #0b76cc;
+            background-image: -webkit-radial-gradient(circle, #0b76cc 10%, #2196f3 11%);
+            background-image: -o-radial-gradient(circle, #0b76cc 10%, #2196f3 11%);
+            background-image: radial-gradient(circle, #0b76cc 10%, #2196f3 11%);
+            background-repeat: no-repeat;
+            -webkit-background-size: 1000% 1000%;
+            background-size: 1000%;
+            -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4)
+        }
+
+        .button-success {
+            -webkit-background-size: 200% 200%;
+            background-size: 200%;
+            background-position: 50%;
+            background-color: #4caf50
+        }
+
+        .button-success:focus {
+            background-color: #4caf50
+        }
+
+        .button-success:hover, .btn-success:active:hover {
+            background-color: #439a46
+        }
+
+        .button-success:active {
+            background-color: #39843c;
+            background-image: -webkit-radial-gradient(circle, #39843c 10%, #4caf50 11%);
+            background-image: -o-radial-gradient(circle, #39843c 10%, #4caf50 11%);
+            background-image: radial-gradient(circle, #39843c 10%, #4caf50 11%);
+            background-repeat: no-repeat;
+            -webkit-background-size: 1000% 1000%;
+            background-size: 1000%;
+            -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4)
+        }
+
+        .button_block {
+            -webkit-background-size: 200% 200%;
+            background-size: 200%;
+            background-position: 50%;
+            background-color: #ff9800
+        }
+
+        .button_block:focus {
+            background-color: #ff9800
+        }
+
+        .button_block:hover, .btn-warning:active:hover {
+            background-color: #e08600
+        }
+
+        .button_block:active {
+            background-color: #c27400;
+            background-image: -webkit-radial-gradient(circle, #c27400 10%, #ff9800 11%);
+            background-image: -o-radial-gradient(circle, #c27400 10%, #ff9800 11%);
+            background-image: radial-gradient(circle, #c27400 10%, #ff9800 11%);
+            background-repeat: no-repeat;
+            -webkit-background-size: 1000% 1000%;
+            background-size: 1000%;
+            -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4)
+        }
+
+        .button_fail {
+            -webkit-background-size: 200% 200%;
+            background-size: 200%;
+            background-position: 50%;
+            background-color: #e51c23
+        }
+
+        .button_fail:focus {
+            background-color: #e51c23
+        }
+
+        .button_fail:hover, .btn-danger:active:hover {
+            background-color: #cb171e
+        }
+
+        .button_fail:active {
+            background-color: #b0141a;
+            background-image: -webkit-radial-gradient(circle, #b0141a 10%, #e51c23 11%);
+            background-image: -o-radial-gradient(circle, #b0141a 10%, #e51c23 11%);
+            background-image: radial-gradient(circle, #b0141a 10%, #e51c23 11%);
+            background-repeat: no-repeat;
+            -webkit-background-size: 1000% 1000%;
+            background-size: 1000%;
+            -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4)
+        }
+
+    </style>
+
+           
+                </head>
+                <body>
+                    
+            <div class='div_top'>
+        <h1>接口测试结果</h1>
+        <table class="table">
+            <tbody>
+            <tr>
+                <td><strong>开始时间:2019/03/21 09:54:39</td>
+            </tr>
+            <td><strong>结束时间:</strong> 2019/03/21 09:54:40</td>
+            </tr>
+            <td><strong>耗时:</strong> 0.4231259822845459</td>
+            </tr>
+            <td>
+                <strong>结果:</strong>
+                <span>总共:
+                <strong>1</strong>
+                <span>通过:
+                <strong>1</strong>
+                失败:
+                <strong>0</strong>
+                阻塞:
+                <strong>0</strong>
+            </td>
+            </tbody>
+        </table>
+    </div>
+        
+                    <div class="div_content">
+                <div>
+                    <div class="btns" role="group" aria-label="...">
+                        <button type="button" id="check-all" class="button button-primary">所有用例</button>
+                        <button type="button" id="check-success" class="button button-success">成功用例</button>
+                        <button type="button" id="check-fail" class="button button_fail">失败用例</button>
+                        <button type="button" id="check-block" class="button button_block">阻塞用例</button>
+                    </div>
+                    <!--<div class="btn-group" role="group" aria-label="...">-->
+                    <!--</div>-->
+                    <table id="result_table">
+                        <tr>
+                            <td class="tr_sign"><strong>用例ID&nbsp;</strong></td>
+                            <td class="tr_sign"><strong>描述</strong></td>
+                            <td class="tr_sign"><strong>url</strong></td>
+                            <td class="tr_sign"><strong>请求方式</strong></td>
+                            <td class="tr_sign"><strong>参数</strong></td>
+                            <td class="tr_sign"><strong>预期结果</strong></td>
+                            <td class="tr_sign"><strong>实际结果</strong></td>
+                            <td class="tr_sign"><strong>sql查询结果</strong></td>
+                            <td class="tr_sign"><strong>sql查询期望</strong></td>
+                            <td class="tr_sign"><strong>测试判定</strong></td>
+                            <td class="tr_sign"><strong>测试时间</strong></td>
+                            <td class="tr_sign"><strong>失败原因</strong></td>
+                        </tr>
+        
+                    <tr class="tr_success ">
+               <td>3</td>
+               <td>sss</td>
+               <td>/s4/lite.subtask.list</td>
+               <td>GET</td>
+               <td>None</td>
+               <td>{"err_code": "0", "payload.tasks": "id=(249166,249161,249158)"}</td>
+               <td>{"err_code": 0, "err_msg": "", "messages": [], "payload": {"bonus_task_right": 0, "bonus_tasks": {}, "coupon_number": 0, "credit_task_id": 0, "downloaded_tasks": [], "easy": [], "easy_incoming": [], "eggs_task_status": 0, "explore_task_info": {"date_str": "明天", "icons": [], "total": 0, "total_reward": 0}, "finsh_easy_limit_times": 0, "finsh_task_limit_times": 0, "games": null, "has_success_convert": 0, "in_compare": {"incoming": 0, "newbie": 0, "tasks": 0}, "incoming": [], "is_jail_broken": 0, "is_reservation": 1, "kagou_link": "", "missed_reward": 0, "newbie": [], "promotions": [], "reservation_tasks": [], "shoutu_v5_9_open": 1, "show_borrow": 0, "show_often_look": 0, "show_push": 0, "show_recommends": 0, "tasks": [{"appstore_cost": "0.00", "bid": "com.yunshi.xiekangzonghezhishuiappstore", "icon": "https://upload.qkcdn.com/7f22a07738dfd6350f33835b6d9c904c.jpg", "id": 249166, "is_quality": 0, "qty": 743, "reward": "1.50", "status": 1, "status_for_order": 2, "tags": ["剩743份"], "title": "综***", "type": 1, "zs_reward": "0.00"}, {"appstore_cost": "0.00", "bid": "com.nbglsoft.lwol", "icon": "https://upload.qkcdn.com/b6ddf7e141e83b7b71bb2ea25c691791.jpg", "id": 249161, "is_quality": 0, "qty": 52, "reward": "1.50", "status": 1, "status_for_order": 2, "tags": ["剩52份"], "title": "攻***", "type": 1, "zs_reward": "0.00"}, {"appstore_cost": "0.00", "bid": "com.jot.LingQianXiangJie", "icon": "https://upload.qkcdn.com/10b53d3c3a83ac4c9d0a2552651a11e6.jpg", "id": 249158, "is_quality": 0, "qty": 576, "reward": "1.50", "status": 1, "status_for_order": 2, "tags": ["剩576份"], "title": "灵***", "type": 1, "zs_reward": "0.00"}], "type": "normal", "weishang_url": "", "xing_shoutu_switch": 0, "yl_huan_info": {"miniprogram_type": 1, "path": "/pages/index%3Fqk_uid%3D51230182%26source%3Dqk%26sign%3D2A305A3DC8", "username": "gh_3cf20e1090fe", "wx_app_id": ""}, "zs_task_info": {"date_str": "", "icons": [], "total": 0, "total_reward": 0}}}</td>
+               <td>None</td>
+               <td>None</td>
+             <td bgcolor="green">pass</td>
+               <td>2019/03/21 09:54:39</td>
+               <td>None</td>
+           </tr>
+            
+</table></div></div>
+                    
+      <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="https://cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+            $("#result_table td").each(function (i) {
+                var text = $(this).text();
+                //获取td当前对象的文本,如果长度大于5;
+                if (text.length > 50) {
+                    //给td设置title属性,并且设置td的完整值.给title属性.
+                    $(this).attr("title", $(this).text());
+                    var showText = text.substring(0, 50);
+                    var hidderText = text.substring(50, text.length );
+                    var newText = $(this).text().substring(0, 50) + "<span>...</span><span style='display:none;'>" + 
+                    hidderText + "</span><br><a>显示全部</a>";
+                    //重新为td赋值;
+                    $(this).html(newText);
+                }
+            });
+            $("#result_table td a").each(function (i) {
+                $(this).click(function () {
+                    var text = $(this).text();
+                    if ("显示全部" === text) {
+                        $(this).prev().prev().prev().hide();
+                        $(this).prev().prev().show();
+                        $(this).text("收起");
+                    }
+                    if ("收起" === text) {
+                        $(this).prev().prev().prev().show()
+                        $(this).prev().prev().hide();
+                        $(this).text("显示全部");
+                    }
+                });
+            });
+            $("#check-all").click(function (e) {
+                $(".tr_success").show();
+                $(".tr_block").show();
+                $(".tr_fail").show();
+            });
+            $("#check-success").click(function (e) {
+                $(".tr_success").show();
+                $(".tr_block").hide();
+                $(".tr_fail").hide();
+            });
+            $("#check-fail").click(function (e) {
+                $(".tr_success").hide();
+                $(".tr_block").hide();
+                $(".tr_fail").show();
+            });
+           $("#check-block").click(function (e) {
+                $(".tr_success").hide();
+                $(".tr_block").show();
+                $(".tr_fail").hide();
+            });
+        </script>
+    
+                </body>
+            </html>
+        

@@ -81,3 +81,8 @@ ENV={
     "fp03":"http://fp03.ops.gaoshou.me/",
     "test":"https://www.baidu.com/"
 }
+
+SHARED_KEYS_MAPPING = {
+    'c26007f41f472932454ea80deabd612c': 'aa005ddfcdfed328878fb81e76cc2969',
+    '16b9b1a405fd772ba74549d8b53c3454': 'df240a556341ba71b277e1b298c384e3'
+}

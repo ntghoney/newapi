@@ -94,6 +94,7 @@ class ConMysql(object):
         :param kwargs: (字段=value)
         :return:
         """
+        from utils.common import MyEncoder
         sql = "INSERT INTO %s SET " % table
         for key, value in kwargs.items():
             if key==TESTDATA:
@@ -101,10 +102,13 @@ class ConMysql(object):
             if value is None :
                 sql += " %s=Null," % (key)
             elif isinstance(value,str):
-                sql += " %s='%s'," % (key, value)
+                sql += """ %s="%s",""" % (key, value)
             elif isinstance(value,dict):
-                value=json.dumps(value,ensure_ascii=False)
+                value=json.dumps(value,ensure_ascii=False,cls=MyEncoder)
                 sql += " %s='%s'," % (key, value)
+            elif isinstance(value,list):
+                value=str(value)
+                sql+=""" %s="%s", """% (key, value)
             else:
                 sql += " %s=%s," % (key, value)
         sql = sql[:-1]

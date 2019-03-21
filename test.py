@@ -88,6 +88,7 @@
 #         print(e)
 #         pass
 
-a=[6,5,4,3,2,1]
-a.reverse()
-print(a)
+import re
+vv =['249166', '249161', '249158']
+v   =['249166', '249161', '249158']
+print(v in vv)

@@ -135,6 +135,8 @@ class Report(object):
         :param result:
         :return: reportPath：报告保存路径 report_name：报告名字
         """
+        import json
+        from utils.common import MyEncoder
         ncols = self.reportNcols
         row = 3  # 从第二行写入用例执行情况
         # 设置测试报告列宽
@@ -149,6 +151,14 @@ class Report(object):
         # 写如用例执行情况
         log.info("正在写入用例执行情况")
         for res in result:
+            for key,value in res.items():
+                if isinstance(value,dict):
+                    value=json.dumps(value,ensure_ascii=False,cls=MyEncoder)
+                    res[key]=value
+                if value is None:
+                    value="None"
+                    res[key]=value
+
             self.write_line(row, res)
             row += 1
         self.workbook.save(self.reportPath)

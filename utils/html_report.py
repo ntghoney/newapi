@@ -397,7 +397,7 @@ def test_detail(*details):
     return s + "\n</table></div></div>"
 
 
-def html_body(total, starttime, endtime, during, passd, fail, block, titles, details):
+def get_html_report(total, starttime, endtime, during, passd, fail, block, titles, details):
     h_head = html_head(titles)
     text = """
             <!DOCTYPE html>

@@ -841,3 +841,697 @@
 2019-03-20 14:28:30,063 - INFO -main.py : 389 :begin_test - 正在执行caseId为2的用例
 2019-03-20 14:28:30,064 - INFO -main.py : 302 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
 2019-03-20 14:28:30,206 - INFO -main.py : 413 :begin_test - caseId为2的用例完毕
+2019-03-20 14:56:12,814 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 14:56:12,815 - INFO -handle_case.py : 163 :get_cases - 关联api解析错误  Expecting value: line 1 column 1 (char 0)
+2019-03-20 14:56:12,815 - INFO -main.py : 372 :before_test - 本次测试共执行1条用例
+2019-03-20 14:56:12,819 - INFO -main.py : 391 :begin_test - 正在执行caseId为2的用例
+2019-03-20 14:56:12,821 - INFO -main.py : 298 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 14:56:12,821 - INFO -main.py : 299 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 14:56:12,822 - ERROR -common.py : 59 :request_api - ERRRR:暂不支持None这种请求方式
+2019-03-20 15:00:17,323 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 15:00:17,323 - INFO -handle_case.py : 163 :get_cases - 关联api解析错误  Expecting value: line 2 column 1 (char 1)
+2019-03-20 15:00:17,323 - INFO -handle_case.py : 163 :get_cases - 关联api解析错误  Expecting value: line 1 column 1 (char 0)
+2019-03-20 15:00:17,323 - INFO -main.py : 374 :before_test - 本次测试共执行1条用例
+2019-03-20 15:00:17,326 - INFO -main.py : 393 :begin_test - 正在执行caseId为2的用例
+2019-03-20 15:01:04,587 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 15:01:04,587 - INFO -handle_case.py : 163 :get_cases - 关联api解析错误  Expecting value: line 2 column 1 (char 1)
+2019-03-20 15:01:04,587 - INFO -handle_case.py : 163 :get_cases - 关联api解析错误  Expecting value: line 1 column 1 (char 0)
+2019-03-20 15:01:04,587 - INFO -main.py : 375 :before_test - 本次测试共执行1条用例
+2019-03-20 15:01:04,590 - INFO -main.py : 394 :begin_test - 正在执行caseId为2的用例
+2019-03-20 15:01:37,934 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 15:01:37,935 - INFO -handle_case.py : 163 :get_cases - 关联api解析错误  Expecting value: line 2 column 1 (char 1)
+2019-03-20 15:01:37,935 - INFO -handle_case.py : 163 :get_cases - 关联api解析错误  Expecting value: line 1 column 1 (char 0)
+2019-03-20 15:01:37,935 - INFO -main.py : 375 :before_test - 本次测试共执行1条用例
+2019-03-20 15:01:37,940 - INFO -main.py : 394 :begin_test - 正在执行caseId为2的用例
+2019-03-20 15:03:41,749 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 15:03:41,750 - INFO -main.py : 374 :before_test - 本次测试共执行1条用例
+2019-03-20 15:03:41,753 - INFO -main.py : 393 :begin_test - 正在执行caseId为2的用例
+2019-03-20 15:04:48,780 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 15:04:48,780 - INFO -main.py : 375 :before_test - 本次测试共执行1条用例
+2019-03-20 15:04:48,783 - INFO -main.py : 394 :begin_test - 正在执行caseId为2的用例
+2019-03-20 15:05:25,221 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 15:05:25,222 - INFO -main.py : 374 :before_test - 本次测试共执行1条用例
+2019-03-20 15:05:25,225 - INFO -main.py : 393 :begin_test - 正在执行caseId为2的用例
+2019-03-20 15:05:25,226 - INFO -main.py : 298 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 15:05:25,226 - INFO -main.py : 299 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 15:05:40,614 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 15:05:40,614 - INFO -main.py : 374 :before_test - 本次测试共执行1条用例
+2019-03-20 15:05:40,617 - INFO -main.py : 393 :begin_test - 正在执行caseId为2的用例
+2019-03-20 15:08:09,461 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 15:08:09,461 - INFO -main.py : 374 :before_test - 本次测试共执行1条用例
+2019-03-20 15:08:09,465 - INFO -main.py : 393 :begin_test - 正在执行caseId为2的用例
+2019-03-20 15:10:11,836 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 15:10:11,837 - INFO -main.py : 374 :before_test - 本次测试共执行1条用例
+2019-03-20 15:10:11,841 - INFO -main.py : 393 :begin_test - 正在执行caseId为2的用例
+2019-03-20 15:10:11,843 - INFO -main.py : 298 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 15:10:11,843 - INFO -main.py : 299 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 15:12:33,283 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 15:12:33,283 - INFO -main.py : 374 :before_test - 本次测试共执行1条用例
+2019-03-20 15:12:33,286 - INFO -main.py : 393 :begin_test - 正在执行caseId为2的用例
+2019-03-20 15:12:33,288 - INFO -main.py : 298 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 15:12:33,288 - INFO -main.py : 299 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 15:12:33,637 - INFO -main.py : 417 :begin_test - caseId为2的用例完毕
+2019-03-20 15:13:04,806 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 15:13:04,806 - INFO -main.py : 374 :before_test - 本次测试共执行1条用例
+2019-03-20 15:13:04,809 - INFO -main.py : 393 :begin_test - 正在执行caseId为2的用例
+2019-03-20 15:13:04,810 - INFO -main.py : 417 :begin_test - caseId为2的用例完毕
+2019-03-20 15:13:23,605 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 15:13:23,605 - INFO -main.py : 374 :before_test - 本次测试共执行1条用例
+2019-03-20 15:13:23,608 - INFO -main.py : 393 :begin_test - 正在执行caseId为2的用例
+2019-03-20 15:13:23,610 - INFO -main.py : 298 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 15:13:23,610 - INFO -main.py : 299 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 15:13:23,911 - INFO -main.py : 417 :begin_test - caseId为2的用例完毕
+2019-03-20 15:13:41,654 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 15:13:41,655 - INFO -main.py : 374 :before_test - 本次测试共执行1条用例
+2019-03-20 15:13:41,658 - INFO -main.py : 393 :begin_test - 正在执行caseId为2的用例
+2019-03-20 15:13:41,659 - INFO -main.py : 298 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 15:13:41,659 - INFO -main.py : 299 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 15:13:41,908 - INFO -main.py : 417 :begin_test - caseId为2的用例完毕
+2019-03-20 15:16:53,520 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 15:16:53,521 - INFO -main.py : 373 :before_test - 本次测试共执行1条用例
+2019-03-20 15:16:53,524 - INFO -main.py : 392 :begin_test - 正在执行caseId为2的用例
+2019-03-20 15:16:53,526 - INFO -main.py : 297 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 15:16:53,526 - INFO -main.py : 298 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 15:16:53,808 - INFO -main.py : 416 :begin_test - caseId为2的用例完毕
+2019-03-20 15:19:28,646 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 15:19:28,647 - INFO -main.py : 372 :before_test - 本次测试共执行1条用例
+2019-03-20 15:19:28,650 - INFO -main.py : 391 :begin_test - 正在执行caseId为2的用例
+2019-03-20 15:19:28,651 - INFO -main.py : 296 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 15:19:28,652 - INFO -main.py : 297 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 15:19:28,959 - INFO -main.py : 415 :begin_test - caseId为2的用例完毕
+2019-03-20 15:39:51,700 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 15:39:51,701 - INFO -main.py : 379 :before_test - 本次测试共执行1条用例
+2019-03-20 15:39:51,705 - INFO -main.py : 399 :begin_test - 正在执行caseId为2的用例
+2019-03-20 15:39:51,708 - INFO -main.py : 303 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 15:39:51,709 - INFO -main.py : 304 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 15:39:51,940 - INFO -main.py : 431 :begin_test - caseId为2的用例完毕
+2019-03-20 15:40:32,155 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 15:40:32,156 - INFO -main.py : 379 :before_test - 本次测试共执行1条用例
+2019-03-20 15:40:32,158 - INFO -main.py : 399 :begin_test - 正在执行caseId为2的用例
+2019-03-20 15:40:32,159 - INFO -main.py : 303 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 15:40:32,160 - INFO -main.py : 304 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 15:40:32,418 - INFO -main.py : 432 :begin_test - caseId为2的用例完毕
+2019-03-20 15:40:58,896 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 15:40:58,897 - INFO -main.py : 379 :before_test - 本次测试共执行1条用例
+2019-03-20 15:40:58,900 - INFO -main.py : 399 :begin_test - 正在执行caseId为2的用例
+2019-03-20 15:40:58,902 - INFO -main.py : 303 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 15:40:58,902 - INFO -main.py : 304 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 15:40:59,219 - INFO -main.py : 433 :begin_test - caseId为2的用例完毕
+2019-03-20 15:41:25,382 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 15:41:25,382 - INFO -main.py : 379 :before_test - 本次测试共执行1条用例
+2019-03-20 15:41:25,385 - INFO -main.py : 399 :begin_test - 正在执行caseId为2的用例
+2019-03-20 15:41:25,387 - INFO -main.py : 303 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 15:41:25,387 - INFO -main.py : 304 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 15:41:25,653 - INFO -main.py : 432 :begin_test - caseId为2的用例完毕
+2019-03-20 15:42:49,494 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 15:42:49,494 - INFO -main.py : 379 :before_test - 本次测试共执行1条用例
+2019-03-20 15:42:49,497 - INFO -main.py : 402 :begin_test - 正在执行caseId为2的用例
+2019-03-20 15:42:49,499 - INFO -main.py : 303 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 15:42:49,499 - INFO -main.py : 304 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 15:42:49,796 - INFO -main.py : 432 :begin_test - caseId为2的用例完毕
+2019-03-20 15:43:14,782 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 15:43:14,783 - INFO -main.py : 379 :before_test - 本次测试共执行1条用例
+2019-03-20 15:43:14,786 - INFO -main.py : 402 :begin_test - 正在执行caseId为2的用例
+2019-03-20 15:43:14,789 - INFO -main.py : 303 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 15:43:14,789 - INFO -main.py : 304 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 15:43:15,150 - INFO -main.py : 432 :begin_test - caseId为2的用例完毕
+2019-03-20 15:43:15,173 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testresult SET  caseId=2, caseDescribe='主页，正常请求', apiHost='/s5/dashboard', method=Null, apiParams=Null, expect=Null, ispass='fail', reason='检查点err_code预期结果为:0,实际结果为:1', time='2019/03/20 15:43:14', fact='{"err_code": 0, "err_msg": "", "messages": [], "payload": {"ad_tpl": {"action_id": 74, "ad_url": "https://game.baichuanhd.com.cn/show.htm?app_key=a4604da129644ae0", "ext": 6, "img_url": "https://assets.qkcdn.com/images/8be91e6f5f1f8b6754aa33e2bb64fc4a.png", "pos": 99, "sub_title": "每天8次 最高888元", "superscript": "", "title": "红包福利", "type": "juta_ad"}, "app_start": 0, "avatar": "http://assets.qkcdn.com/images/50ac8e24ab147eb337cc7fd7330615ee.png!200x200/rotate/auto", "balance": "0.00", "bind_mobile": 0, "claim_level_coin_open": 1, "clock_countdown_day": 0, "clock_extends": {}, "clock_switch": 0, "coin_balance": "0", "explore_switch": 1, "explore_tags": {"new_tasks": 0, "tasks_reward": 0}, "first_claim": 1, "has_explore_task": 0, "has_finished_task_once": 0, "has_new_tudi": 0, "has_rewarded": 0, "hb_liveshow_open": 0, "highearn_v5_6_switch": 0, "invalid_apprentice_num": 0, "invite_code": "0", "is_inside": 0, "is_lite": 0, "level_info": {"level": 1, "next_level": 2, "next_level_more_coin": 1, "next_level_more_income": "0.04", "next_level_need": "2.00"}, "msg_num": 0, "need_up_v5": 0, "new_user_alert_flag": 0, "newyear_activity_switch": 0, "next_level_coin": 8, "nickname": "", "old_user_trial_card_info": {}, "online_reward_open": 0, "open_msg": 1, "qt_sale_switch": 1, "receive_shoutu_income": "0.00", "reward": 5, "reward_by_tudi_num": 0, "reward_coin": 5, "sdj_loan": 1, "shandw_game_switch": 1, "shoutu_v5_3_open": 1, "shoutu_v5_9_open": 1, "thumb_switch": 1, "today_reward": "0.00", "total_reward": "0.00", "trial_card": {}, "tudi_online_num": 0, "tusun_online_num": 0, "uid": 51230144, "webclip": "", "xing_shoutu_switch": 0, "xnhb_show_alert": 0, "xnhb_switch": 0, "yl_article_switch": 1, "yl_huan_info": {"miniprogram_type": 1, "path": "/pages/index%3Fqk_uid%3D51230144%26source%3Dqk%26sign%3DDD2E5A0EE8", "username": "gh_3cf20e1090fe", "wx_app_id": ""}, "yydk_switch": 1}}', sql_res=Null, databaseExpect='{"a": {"len": "5", "id": "1"}}',(1054, "Unknown column 'method' in 'field list'")
+2019-03-20 15:43:31,164 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 15:43:31,165 - INFO -main.py : 379 :before_test - 本次测试共执行1条用例
+2019-03-20 15:43:31,167 - INFO -main.py : 401 :begin_test - 正在执行caseId为2的用例
+2019-03-20 15:43:31,169 - INFO -main.py : 303 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 15:43:31,169 - INFO -main.py : 304 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 15:43:31,429 - INFO -main.py : 431 :begin_test - caseId为2的用例完毕
+2019-03-20 15:43:31,430 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testresult SET  caseId=2, caseDescribe='主页，正常请求', apiHost='/s5/dashboard', method=Null, apiParams=Null, expect=Null, ispass='fail', reason='检查点err_code预期结果为:0,实际结果为:1', time='2019/03/20 15:43:31', fact='{"err_code": 0, "err_msg": "", "messages": [], "payload": {"ad_tpl": {"action_id": 74, "ad_url": "https://game.baichuanhd.com.cn/show.htm?app_key=a4604da129644ae0", "ext": 6, "img_url": "https://assets.qkcdn.com/images/8be91e6f5f1f8b6754aa33e2bb64fc4a.png", "pos": 99, "sub_title": "每天8次 最高888元", "superscript": "", "title": "红包福利", "type": "juta_ad"}, "app_start": 0, "avatar": "http://assets.qkcdn.com/images/50ac8e24ab147eb337cc7fd7330615ee.png!200x200/rotate/auto", "balance": "0.00", "bind_mobile": 0, "claim_level_coin_open": 1, "clock_countdown_day": 0, "clock_extends": {}, "clock_switch": 0, "coin_balance": "0", "explore_switch": 1, "explore_tags": {"new_tasks": 0, "tasks_reward": 0}, "first_claim": 1, "has_explore_task": 0, "has_finished_task_once": 0, "has_new_tudi": 0, "has_rewarded": 0, "hb_liveshow_open": 0, "highearn_v5_6_switch": 0, "invalid_apprentice_num": 0, "invite_code": "0", "is_inside": 0, "is_lite": 0, "level_info": {"level": 1, "next_level": 2, "next_level_more_coin": 1, "next_level_more_income": "0.04", "next_level_need": "2.00"}, "msg_num": 0, "need_up_v5": 0, "new_user_alert_flag": 0, "newyear_activity_switch": 0, "next_level_coin": 8, "nickname": "", "old_user_trial_card_info": {}, "online_reward_open": 0, "open_msg": 1, "qt_sale_switch": 1, "receive_shoutu_income": "0.00", "reward": 5, "reward_by_tudi_num": 0, "reward_coin": 5, "sdj_loan": 1, "shandw_game_switch": 1, "shoutu_v5_3_open": 1, "shoutu_v5_9_open": 1, "thumb_switch": 1, "today_reward": "0.00", "total_reward": "0.00", "trial_card": {}, "tudi_online_num": 0, "tusun_online_num": 0, "uid": 51230144, "webclip": "", "xing_shoutu_switch": 0, "xnhb_show_alert": 0, "xnhb_switch": 0, "yl_article_switch": 1, "yl_huan_info": {"miniprogram_type": 1, "path": "/pages/index%3Fqk_uid%3D51230144%26source%3Dqk%26sign%3DDD2E5A0EE8", "username": "gh_3cf20e1090fe", "wx_app_id": ""}, "yydk_switch": 1}}', sql_res=Null, databaseExpect='{"a": {"len": "5", "id": "1"}}',(1054, "Unknown column 'method' in 'field list'")
+2019-03-20 15:44:53,163 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 15:44:53,163 - INFO -main.py : 378 :before_test - 本次测试共执行1条用例
+2019-03-20 15:44:53,166 - INFO -main.py : 400 :begin_test - 正在执行caseId为2的用例
+2019-03-20 15:44:53,167 - INFO -main.py : 302 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 15:44:53,167 - INFO -main.py : 303 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 15:44:53,407 - INFO -main.py : 430 :begin_test - caseId为2的用例完毕
+2019-03-20 15:56:38,885 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 15:56:38,885 - INFO -main.py : 379 :before_test - 本次测试共执行1条用例
+2019-03-20 15:56:38,889 - INFO -main.py : 440 :begin_test - 正在执行caseId为2的用例
+2019-03-20 15:56:38,891 - INFO -main.py : 302 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 15:56:38,892 - INFO -main.py : 303 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 15:56:39,164 - INFO -main.py : 470 :begin_test - caseId为2的用例完毕
+2019-03-20 15:56:39,166 - INFO -main.py : 433 :after_test - 本次测试执行完毕，本次测试环境为：，共耗时fp01秒，共执行用例：0.28条，成功：1条，失败：0条，阻塞：1条
+2019-03-20 15:57:16,233 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 15:57:16,233 - INFO -main.py : 379 :before_test - 本次测试共执行1条用例
+2019-03-20 15:57:16,237 - INFO -main.py : 440 :begin_test - 正在执行caseId为2的用例
+2019-03-20 15:57:16,240 - INFO -main.py : 302 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 15:57:16,240 - INFO -main.py : 303 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 15:57:16,574 - INFO -main.py : 470 :begin_test - caseId为2的用例完毕
+2019-03-20 15:57:16,577 - INFO -main.py : 433 :after_test - 本次测试执行完毕，本次测试环境为：%s，共耗时fp01秒，共执行用例：0.34条，成功：1条，失败：0条，阻塞：1条
+2019-03-20 15:57:35,387 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 15:57:35,387 - INFO -main.py : 379 :before_test - 本次测试共执行1条用例
+2019-03-20 15:57:35,392 - INFO -main.py : 440 :begin_test - 正在执行caseId为2的用例
+2019-03-20 15:57:35,393 - INFO -main.py : 302 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 15:57:35,393 - INFO -main.py : 303 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 15:57:35,850 - INFO -main.py : 470 :begin_test - caseId为2的用例完毕
+2019-03-20 15:57:35,855 - INFO -main.py : 433 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.46秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 16:04:32,284 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 16:04:32,284 - INFO -main.py : 381 :before_test - 本次测试共执行1条用例
+2019-03-20 16:04:32,287 - INFO -main.py : 461 :begin_test - 正在执行caseId为2的用例
+2019-03-20 16:04:32,289 - INFO -main.py : 304 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 16:04:32,289 - INFO -main.py : 305 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 16:04:32,557 - INFO -main.py : 491 :begin_test - caseId为2的用例完毕
+2019-03-20 16:04:32,559 - INFO -main.py : 435 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.27秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 16:05:08,249 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 16:05:08,249 - INFO -main.py : 381 :before_test - 本次测试共执行1条用例
+2019-03-20 16:05:08,253 - INFO -main.py : 461 :begin_test - 正在执行caseId为2的用例
+2019-03-20 16:05:08,255 - INFO -main.py : 304 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 16:05:08,255 - INFO -main.py : 305 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 16:05:08,472 - INFO -main.py : 491 :begin_test - caseId为2的用例完毕
+2019-03-20 16:05:08,475 - INFO -main.py : 435 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.22秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 16:05:08,476 - INFO -report.py : 150 :get_report - 正在写入用例执行情况
+2019-03-20 16:06:35,997 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 16:06:35,997 - INFO -main.py : 381 :before_test - 本次测试共执行1条用例
+2019-03-20 16:06:36,000 - INFO -main.py : 461 :begin_test - 正在执行caseId为2的用例
+2019-03-20 16:06:36,001 - INFO -main.py : 304 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 16:06:36,001 - INFO -main.py : 305 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 16:06:36,237 - INFO -main.py : 491 :begin_test - caseId为2的用例完毕
+2019-03-20 16:06:36,241 - INFO -main.py : 435 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.24秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 16:21:04,642 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 16:21:04,642 - INFO -main.py : 382 :before_test - 本次测试共执行1条用例
+2019-03-20 16:21:04,645 - INFO -main.py : 462 :begin_test - 正在执行caseId为2的用例
+2019-03-20 16:21:04,647 - INFO -main.py : 305 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 16:21:04,647 - INFO -main.py : 306 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 16:21:04,955 - INFO -main.py : 493 :begin_test - caseId为2的用例完毕
+2019-03-20 16:21:04,958 - INFO -main.py : 436 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.31秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 16:21:04,961 - INFO -report.py : 150 :get_report - 正在写入用例执行情况
+2019-03-20 16:23:40,848 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 16:23:40,848 - INFO -main.py : 382 :before_test - 本次测试共执行1条用例
+2019-03-20 16:23:40,852 - INFO -main.py : 462 :begin_test - 正在执行caseId为2的用例
+2019-03-20 16:23:40,854 - INFO -main.py : 305 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 16:23:40,854 - INFO -main.py : 306 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 16:23:41,127 - INFO -main.py : 493 :begin_test - caseId为2的用例完毕
+2019-03-20 16:23:41,131 - INFO -main.py : 436 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.28秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 16:23:41,132 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 16:24:28,852 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 16:24:28,853 - INFO -main.py : 382 :before_test - 本次测试共执行1条用例
+2019-03-20 16:24:28,855 - INFO -main.py : 462 :begin_test - 正在执行caseId为2的用例
+2019-03-20 16:24:28,857 - INFO -main.py : 305 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 16:24:28,857 - INFO -main.py : 306 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 16:24:29,187 - INFO -main.py : 493 :begin_test - caseId为2的用例完毕
+2019-03-20 16:24:29,189 - INFO -main.py : 436 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.33秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 16:24:29,190 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 16:24:58,227 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 16:24:58,227 - INFO -main.py : 382 :before_test - 本次测试共执行1条用例
+2019-03-20 16:24:58,230 - INFO -main.py : 462 :begin_test - 正在执行caseId为2的用例
+2019-03-20 16:24:58,231 - INFO -main.py : 305 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 16:24:58,231 - INFO -main.py : 306 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 16:24:58,491 - INFO -main.py : 493 :begin_test - caseId为2的用例完毕
+2019-03-20 16:24:58,493 - INFO -main.py : 436 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.26秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 16:24:58,494 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 16:26:02,906 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 16:26:02,907 - INFO -main.py : 382 :before_test - 本次测试共执行1条用例
+2019-03-20 16:26:02,909 - INFO -main.py : 462 :begin_test - 正在执行caseId为2的用例
+2019-03-20 16:26:02,910 - INFO -main.py : 305 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 16:26:02,910 - INFO -main.py : 306 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 16:26:03,191 - INFO -main.py : 493 :begin_test - caseId为2的用例完毕
+2019-03-20 16:26:03,193 - INFO -main.py : 436 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.28秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 16:26:03,194 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 16:27:04,992 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 16:27:04,992 - INFO -main.py : 382 :before_test - 本次测试共执行1条用例
+2019-03-20 16:27:04,995 - INFO -main.py : 462 :begin_test - 正在执行caseId为2的用例
+2019-03-20 16:27:04,996 - INFO -main.py : 305 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 16:27:04,996 - INFO -main.py : 306 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 16:27:05,307 - INFO -main.py : 493 :begin_test - caseId为2的用例完毕
+2019-03-20 16:27:05,313 - INFO -main.py : 436 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.32秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 16:27:05,317 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 16:30:41,604 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 16:30:41,604 - INFO -main.py : 382 :before_test - 本次测试共执行1条用例
+2019-03-20 16:30:41,607 - INFO -main.py : 462 :begin_test - 正在执行caseId为2的用例
+2019-03-20 16:30:41,608 - INFO -main.py : 305 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 16:30:41,608 - INFO -main.py : 306 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 16:30:42,026 - INFO -main.py : 493 :begin_test - caseId为2的用例完毕
+2019-03-20 16:30:42,028 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testresult SET  method='GET', caseId=2, caseDescribe='主页，正常请求', apiHost='/s5/dashboard', apiParams=Null, expect=Null, ispass='fail', reason='sql检查点a中id的值期望为：2,实际为：1', time='2019/03/20 16:30:41', fact='{"err_code": 0, "err_msg": "", "messages": [], "payload": {"ad_tpl": {"action_id": 74, "ad_url": "https://game.baichuanhd.com.cn/show.htm?app_key=a4604da129644ae0", "ext": 6, "img_url": "https://assets.qkcdn.com/images/8be91e6f5f1f8b6754aa33e2bb64fc4a.png", "pos": 99, "sub_title": "每天8次 最高888元", "superscript": "", "title": "红包福利", "type": "juta_ad"}, "app_start": 0, "avatar": "http://assets.qkcdn.com/images/50ac8e24ab147eb337cc7fd7330615ee.png!200x200/rotate/auto", "balance": "0.00", "bind_mobile": 0, "claim_level_coin_open": 1, "clock_countdown_day": 0, "clock_extends": {}, "clock_switch": 0, "coin_balance": "0", "explore_switch": 1, "explore_tags": {"new_tasks": 0, "tasks_reward": 0}, "first_claim": 1, "has_explore_task": 0, "has_finished_task_once": 0, "has_new_tudi": 0, "has_rewarded": 0, "hb_liveshow_open": 0, "highearn_v5_6_switch": 0, "invalid_apprentice_num": 0, "invite_code": "0", "is_inside": 0, "is_lite": 0, "level_info": {"level": 1, "next_level": 2, "next_level_more_coin": 1, "next_level_more_income": "0.04", "next_level_need": "2.00"}, "msg_num": 0, "need_up_v5": 0, "new_user_alert_flag": 0, "newyear_activity_switch": 0, "next_level_coin": 8, "nickname": "", "old_user_trial_card_info": {}, "online_reward_open": 0, "open_msg": 1, "qt_sale_switch": 1, "receive_shoutu_income": "0.00", "reward": 5, "reward_by_tudi_num": 0, "reward_coin": 5, "sdj_loan": 1, "shandw_game_switch": 1, "shoutu_v5_3_open": 1, "shoutu_v5_9_open": 1, "thumb_switch": 1, "today_reward": "0.00", "total_reward": "0.00", "trial_card": {}, "tudi_online_num": 0, "tusun_online_num": 0, "uid": 51230144, "webclip": "", "xing_shoutu_switch": 0, "xnhb_show_alert": 0, "xnhb_switch": 0, "yl_article_switch": 1, "yl_huan_info": {"miniprogram_type": 1, "path": "/pages/index%3Fqk_uid%3D51230144%26source%3Dqk%26sign%3DDD2E5A0EE8", "username": "gh_3cf20e1090fe", "wx_app_id": ""}, "yydk_switch": 1}}', sql_res=[{'id': 1, 'number': '13500000001', 'verify': '1111', 'call_sid': '1fa034f81a8f402e85f0ce0b7526dbd9', 'date_created': datetime.datetime(2019, 3, 7, 14, 26, 52), 'status': 0, 'updated_at': datetime.datetime(2019, 3, 7, 14, 27, 36), 'created_at': datetime.datetime(2019, 3, 7, 14, 26, 53)}, {'id': 2, 'number': '15618557491', 'verify': '1234', 'call_sid': '1fa034f81a8f402e85f0ce0b7526db88', 'date_created': datetime.datetime(2019, 3, 8, 14, 15, 24), 'status': 0, 'updated_at': datetime.datetime(2019, 3, 8, 14, 15, 24), 'created_at': datetime.datetime(2019, 3, 8, 10, 41, 39)}, {'id': 3, 'number': '13500000001', 'verify': '9477', 'call_sid': '961f208f2d1a47b7ac93bb7aefc92cea', 'date_created': datetime.datetime(2019, 3, 18, 13, 59, 27), 'status': 1, 'updated_at': datetime.datetime(2019, 3, 18, 13, 59, 27), 'created_at': datetime.datetime(2019, 3, 18, 13, 59, 27)}, {'id': 4, 'number': '15618557491', 'verify': '3899', 'call_sid': '33a6bf2961d5425db2bd81864a842d1f', 'date_created': datetime.datetime(2019, 3, 18, 13, 59, 28), 'status': 1, 'updated_at': datetime.datetime(2019, 3, 18, 13, 59, 28), 'created_at': datetime.datetime(2019, 3, 18, 13, 59, 28)}, {'id': 5, 'number': '13900000090', 'verify': '1111', 'call_sid': '1fa034f81a8f402e85f0ce0b7526dbd9', 'date_created': datetime.datetime(2019, 3, 19, 17, 6, 52), 'status': 0, 'updated_at': datetime.datetime(2019, 3, 19, 17, 9, 44), 'created_at': datetime.datetime(2019, 3, 7, 14, 26, 53)}], databaseExpect='{"a": {"len": "5", "id": "2"}}',(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[{'id': 1, 'number': '13500000001', 'verify': '1111', 'call_sid': '1fa034f81a8f4' at line 1")
+2019-03-20 16:30:42,031 - INFO -main.py : 436 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.42秒，共执行用例：0条，成功：0条，失败：0条，阻塞：0条
+2019-03-20 16:30:42,035 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 16:31:02,692 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 16:31:02,692 - INFO -main.py : 382 :before_test - 本次测试共执行1条用例
+2019-03-20 16:31:02,695 - INFO -main.py : 462 :begin_test - 正在执行caseId为2的用例
+2019-03-20 16:31:02,696 - INFO -main.py : 305 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 16:31:02,697 - INFO -main.py : 306 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 16:31:02,958 - INFO -main.py : 493 :begin_test - caseId为2的用例完毕
+2019-03-20 16:31:02,960 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testresult SET  method='GET', caseId=2, caseDescribe='主页，正常请求', apiHost='/s5/dashboard', apiParams=Null, expect=Null, ispass='pass', reason=Null, time='2019/03/20 16:31:02', fact='{"err_code": 0, "err_msg": "", "messages": [], "payload": {"ad_tpl": {"action_id": 74, "ad_url": "https://game.baichuanhd.com.cn/show.htm?app_key=a4604da129644ae0", "ext": 6, "img_url": "https://assets.qkcdn.com/images/8be91e6f5f1f8b6754aa33e2bb64fc4a.png", "pos": 99, "sub_title": "每天8次 最高888元", "superscript": "", "title": "红包福利", "type": "juta_ad"}, "app_start": 0, "avatar": "http://assets.qkcdn.com/images/50ac8e24ab147eb337cc7fd7330615ee.png!200x200/rotate/auto", "balance": "0.00", "bind_mobile": 0, "claim_level_coin_open": 1, "clock_countdown_day": 0, "clock_extends": {}, "clock_switch": 0, "coin_balance": "0", "explore_switch": 1, "explore_tags": {"new_tasks": 0, "tasks_reward": 0}, "first_claim": 1, "has_explore_task": 0, "has_finished_task_once": 0, "has_new_tudi": 0, "has_rewarded": 0, "hb_liveshow_open": 0, "highearn_v5_6_switch": 0, "invalid_apprentice_num": 0, "invite_code": "0", "is_inside": 0, "is_lite": 0, "level_info": {"level": 1, "next_level": 2, "next_level_more_coin": 1, "next_level_more_income": "0.04", "next_level_need": "2.00"}, "msg_num": 0, "need_up_v5": 0, "new_user_alert_flag": 0, "newyear_activity_switch": 0, "next_level_coin": 8, "nickname": "", "old_user_trial_card_info": {}, "online_reward_open": 0, "open_msg": 1, "qt_sale_switch": 1, "receive_shoutu_income": "0.00", "reward": 5, "reward_by_tudi_num": 0, "reward_coin": 5, "sdj_loan": 1, "shandw_game_switch": 1, "shoutu_v5_3_open": 1, "shoutu_v5_9_open": 1, "thumb_switch": 1, "today_reward": "0.00", "total_reward": "0.00", "trial_card": {}, "tudi_online_num": 0, "tusun_online_num": 0, "uid": 51230144, "webclip": "", "xing_shoutu_switch": 0, "xnhb_show_alert": 0, "xnhb_switch": 0, "yl_article_switch": 1, "yl_huan_info": {"miniprogram_type": 1, "path": "/pages/index%3Fqk_uid%3D51230144%26source%3Dqk%26sign%3DDD2E5A0EE8", "username": "gh_3cf20e1090fe", "wx_app_id": ""}, "yydk_switch": 1}}', sql_res=[{'id': 1, 'number': '13500000001', 'verify': '1111', 'call_sid': '1fa034f81a8f402e85f0ce0b7526dbd9', 'date_created': datetime.datetime(2019, 3, 7, 14, 26, 52), 'status': 0, 'updated_at': datetime.datetime(2019, 3, 7, 14, 27, 36), 'created_at': datetime.datetime(2019, 3, 7, 14, 26, 53)}, {'id': 2, 'number': '15618557491', 'verify': '1234', 'call_sid': '1fa034f81a8f402e85f0ce0b7526db88', 'date_created': datetime.datetime(2019, 3, 8, 14, 15, 24), 'status': 0, 'updated_at': datetime.datetime(2019, 3, 8, 14, 15, 24), 'created_at': datetime.datetime(2019, 3, 8, 10, 41, 39)}, {'id': 3, 'number': '13500000001', 'verify': '9477', 'call_sid': '961f208f2d1a47b7ac93bb7aefc92cea', 'date_created': datetime.datetime(2019, 3, 18, 13, 59, 27), 'status': 1, 'updated_at': datetime.datetime(2019, 3, 18, 13, 59, 27), 'created_at': datetime.datetime(2019, 3, 18, 13, 59, 27)}, {'id': 4, 'number': '15618557491', 'verify': '3899', 'call_sid': '33a6bf2961d5425db2bd81864a842d1f', 'date_created': datetime.datetime(2019, 3, 18, 13, 59, 28), 'status': 1, 'updated_at': datetime.datetime(2019, 3, 18, 13, 59, 28), 'created_at': datetime.datetime(2019, 3, 18, 13, 59, 28)}, {'id': 5, 'number': '13900000090', 'verify': '1111', 'call_sid': '1fa034f81a8f402e85f0ce0b7526dbd9', 'date_created': datetime.datetime(2019, 3, 19, 17, 6, 52), 'status': 0, 'updated_at': datetime.datetime(2019, 3, 19, 17, 9, 44), 'created_at': datetime.datetime(2019, 3, 7, 14, 26, 53)}], databaseExpect='{"a": {"len": "5", "id": "1"}}',(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[{'id': 1, 'number': '13500000001', 'verify': '1111', 'call_sid': '1fa034f81a8f4' at line 1")
+2019-03-20 16:31:02,963 - INFO -main.py : 436 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.27秒，共执行用例：0条，成功：0条，失败：0条，阻塞：0条
+2019-03-20 16:31:02,967 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 16:32:26,058 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 16:32:26,059 - INFO -main.py : 382 :before_test - 本次测试共执行1条用例
+2019-03-20 16:32:26,063 - INFO -main.py : 462 :begin_test - 正在执行caseId为2的用例
+2019-03-20 16:32:26,064 - INFO -main.py : 305 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 16:32:26,065 - INFO -main.py : 306 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 16:32:26,327 - INFO -main.py : 493 :begin_test - caseId为2的用例完毕
+2019-03-20 16:32:26,329 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testresult SET  method='GET', caseId=2, caseDescribe='主页，正常请求', apiHost='/s5/dashboard', apiParams=Null, expect=Null, ispass='pass', reason=Null, time='2019/03/20 16:32:26', fact='{"err_code": 0, "err_msg": "", "messages": [], "payload": {"ad_tpl": {"action_id": 74, "ad_url": "https://game.baichuanhd.com.cn/show.htm?app_key=a4604da129644ae0", "ext": 6, "img_url": "https://assets.qkcdn.com/images/8be91e6f5f1f8b6754aa33e2bb64fc4a.png", "pos": 99, "sub_title": "每天8次 最高888元", "superscript": "", "title": "红包福利", "type": "juta_ad"}, "app_start": 0, "avatar": "http://assets.qkcdn.com/images/50ac8e24ab147eb337cc7fd7330615ee.png!200x200/rotate/auto", "balance": "0.00", "bind_mobile": 0, "claim_level_coin_open": 1, "clock_countdown_day": 0, "clock_extends": {}, "clock_switch": 0, "coin_balance": "0", "explore_switch": 1, "explore_tags": {"new_tasks": 0, "tasks_reward": 0}, "first_claim": 1, "has_explore_task": 0, "has_finished_task_once": 0, "has_new_tudi": 0, "has_rewarded": 0, "hb_liveshow_open": 0, "highearn_v5_6_switch": 0, "invalid_apprentice_num": 0, "invite_code": "0", "is_inside": 0, "is_lite": 0, "level_info": {"level": 1, "next_level": 2, "next_level_more_coin": 1, "next_level_more_income": "0.04", "next_level_need": "2.00"}, "msg_num": 0, "need_up_v5": 0, "new_user_alert_flag": 0, "newyear_activity_switch": 0, "next_level_coin": 8, "nickname": "", "old_user_trial_card_info": {}, "online_reward_open": 0, "open_msg": 1, "qt_sale_switch": 1, "receive_shoutu_income": "0.00", "reward": 5, "reward_by_tudi_num": 0, "reward_coin": 5, "sdj_loan": 1, "shandw_game_switch": 1, "shoutu_v5_3_open": 1, "shoutu_v5_9_open": 1, "thumb_switch": 1, "today_reward": "0.00", "total_reward": "0.00", "trial_card": {}, "tudi_online_num": 0, "tusun_online_num": 0, "uid": 51230144, "webclip": "", "xing_shoutu_switch": 0, "xnhb_show_alert": 0, "xnhb_switch": 0, "yl_article_switch": 1, "yl_huan_info": {"miniprogram_type": 1, "path": "/pages/index%3Fqk_uid%3D51230144%26source%3Dqk%26sign%3DDD2E5A0EE8", "username": "gh_3cf20e1090fe", "wx_app_id": ""}, "yydk_switch": 1}}', sql_res=[{'id': 1, 'number': '13500000001', 'verify': '1111', 'call_sid': '1fa034f81a8f402e85f0ce0b7526dbd9', 'date_created': datetime.datetime(2019, 3, 7, 14, 26, 52), 'status': 0, 'updated_at': datetime.datetime(2019, 3, 7, 14, 27, 36), 'created_at': datetime.datetime(2019, 3, 7, 14, 26, 53)}, {'id': 2, 'number': '15618557491', 'verify': '1234', 'call_sid': '1fa034f81a8f402e85f0ce0b7526db88', 'date_created': datetime.datetime(2019, 3, 8, 14, 15, 24), 'status': 0, 'updated_at': datetime.datetime(2019, 3, 8, 14, 15, 24), 'created_at': datetime.datetime(2019, 3, 8, 10, 41, 39)}, {'id': 3, 'number': '13500000001', 'verify': '9477', 'call_sid': '961f208f2d1a47b7ac93bb7aefc92cea', 'date_created': datetime.datetime(2019, 3, 18, 13, 59, 27), 'status': 1, 'updated_at': datetime.datetime(2019, 3, 18, 13, 59, 27), 'created_at': datetime.datetime(2019, 3, 18, 13, 59, 27)}, {'id': 4, 'number': '15618557491', 'verify': '3899', 'call_sid': '33a6bf2961d5425db2bd81864a842d1f', 'date_created': datetime.datetime(2019, 3, 18, 13, 59, 28), 'status': 1, 'updated_at': datetime.datetime(2019, 3, 18, 13, 59, 28), 'created_at': datetime.datetime(2019, 3, 18, 13, 59, 28)}, {'id': 5, 'number': '13900000090', 'verify': '1111', 'call_sid': '1fa034f81a8f402e85f0ce0b7526dbd9', 'date_created': datetime.datetime(2019, 3, 19, 17, 6, 52), 'status': 0, 'updated_at': datetime.datetime(2019, 3, 19, 17, 9, 44), 'created_at': datetime.datetime(2019, 3, 7, 14, 26, 53)}], databaseExpect='{"a": {"len": "5", "id": "1"}}',(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[{'id': 1, 'number': '13500000001', 'verify': '1111', 'call_sid': '1fa034f81a8f4' at line 1")
+2019-03-20 16:32:26,333 - INFO -main.py : 436 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.27秒，共执行用例：0条，成功：0条，失败：0条，阻塞：0条
+2019-03-20 16:32:26,338 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 16:34:05,339 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 16:34:05,340 - INFO -main.py : 382 :before_test - 本次测试共执行1条用例
+2019-03-20 16:34:05,345 - INFO -main.py : 462 :begin_test - 正在执行caseId为2的用例
+2019-03-20 16:34:05,347 - INFO -main.py : 305 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 16:34:05,348 - INFO -main.py : 306 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 16:34:05,668 - INFO -main.py : 493 :begin_test - caseId为2的用例完毕
+2019-03-20 16:34:05,670 - ERROR -sqls.py : 115 :insert_data - sql语句错误---->INSERT INTO testresult SET  method='GET', caseId=2, caseDescribe='主页，正常请求', apiHost='/s5/dashboard', apiParams=Null, expect=Null, ispass='fail', reason='sql检查点a中len的值期望为：5,实际为：1', time='2019/03/20 16:34:05', fact='{"err_code": 0, "err_msg": "", "messages": [], "payload": {"ad_tpl": {"action_id": 74, "ad_url": "https://game.baichuanhd.com.cn/show.htm?app_key=a4604da129644ae0", "ext": 6, "img_url": "https://assets.qkcdn.com/images/8be91e6f5f1f8b6754aa33e2bb64fc4a.png", "pos": 99, "sub_title": "每天8次 最高888元", "superscript": "", "title": "红包福利", "type": "juta_ad"}, "app_start": 0, "avatar": "http://assets.qkcdn.com/images/50ac8e24ab147eb337cc7fd7330615ee.png!200x200/rotate/auto", "balance": "0.00", "bind_mobile": 0, "claim_level_coin_open": 1, "clock_countdown_day": 0, "clock_extends": {}, "clock_switch": 0, "coin_balance": "0", "explore_switch": 1, "explore_tags": {"new_tasks": 0, "tasks_reward": 0}, "first_claim": 1, "has_explore_task": 0, "has_finished_task_once": 0, "has_new_tudi": 0, "has_rewarded": 0, "hb_liveshow_open": 0, "highearn_v5_6_switch": 0, "invalid_apprentice_num": 0, "invite_code": "0", "is_inside": 0, "is_lite": 0, "level_info": {"level": 1, "next_level": 2, "next_level_more_coin": 1, "next_level_more_income": "0.04", "next_level_need": "2.00"}, "msg_num": 0, "need_up_v5": 0, "new_user_alert_flag": 0, "newyear_activity_switch": 0, "next_level_coin": 8, "nickname": "", "old_user_trial_card_info": {}, "online_reward_open": 0, "open_msg": 1, "qt_sale_switch": 1, "receive_shoutu_income": "0.00", "reward": 5, "reward_by_tudi_num": 0, "reward_coin": 5, "sdj_loan": 1, "shandw_game_switch": 1, "shoutu_v5_3_open": 1, "shoutu_v5_9_open": 1, "thumb_switch": 1, "today_reward": "0.00", "total_reward": "0.00", "trial_card": {}, "tudi_online_num": 0, "tusun_online_num": 0, "uid": 51230144, "webclip": "", "xing_shoutu_switch": 0, "xnhb_show_alert": 0, "xnhb_switch": 0, "yl_article_switch": 1, "yl_huan_info": {"miniprogram_type": 1, "path": "/pages/index%3Fqk_uid%3D51230144%26source%3Dqk%26sign%3DDD2E5A0EE8", "username": "gh_3cf20e1090fe", "wx_app_id": ""}, "yydk_switch": 1}}', sql_res=[{'id': 1, 'number': '13500000001', 'verify': '1111', 'call_sid': '1fa034f81a8f402e85f0ce0b7526dbd9', 'date_created': datetime.datetime(2019, 3, 7, 14, 26, 52), 'status': 0, 'updated_at': datetime.datetime(2019, 3, 7, 14, 27, 36), 'created_at': datetime.datetime(2019, 3, 7, 14, 26, 53)}], databaseExpect='{"a": {"len": "5", "id": "1"}}',(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[{'id': 1, 'number': '13500000001', 'verify': '1111', 'call_sid': '1fa034f81a8f4' at line 1")
+2019-03-20 16:34:05,674 - INFO -main.py : 436 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.33秒，共执行用例：0条，成功：0条，失败：0条，阻塞：0条
+2019-03-20 16:34:05,678 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 16:36:34,524 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 16:36:34,524 - INFO -main.py : 382 :before_test - 本次测试共执行1条用例
+2019-03-20 16:36:34,527 - INFO -main.py : 462 :begin_test - 正在执行caseId为2的用例
+2019-03-20 16:36:34,529 - INFO -main.py : 305 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 16:36:34,529 - INFO -main.py : 306 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 16:36:34,898 - INFO -main.py : 493 :begin_test - caseId为2的用例完毕
+2019-03-20 16:36:34,898 - ERROR -sqls.py : 118 :insert_data - sql语句错误---->INSERT INTO testresult SET  method='GET', caseId=2, caseDescribe='主页，正常请求', apiHost='/s5/dashboard', apiParams=Null, expect=Null, ispass='fail', reason='sql检查点a中len的值期望为：5,实际为：1', time='2019/03/20 16:36:34', fact='{"err_code": 0, "err_msg": "", "messages": [], "payload": {"ad_tpl": {"action_id": 74, "ad_url": "https://game.baichuanhd.com.cn/show.htm?app_key=a4604da129644ae0", "ext": 6, "img_url": "https://assets.qkcdn.com/images/8be91e6f5f1f8b6754aa33e2bb64fc4a.png", "pos": 99, "sub_title": "每天8次 最高888元", "superscript": "", "title": "红包福利", "type": "juta_ad"}, "app_start": 0, "avatar": "http://assets.qkcdn.com/images/50ac8e24ab147eb337cc7fd7330615ee.png!200x200/rotate/auto", "balance": "0.00", "bind_mobile": 0, "claim_level_coin_open": 1, "clock_countdown_day": 0, "clock_extends": {}, "clock_switch": 0, "coin_balance": "0", "explore_switch": 1, "explore_tags": {"new_tasks": 0, "tasks_reward": 0}, "first_claim": 1, "has_explore_task": 0, "has_finished_task_once": 0, "has_new_tudi": 0, "has_rewarded": 0, "hb_liveshow_open": 0, "highearn_v5_6_switch": 0, "invalid_apprentice_num": 0, "invite_code": "0", "is_inside": 0, "is_lite": 0, "level_info": {"level": 1, "next_level": 2, "next_level_more_coin": 1, "next_level_more_income": "0.04", "next_level_need": "2.00"}, "msg_num": 0, "need_up_v5": 0, "new_user_alert_flag": 0, "newyear_activity_switch": 0, "next_level_coin": 8, "nickname": "", "old_user_trial_card_info": {}, "online_reward_open": 0, "open_msg": 1, "qt_sale_switch": 1, "receive_shoutu_income": "0.00", "reward": 5, "reward_by_tudi_num": 0, "reward_coin": 5, "sdj_loan": 1, "shandw_game_switch": 1, "shoutu_v5_3_open": 1, "shoutu_v5_9_open": 1, "thumb_switch": 1, "today_reward": "0.00", "total_reward": "0.00", "trial_card": {}, "tudi_online_num": 0, "tusun_online_num": 0, "uid": 51230144, "webclip": "", "xing_shoutu_switch": 0, "xnhb_show_alert": 0, "xnhb_switch": 0, "yl_article_switch": 1, "yl_huan_info": {"miniprogram_type": 1, "path": "/pages/index%3Fqk_uid%3D51230144%26source%3Dqk%26sign%3DDD2E5A0EE8", "username": "gh_3cf20e1090fe", "wx_app_id": ""}, "yydk_switch": 1}}', sql_res='[{'id': 1, 'number': '13500000001', 'verify': '1111', 'call_sid': '1fa034f81a8f402e85f0ce0b7526dbd9', 'date_created': datetime.datetime(2019, 3, 7, 14, 26, 52), 'status': 0, 'updated_at': datetime.datetime(2019, 3, 7, 14, 27, 36), 'created_at': datetime.datetime(2019, 3, 7, 14, 26, 53)}]', databaseExpect='{"a": {"len": "5", "id": "1"}}',(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id': 1, 'number': '13500000001', 'verify': '1111', 'call_sid': '1fa034f81a8f402e' at line 1")
+2019-03-20 16:36:34,900 - INFO -main.py : 436 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.37秒，共执行用例：0条，成功：0条，失败：0条，阻塞：0条
+2019-03-20 16:36:34,901 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 16:40:48,299 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 16:40:48,299 - INFO -main.py : 382 :before_test - 本次测试共执行1条用例
+2019-03-20 16:40:48,302 - INFO -main.py : 462 :begin_test - 正在执行caseId为2的用例
+2019-03-20 16:40:48,304 - INFO -main.py : 305 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 16:40:48,304 - INFO -main.py : 306 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 16:40:48,592 - INFO -main.py : 493 :begin_test - caseId为2的用例完毕
+2019-03-20 16:40:48,594 - INFO -main.py : 436 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.29秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 16:40:48,596 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 16:41:06,612 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 16:41:06,613 - INFO -main.py : 382 :before_test - 本次测试共执行1条用例
+2019-03-20 16:41:06,616 - INFO -main.py : 462 :begin_test - 正在执行caseId为2的用例
+2019-03-20 16:41:06,619 - INFO -main.py : 305 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 16:41:06,619 - INFO -main.py : 306 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 16:41:06,956 - INFO -main.py : 493 :begin_test - caseId为2的用例完毕
+2019-03-20 16:41:06,962 - INFO -main.py : 436 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.34秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 16:41:06,966 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 16:48:02,969 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 16:48:02,969 - INFO -main.py : 382 :before_test - 本次测试共执行1条用例
+2019-03-20 16:48:02,972 - INFO -main.py : 462 :begin_test - 正在执行caseId为2的用例
+2019-03-20 16:48:02,973 - INFO -main.py : 305 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 16:48:02,973 - INFO -main.py : 306 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 16:48:03,266 - INFO -main.py : 494 :begin_test - caseId为2的用例完毕
+2019-03-20 16:48:03,271 - INFO -main.py : 436 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.3秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 16:48:03,276 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 16:51:27,038 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 16:51:27,038 - INFO -main.py : 382 :before_test - 本次测试共执行1条用例
+2019-03-20 16:51:27,041 - INFO -main.py : 462 :begin_test - 正在执行caseId为2的用例
+2019-03-20 16:51:27,043 - INFO -main.py : 305 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 16:51:27,043 - INFO -main.py : 306 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 16:51:27,341 - INFO -main.py : 494 :begin_test - caseId为2的用例完毕
+2019-03-20 16:51:27,344 - INFO -main.py : 436 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.3秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 16:51:27,346 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 16:52:05,758 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 16:52:05,759 - INFO -main.py : 382 :before_test - 本次测试共执行1条用例
+2019-03-20 16:52:05,764 - INFO -main.py : 462 :begin_test - 正在执行caseId为2的用例
+2019-03-20 16:52:05,766 - INFO -main.py : 305 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 16:52:05,766 - INFO -main.py : 306 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 16:52:06,041 - INFO -main.py : 494 :begin_test - caseId为2的用例完毕
+2019-03-20 16:52:06,045 - INFO -main.py : 436 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.28秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 16:52:06,048 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 16:54:33,574 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 16:54:33,575 - INFO -main.py : 382 :before_test - 本次测试共执行1条用例
+2019-03-20 16:54:33,578 - INFO -main.py : 462 :begin_test - 正在执行caseId为2的用例
+2019-03-20 16:54:33,581 - INFO -main.py : 305 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 16:54:33,581 - INFO -main.py : 306 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 16:54:33,869 - INFO -main.py : 494 :begin_test - caseId为2的用例完毕
+2019-03-20 16:57:17,347 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 16:57:17,348 - INFO -main.py : 382 :before_test - 本次测试共执行1条用例
+2019-03-20 16:57:17,351 - INFO -main.py : 462 :begin_test - 正在执行caseId为2的用例
+2019-03-20 16:57:17,353 - INFO -main.py : 305 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 16:57:17,353 - INFO -main.py : 306 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 16:57:17,675 - INFO -main.py : 494 :begin_test - caseId为2的用例完毕
+2019-03-20 16:57:17,677 - INFO -main.py : 436 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.33秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 16:57:17,678 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 16:59:43,108 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 16:59:43,108 - INFO -main.py : 382 :before_test - 本次测试共执行1条用例
+2019-03-20 16:59:43,110 - INFO -main.py : 463 :begin_test - 正在执行caseId为2的用例
+2019-03-20 16:59:43,112 - INFO -main.py : 305 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 16:59:43,112 - INFO -main.py : 306 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 16:59:43,505 - INFO -main.py : 495 :begin_test - caseId为2的用例完毕
+2019-03-20 16:59:43,508 - INFO -main.py : 436 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.4秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 16:59:43,509 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 16:59:49,672 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 16:59:49,672 - INFO -main.py : 382 :before_test - 本次测试共执行1条用例
+2019-03-20 16:59:49,675 - INFO -main.py : 463 :begin_test - 正在执行caseId为2的用例
+2019-03-20 16:59:49,678 - INFO -main.py : 305 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 16:59:49,678 - INFO -main.py : 306 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 16:59:50,106 - INFO -main.py : 495 :begin_test - caseId为2的用例完毕
+2019-03-20 16:59:50,108 - INFO -main.py : 436 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.43秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 16:59:50,109 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 17:02:41,769 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 17:02:41,769 - INFO -main.py : 382 :before_test - 本次测试共执行1条用例
+2019-03-20 17:02:41,783 - INFO -main.py : 463 :begin_test - 正在执行caseId为2的用例
+2019-03-20 17:03:10,409 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 17:03:10,409 - INFO -main.py : 382 :before_test - 本次测试共执行1条用例
+2019-03-20 17:03:10,414 - INFO -main.py : 463 :begin_test - 正在执行caseId为2的用例
+2019-03-20 17:03:10,416 - INFO -main.py : 305 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 17:03:10,416 - INFO -main.py : 306 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 17:03:10,791 - INFO -main.py : 495 :begin_test - caseId为2的用例完毕
+2019-03-20 17:03:10,796 - INFO -main.py : 436 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.38秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 17:03:10,799 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 17:03:34,081 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 17:03:34,082 - INFO -main.py : 382 :before_test - 本次测试共执行1条用例
+2019-03-20 17:03:34,086 - INFO -main.py : 463 :begin_test - 正在执行caseId为2的用例
+2019-03-20 17:03:34,089 - INFO -main.py : 305 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 17:03:34,089 - INFO -main.py : 306 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 17:03:34,401 - INFO -main.py : 495 :begin_test - caseId为2的用例完毕
+2019-03-20 17:03:34,407 - INFO -main.py : 436 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.32秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 17:03:34,412 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 17:03:40,778 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 17:03:40,778 - INFO -main.py : 382 :before_test - 本次测试共执行1条用例
+2019-03-20 17:03:40,782 - INFO -main.py : 463 :begin_test - 正在执行caseId为2的用例
+2019-03-20 17:03:40,784 - INFO -main.py : 305 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 17:03:40,784 - INFO -main.py : 306 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 17:03:41,164 - INFO -main.py : 495 :begin_test - caseId为2的用例完毕
+2019-03-20 17:03:41,170 - INFO -main.py : 436 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.39秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 17:03:41,175 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 17:05:15,364 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 17:05:15,365 - INFO -main.py : 382 :before_test - 本次测试共执行1条用例
+2019-03-20 17:05:15,368 - INFO -main.py : 463 :begin_test - 正在执行caseId为2的用例
+2019-03-20 17:05:15,370 - INFO -main.py : 305 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 17:05:15,370 - INFO -main.py : 306 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 17:05:15,641 - INFO -main.py : 496 :begin_test - caseId为2的用例完毕
+2019-03-20 17:05:15,643 - INFO -main.py : 436 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.28秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 17:05:15,645 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 17:05:45,818 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 17:05:45,818 - INFO -main.py : 382 :before_test - 本次测试共执行1条用例
+2019-03-20 17:05:45,821 - INFO -main.py : 463 :begin_test - 正在执行caseId为2的用例
+2019-03-20 17:05:45,823 - INFO -main.py : 305 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 17:05:45,823 - INFO -main.py : 306 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 17:05:46,128 - INFO -main.py : 496 :begin_test - caseId为2的用例完毕
+2019-03-20 17:05:46,131 - INFO -main.py : 436 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.31秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 17:05:46,132 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 17:09:00,928 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 17:09:00,929 - INFO -main.py : 382 :before_test - 本次测试共执行1条用例
+2019-03-20 17:09:00,933 - INFO -main.py : 463 :begin_test - 正在执行caseId为2的用例
+2019-03-20 17:09:00,935 - INFO -main.py : 305 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 17:09:00,936 - INFO -main.py : 306 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 17:09:01,286 - INFO -main.py : 496 :begin_test - caseId为2的用例完毕
+2019-03-20 17:09:01,287 - ERROR -sqls.py : 119 :insert_data - sql语句错误---->INSERT INTO testresult SET  method='GET', caseId=2, caseDescribe='主页，正常请求', apiHost='/s5/dashboard', apiParams='{"err_code": "0"}', expect='{"err_code": "0"}', ispass='fail', reason='sql检查点a中len的值期望为：5,实际为：1', time='2019/03/20 17:09:00', fact='{"err_code": 0, "err_msg": "", "messages": [], "payload": {"ad_tpl": {"action_id": 74, "ad_url": "https://game.baichuanhd.com.cn/show.htm?app_key=a4604da129644ae0", "ext": 6, "img_url": "https://assets.qkcdn.com/images/8be91e6f5f1f8b6754aa33e2bb64fc4a.png", "pos": 99, "sub_title": "每天8次 最高888元", "superscript": "", "title": "红包福利", "type": "juta_ad"}, "app_start": 0, "avatar": "http://assets.qkcdn.com/images/50ac8e24ab147eb337cc7fd7330615ee.png!200x200/rotate/auto", "balance": "0.00", "bind_mobile": 0, "claim_level_coin_open": 1, "clock_countdown_day": 0, "clock_extends": {}, "clock_switch": 0, "coin_balance": "0", "explore_switch": 1, "explore_tags": {"new_tasks": 0, "tasks_reward": 0}, "first_claim": 1, "has_explore_task": 0, "has_finished_task_once": 0, "has_new_tudi": 0, "has_rewarded": 0, "hb_liveshow_open": 0, "highearn_v5_6_switch": 0, "invalid_apprentice_num": 0, "invite_code": "0", "is_inside": 0, "is_lite": 0, "level_info": {"level": 1, "next_level": 2, "next_level_more_coin": 1, "next_level_more_income": "0.04", "next_level_need": "2.00"}, "msg_num": 0, "need_up_v5": 0, "new_user_alert_flag": 0, "newyear_activity_switch": 0, "next_level_coin": 8, "nickname": "", "old_user_trial_card_info": {}, "online_reward_open": 0, "open_msg": 1, "qt_sale_switch": 1, "receive_shoutu_income": "0.00", "reward": 5, "reward_by_tudi_num": 0, "reward_coin": 5, "sdj_loan": 1, "shandw_game_switch": 1, "shoutu_v5_3_open": 1, "shoutu_v5_9_open": 1, "thumb_switch": 1, "today_reward": "0.00", "total_reward": "0.00", "trial_card": {}, "tudi_online_num": 0, "tusun_online_num": 0, "uid": 51230144, "webclip": "", "xing_shoutu_switch": 0, "xnhb_show_alert": 0, "xnhb_switch": 0, "yl_article_switch": 1, "yl_huan_info": {"miniprogram_type": 1, "path": "/pages/index%3Fqk_uid%3D51230144%26source%3Dqk%26sign%3DDD2E5A0EE8", "username": "gh_3cf20e1090fe", "wx_app_id": ""}, "yydk_switch": 1}}', databaseResult='{"a": [{"id": 1, "number": "13500000001", "verify": "1111", "call_sid": "1fa034f81a8f402e85f0ce0b7526dbd9", "date_created": "2019-03-07 14:26:52", "status": 0, "updated_at": "2019-03-07 14:27:36", "created_at": "2019-03-07 14:26:53"}]}', databaseExpect='{"a": {"len": "5", "id": "1"}}',(1054, "Unknown column 'databaseResult' in 'field list'")
+2019-03-20 17:09:01,289 - INFO -main.py : 436 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.36秒，共执行用例：0条，成功：0条，失败：0条，阻塞：0条
+2019-03-20 17:09:01,293 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 17:27:07,385 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 17:27:07,385 - INFO -main.py : 386 :before_test - 本次测试共执行1条用例
+2019-03-20 17:27:07,388 - INFO -main.py : 467 :begin_test - 正在执行caseId为2的用例
+2019-03-20 17:27:07,390 - INFO -main.py : 305 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 17:27:07,390 - INFO -main.py : 306 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 17:27:07,743 - INFO -main.py : 500 :begin_test - caseId为2的用例完毕
+2019-03-20 17:27:07,745 - ERROR -sqls.py : 119 :insert_data - sql语句错误---->INSERT INTO testresult SET  method='GET', caseId=2, caseDescribe='主页，正常请求', apiHost='/s5/dashboard', apiParams='{"err_code": "0"}', expect='{"err_code": "0"}', ispass='fail', reason='sql检查点a中len的值期望为：5,实际为：1', time='2019/03/20 17:27:07', fact='{"err_code": 0, "err_msg": "", "messages": [], "payload": {"ad_tpl": {"action_id": 74, "ad_url": "https://game.baichuanhd.com.cn/show.htm?app_key=a4604da129644ae0", "ext": 6, "img_url": "https://assets.qkcdn.com/images/8be91e6f5f1f8b6754aa33e2bb64fc4a.png", "pos": 99, "sub_title": "每天8次 最高888元", "superscript": "", "title": "红包福利", "type": "juta_ad"}, "app_start": 0, "avatar": "http://assets.qkcdn.com/images/50ac8e24ab147eb337cc7fd7330615ee.png!200x200/rotate/auto", "balance": "0.00", "bind_mobile": 0, "claim_level_coin_open": 1, "clock_countdown_day": 0, "clock_extends": {}, "clock_switch": 0, "coin_balance": "0", "explore_switch": 1, "explore_tags": {"new_tasks": 0, "tasks_reward": 0}, "first_claim": 1, "has_explore_task": 0, "has_finished_task_once": 0, "has_new_tudi": 0, "has_rewarded": 0, "hb_liveshow_open": 0, "highearn_v5_6_switch": 0, "invalid_apprentice_num": 0, "invite_code": "0", "is_inside": 0, "is_lite": 0, "level_info": {"level": 1, "next_level": 2, "next_level_more_coin": 1, "next_level_more_income": "0.04", "next_level_need": "2.00"}, "msg_num": 0, "need_up_v5": 0, "new_user_alert_flag": 0, "newyear_activity_switch": 0, "next_level_coin": 8, "nickname": "", "old_user_trial_card_info": {}, "online_reward_open": 0, "open_msg": 1, "qt_sale_switch": 1, "receive_shoutu_income": "0.00", "reward": 5, "reward_by_tudi_num": 0, "reward_coin": 5, "sdj_loan": 1, "shandw_game_switch": 1, "shoutu_v5_3_open": 1, "shoutu_v5_9_open": 1, "thumb_switch": 1, "today_reward": "0.00", "total_reward": "0.00", "trial_card": {}, "tudi_online_num": 0, "tusun_online_num": 0, "uid": 51230144, "webclip": "", "xing_shoutu_switch": 0, "xnhb_show_alert": 0, "xnhb_switch": 0, "yl_article_switch": 1, "yl_huan_info": {"miniprogram_type": 1, "path": "/pages/index%3Fqk_uid%3D51230144%26source%3Dqk%26sign%3DDD2E5A0EE8", "username": "gh_3cf20e1090fe", "wx_app_id": ""}, "yydk_switch": 1}}', databaseResult='{"a": [{"id": 1, "number": "13500000001", "verify": "1111", "call_sid": "1fa034f81a8f402e85f0ce0b7526dbd9", "date_created": "2019-03-07 14:26:52", "status": 0, "updated_at": "2019-03-07 14:27:36", "created_at": "2019-03-07 14:26:53"}]}', databaseExpect='{"a": {"len": "5", "id": "1"}}',(1054, "Unknown column 'databaseResult' in 'field list'")
+2019-03-20 17:27:07,748 - INFO -main.py : 440 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.36秒，共执行用例：0条，成功：0条，失败：0条，阻塞：0条
+2019-03-20 17:27:07,753 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 17:27:59,070 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 17:27:59,070 - INFO -main.py : 387 :before_test - 本次测试共执行1条用例
+2019-03-20 17:27:59,074 - INFO -main.py : 468 :begin_test - 正在执行caseId为2的用例
+2019-03-20 17:27:59,076 - INFO -main.py : 305 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 17:27:59,076 - INFO -main.py : 306 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 17:27:59,472 - INFO -main.py : 501 :begin_test - caseId为2的用例完毕
+2019-03-20 17:27:59,474 - ERROR -sqls.py : 119 :insert_data - sql语句错误---->INSERT INTO testresult SET  method='GET', caseId=2, caseDescribe='主页，正常请求', apiHost='/s5/dashboard', apiParams='{"err_code": "0"}', expect='{"err_code": "0"}', ispass='fail', reason='sql检查点a中len的值期望为：5,实际为：1', time='2019/03/20 17:27:59', fact='{"err_code": 0, "err_msg": "", "messages": [], "payload": {"ad_tpl": {"action_id": 74, "ad_url": "https://game.baichuanhd.com.cn/show.htm?app_key=a4604da129644ae0", "ext": 6, "img_url": "https://assets.qkcdn.com/images/8be91e6f5f1f8b6754aa33e2bb64fc4a.png", "pos": 99, "sub_title": "每天8次 最高888元", "superscript": "", "title": "红包福利", "type": "juta_ad"}, "app_start": 0, "avatar": "http://assets.qkcdn.com/images/50ac8e24ab147eb337cc7fd7330615ee.png!200x200/rotate/auto", "balance": "0.00", "bind_mobile": 0, "claim_level_coin_open": 1, "clock_countdown_day": 0, "clock_extends": {}, "clock_switch": 0, "coin_balance": "0", "explore_switch": 1, "explore_tags": {"new_tasks": 0, "tasks_reward": 0}, "first_claim": 1, "has_explore_task": 0, "has_finished_task_once": 0, "has_new_tudi": 0, "has_rewarded": 0, "hb_liveshow_open": 0, "highearn_v5_6_switch": 0, "invalid_apprentice_num": 0, "invite_code": "0", "is_inside": 0, "is_lite": 0, "level_info": {"level": 1, "next_level": 2, "next_level_more_coin": 1, "next_level_more_income": "0.04", "next_level_need": "2.00"}, "msg_num": 0, "need_up_v5": 0, "new_user_alert_flag": 0, "newyear_activity_switch": 0, "next_level_coin": 8, "nickname": "", "old_user_trial_card_info": {}, "online_reward_open": 0, "open_msg": 1, "qt_sale_switch": 1, "receive_shoutu_income": "0.00", "reward": 5, "reward_by_tudi_num": 0, "reward_coin": 5, "sdj_loan": 1, "shandw_game_switch": 1, "shoutu_v5_3_open": 1, "shoutu_v5_9_open": 1, "thumb_switch": 1, "today_reward": "0.00", "total_reward": "0.00", "trial_card": {}, "tudi_online_num": 0, "tusun_online_num": 0, "uid": 51230144, "webclip": "", "xing_shoutu_switch": 0, "xnhb_show_alert": 0, "xnhb_switch": 0, "yl_article_switch": 1, "yl_huan_info": {"miniprogram_type": 1, "path": "/pages/index%3Fqk_uid%3D51230144%26source%3Dqk%26sign%3DDD2E5A0EE8", "username": "gh_3cf20e1090fe", "wx_app_id": ""}, "yydk_switch": 1}}', databaseResult='{"a": [{"id": 1, "number": "13500000001", "verify": "1111", "call_sid": "1fa034f81a8f402e85f0ce0b7526dbd9", "date_created": "2019-03-07 14:26:52", "status": 0, "updated_at": "2019-03-07 14:27:36", "created_at": "2019-03-07 14:26:53"}]}', databaseExpect='{"a": {"len": "5", "id": "1"}}',(1054, "Unknown column 'databaseResult' in 'field list'")
+2019-03-20 17:27:59,475 - INFO -main.py : 441 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.4秒，共执行用例：0条，成功：0条，失败：0条，阻塞：0条
+2019-03-20 17:27:59,479 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 17:29:16,771 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 17:29:16,772 - INFO -main.py : 387 :before_test - 本次测试共执行1条用例
+2019-03-20 17:29:16,775 - INFO -main.py : 468 :begin_test - 正在执行caseId为2的用例
+2019-03-20 17:29:16,777 - INFO -main.py : 305 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 17:29:16,777 - INFO -main.py : 306 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 17:29:17,112 - INFO -main.py : 501 :begin_test - caseId为2的用例完毕
+2019-03-20 17:29:17,114 - ERROR -sqls.py : 119 :insert_data - sql语句错误---->INSERT INTO testresult SET  method='GET', caseId=2, caseDescribe='主页，正常请求', apiHost='/s5/dashboard', apiParams='{"err_code": "0"}', expect='{"err_code": "0"}', ispass='fail', reason='sql检查点a中len的值期望为：5,实际为：1', time='2019/03/20 17:29:16', fact='{"err_code": 0, "err_msg": "", "messages": [], "payload": {"ad_tpl": {"action_id": 74, "ad_url": "https://game.baichuanhd.com.cn/show.htm?app_key=a4604da129644ae0", "ext": 6, "img_url": "https://assets.qkcdn.com/images/8be91e6f5f1f8b6754aa33e2bb64fc4a.png", "pos": 99, "sub_title": "每天8次 最高888元", "superscript": "", "title": "红包福利", "type": "juta_ad"}, "app_start": 0, "avatar": "http://assets.qkcdn.com/images/50ac8e24ab147eb337cc7fd7330615ee.png!200x200/rotate/auto", "balance": "0.00", "bind_mobile": 0, "claim_level_coin_open": 1, "clock_countdown_day": 0, "clock_extends": {}, "clock_switch": 0, "coin_balance": "0", "explore_switch": 1, "explore_tags": {"new_tasks": 0, "tasks_reward": 0}, "first_claim": 1, "has_explore_task": 0, "has_finished_task_once": 0, "has_new_tudi": 0, "has_rewarded": 0, "hb_liveshow_open": 0, "highearn_v5_6_switch": 0, "invalid_apprentice_num": 0, "invite_code": "0", "is_inside": 0, "is_lite": 0, "level_info": {"level": 1, "next_level": 2, "next_level_more_coin": 1, "next_level_more_income": "0.04", "next_level_need": "2.00"}, "msg_num": 0, "need_up_v5": 0, "new_user_alert_flag": 0, "newyear_activity_switch": 0, "next_level_coin": 8, "nickname": "", "old_user_trial_card_info": {}, "online_reward_open": 0, "open_msg": 1, "qt_sale_switch": 1, "receive_shoutu_income": "0.00", "reward": 5, "reward_by_tudi_num": 0, "reward_coin": 5, "sdj_loan": 1, "shandw_game_switch": 1, "shoutu_v5_3_open": 1, "shoutu_v5_9_open": 1, "thumb_switch": 1, "today_reward": "0.00", "total_reward": "0.00", "trial_card": {}, "tudi_online_num": 0, "tusun_online_num": 0, "uid": 51230144, "webclip": "", "xing_shoutu_switch": 0, "xnhb_show_alert": 0, "xnhb_switch": 0, "yl_article_switch": 1, "yl_huan_info": {"miniprogram_type": 1, "path": "/pages/index%3Fqk_uid%3D51230144%26source%3Dqk%26sign%3DDD2E5A0EE8", "username": "gh_3cf20e1090fe", "wx_app_id": ""}, "yydk_switch": 1}}', databaseResult='{"a": [{"id": 1, "number": "13500000001", "verify": "1111", "call_sid": "1fa034f81a8f402e85f0ce0b7526dbd9", "date_created": "2019-03-07 14:26:52", "status": 0, "updated_at": "2019-03-07 14:27:36", "created_at": "2019-03-07 14:26:53"}]}', databaseExpect='{"a": {"len": "5", "id": "1"}}',(1054, "Unknown column 'databaseResult' in 'field list'")
+2019-03-20 17:29:17,117 - INFO -main.py : 441 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.34秒，共执行用例：0条，成功：0条，失败：0条，阻塞：0条
+2019-03-20 17:29:17,121 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 17:30:11,489 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 17:30:11,489 - INFO -main.py : 387 :before_test - 本次测试共执行1条用例
+2019-03-20 17:30:11,493 - INFO -main.py : 468 :begin_test - 正在执行caseId为2的用例
+2019-03-20 17:30:11,494 - INFO -main.py : 305 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 17:30:11,494 - INFO -main.py : 306 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 17:30:11,826 - INFO -main.py : 501 :begin_test - caseId为2的用例完毕
+2019-03-20 17:30:11,827 - ERROR -sqls.py : 119 :insert_data - sql语句错误---->INSERT INTO testresult SET  method='GET', caseId=2, caseDescribe='主页，正常请求', apiHost='/s5/dashboard', apiParams='{"err_code": "0"}', expect='{"err_code": "0"}', ispass='fail', reason='sql检查点a中len的值期望为：5,实际为：1', time='2019/03/20 17:30:11', fact='{"err_code": 0, "err_msg": "", "messages": [], "payload": {"ad_tpl": {"action_id": 74, "ad_url": "https://game.baichuanhd.com.cn/show.htm?app_key=a4604da129644ae0", "ext": 6, "img_url": "https://assets.qkcdn.com/images/8be91e6f5f1f8b6754aa33e2bb64fc4a.png", "pos": 99, "sub_title": "每天8次 最高888元", "superscript": "", "title": "红包福利", "type": "juta_ad"}, "app_start": 0, "avatar": "http://assets.qkcdn.com/images/50ac8e24ab147eb337cc7fd7330615ee.png!200x200/rotate/auto", "balance": "0.00", "bind_mobile": 0, "claim_level_coin_open": 1, "clock_countdown_day": 0, "clock_extends": {}, "clock_switch": 0, "coin_balance": "0", "explore_switch": 1, "explore_tags": {"new_tasks": 0, "tasks_reward": 0}, "first_claim": 1, "has_explore_task": 0, "has_finished_task_once": 0, "has_new_tudi": 0, "has_rewarded": 0, "hb_liveshow_open": 0, "highearn_v5_6_switch": 0, "invalid_apprentice_num": 0, "invite_code": "0", "is_inside": 0, "is_lite": 0, "level_info": {"level": 1, "next_level": 2, "next_level_more_coin": 1, "next_level_more_income": "0.04", "next_level_need": "2.00"}, "msg_num": 0, "need_up_v5": 0, "new_user_alert_flag": 0, "newyear_activity_switch": 0, "next_level_coin": 8, "nickname": "", "old_user_trial_card_info": {}, "online_reward_open": 0, "open_msg": 1, "qt_sale_switch": 1, "receive_shoutu_income": "0.00", "reward": 5, "reward_by_tudi_num": 0, "reward_coin": 5, "sdj_loan": 1, "shandw_game_switch": 1, "shoutu_v5_3_open": 1, "shoutu_v5_9_open": 1, "thumb_switch": 1, "today_reward": "0.00", "total_reward": "0.00", "trial_card": {}, "tudi_online_num": 0, "tusun_online_num": 0, "uid": 51230144, "webclip": "", "xing_shoutu_switch": 0, "xnhb_show_alert": 0, "xnhb_switch": 0, "yl_article_switch": 1, "yl_huan_info": {"miniprogram_type": 1, "path": "/pages/index%3Fqk_uid%3D51230144%26source%3Dqk%26sign%3DDD2E5A0EE8", "username": "gh_3cf20e1090fe", "wx_app_id": ""}, "yydk_switch": 1}}', databaseResult='{"a": [{"id": 1, "number": "13500000001", "verify": "1111", "call_sid": "1fa034f81a8f402e85f0ce0b7526dbd9", "date_created": "2019-03-07 14:26:52", "status": 0, "updated_at": "2019-03-07 14:27:36", "created_at": "2019-03-07 14:26:53"}]}', databaseExpect='{"a": {"len": "5", "id": "1"}}',(1054, "Unknown column 'databaseResult' in 'field list'")
+2019-03-20 17:30:11,828 - INFO -main.py : 441 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.34秒，共执行用例：0条，成功：0条，失败：0条，阻塞：0条
+2019-03-20 17:30:11,829 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 17:37:59,070 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 17:37:59,070 - INFO -main.py : 388 :before_test - 本次测试共执行1条用例
+2019-03-20 17:37:59,073 - INFO -main.py : 469 :begin_test - 正在执行caseId为2的用例
+2019-03-20 17:37:59,075 - INFO -main.py : 305 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 17:37:59,075 - INFO -main.py : 306 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 17:37:59,168 - INFO -main.py : 328 :__excute_case - 调用/s5/create_user接口，headers信息改变，为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8'}
+2019-03-20 17:37:59,425 - INFO -main.py : 502 :begin_test - caseId为2的用例完毕
+2019-03-20 17:37:59,427 - ERROR -sqls.py : 119 :insert_data - sql语句错误---->INSERT INTO testresult SET  method='GET', caseId=2, caseDescribe='主页，正常请求', apiHost='/s5/dashboard', apiParams='{"err_code": "0"}', expect='{"err_code": "0"}', ispass='fail', reason='sql检查点a中len的值期望为：5,实际为：1', time='2019/03/20 17:37:59', fact='{"err_code": 0, "err_msg": "", "messages": [], "payload": {"ad_tpl": {"action_id": 74, "ad_url": "https://game.baichuanhd.com.cn/show.htm?app_key=a4604da129644ae0", "ext": 6, "img_url": "https://assets.qkcdn.com/images/8be91e6f5f1f8b6754aa33e2bb64fc4a.png", "pos": 99, "sub_title": "每天8次 最高888元", "superscript": "", "title": "红包福利", "type": "juta_ad"}, "app_start": 0, "avatar": "http://assets.qkcdn.com/images/50ac8e24ab147eb337cc7fd7330615ee.png!200x200/rotate/auto", "balance": "0.00", "bind_mobile": 0, "claim_level_coin_open": 1, "clock_countdown_day": 0, "clock_extends": {}, "clock_switch": 0, "coin_balance": "0", "explore_switch": 1, "explore_tags": {"new_tasks": 0, "tasks_reward": 0}, "first_claim": 1, "has_explore_task": 0, "has_finished_task_once": 0, "has_new_tudi": 0, "has_rewarded": 0, "hb_liveshow_open": 0, "highearn_v5_6_switch": 0, "invalid_apprentice_num": 0, "invite_code": "0", "is_inside": 0, "is_lite": 0, "level_info": {"level": 1, "next_level": 2, "next_level_more_coin": 1, "next_level_more_income": "0.04", "next_level_need": "2.00"}, "msg_num": 0, "need_up_v5": 0, "new_user_alert_flag": 0, "newyear_activity_switch": 0, "next_level_coin": 8, "nickname": "", "old_user_trial_card_info": {}, "online_reward_open": 0, "open_msg": 1, "qt_sale_switch": 1, "receive_shoutu_income": "0.00", "reward": 5, "reward_by_tudi_num": 0, "reward_coin": 5, "sdj_loan": 1, "shandw_game_switch": 1, "shoutu_v5_3_open": 1, "shoutu_v5_9_open": 1, "thumb_switch": 1, "today_reward": "0.00", "total_reward": "0.00", "trial_card": {}, "tudi_online_num": 0, "tusun_online_num": 0, "uid": 51230144, "webclip": "", "xing_shoutu_switch": 0, "xnhb_show_alert": 0, "xnhb_switch": 0, "yl_article_switch": 1, "yl_huan_info": {"miniprogram_type": 1, "path": "/pages/index%3Fqk_uid%3D51230144%26source%3Dqk%26sign%3DDD2E5A0EE8", "username": "gh_3cf20e1090fe", "wx_app_id": ""}, "yydk_switch": 1}}', databaseResult='{"a": [{"id": 1, "number": "13500000001", "verify": "1111", "call_sid": "1fa034f81a8f402e85f0ce0b7526dbd9", "date_created": "2019-03-07 14:26:52", "status": 0, "updated_at": "2019-03-07 14:27:36", "created_at": "2019-03-07 14:26:53"}]}', databaseExpect='{"a": {"len": "5", "id": "1"}}',(1054, "Unknown column 'databaseResult' in 'field list'")
+2019-03-20 17:37:59,430 - INFO -main.py : 442 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.35秒，共执行用例：0条，成功：0条，失败：0条，阻塞：0条
+2019-03-20 17:37:59,435 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 17:39:59,520 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 17:39:59,520 - INFO -main.py : 388 :before_test - 本次测试共执行1条用例
+2019-03-20 17:39:59,525 - INFO -main.py : 469 :begin_test - 正在执行caseId为2的用例
+2019-03-20 17:39:59,528 - INFO -main.py : 305 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 17:39:59,528 - INFO -main.py : 306 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 17:39:59,627 - INFO -main.py : 328 :__excute_case - 调用/s5/create_user接口，headers信息改变，为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8'}
+2019-03-20 17:39:59,812 - INFO -main.py : 502 :begin_test - caseId为2的用例完毕
+2019-03-20 17:39:59,818 - INFO -main.py : 442 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.29秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 17:39:59,822 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 17:40:58,945 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 17:40:58,945 - INFO -main.py : 389 :before_test - 本次测试共执行1条用例
+2019-03-20 17:40:58,948 - INFO -main.py : 470 :begin_test - 正在执行caseId为2的用例
+2019-03-20 17:40:58,950 - INFO -main.py : 305 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 17:40:58,950 - INFO -main.py : 306 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 17:40:59,059 - INFO -main.py : 329 :__excute_case - 调用/s5/create_user接口，headers信息改变，为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8'}
+2019-03-20 17:40:59,242 - INFO -main.py : 503 :begin_test - caseId为2的用例完毕
+2019-03-20 17:40:59,244 - INFO -main.py : 443 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.3秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 17:40:59,246 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 17:50:32,847 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 17:50:32,847 - INFO -main.py : 388 :before_test - 本次测试共执行0条用例
+2019-03-20 17:50:32,847 - ERROR -main.py : 390 :before_test - 用例为空，无匹配格式的.xlsx文件或文件中暂无用例数据
+2019-03-20 17:50:32,848 - INFO -main.py : 442 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.0秒，共执行用例：0条，成功：0条，失败：0条，阻塞：0条
+2019-03-20 17:50:32,850 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 17:51:12,751 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 17:51:12,751 - INFO -main.py : 388 :before_test - 本次测试共执行0条用例
+2019-03-20 17:51:12,752 - ERROR -main.py : 390 :before_test - 用例为空，无匹配格式的.xlsx文件或文件中暂无用例数据
+2019-03-20 17:51:12,753 - INFO -main.py : 442 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.0秒，共执行用例：0条，成功：0条，失败：0条，阻塞：0条
+2019-03-20 17:51:12,755 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 17:53:02,369 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 17:53:02,369 - INFO -main.py : 388 :before_test - 本次测试共执行0条用例
+2019-03-20 17:53:02,369 - ERROR -main.py : 390 :before_test - 用例为空，无匹配格式的.xlsx文件或文件中暂无用例数据
+2019-03-20 17:53:02,370 - INFO -main.py : 442 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.0秒，共执行用例：0条，成功：0条，失败：0条，阻塞：0条
+2019-03-20 17:53:02,371 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 17:53:30,142 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 17:53:30,142 - INFO -main.py : 388 :before_test - 本次测试共执行1条用例
+2019-03-20 17:53:30,147 - INFO -main.py : 468 :begin_test - 正在执行caseId为3的用例
+2019-03-20 17:54:36,572 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 17:54:36,572 - INFO -main.py : 388 :before_test - 本次测试共执行1条用例
+2019-03-20 17:54:36,577 - INFO -main.py : 468 :begin_test - 正在执行caseId为3的用例
+2019-03-20 17:54:36,577 - INFO -main.py : 305 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 17:54:36,577 - INFO -main.py : 306 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 17:54:36,736 - INFO -main.py : 501 :begin_test - caseId为3的用例完毕
+2019-03-20 17:54:36,738 - INFO -main.py : 442 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.16秒，共执行用例：1条，成功：1条，失败：0条，阻塞：0条
+2019-03-20 17:54:36,740 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 18:07:07,585 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 18:07:07,693 - INFO -main.py : 84 :bind_key - 绑定钥匙失败
+2019-03-20 18:07:07,694 - INFO -main.py : 415 :before_test - 本次测试共执行1条用例
+2019-03-20 18:07:07,698 - INFO -main.py : 495 :begin_test - 正在执行caseId为3的用例
+2019-03-20 18:07:07,698 - INFO -main.py : 329 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 18:07:07,698 - INFO -main.py : 330 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 18:07:07,845 - INFO -main.py : 528 :begin_test - caseId为3的用例完毕
+2019-03-20 18:07:07,847 - INFO -main.py : 469 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.26秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 18:07:07,848 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 18:07:38,457 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 18:07:38,563 - INFO -main.py : 85 :bind_key - 绑定钥匙失败
+2019-03-20 18:07:38,564 - INFO -main.py : 416 :before_test - 本次测试共执行1条用例
+2019-03-20 18:07:38,572 - INFO -main.py : 496 :begin_test - 正在执行caseId为3的用例
+2019-03-20 18:07:38,573 - INFO -main.py : 330 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 18:07:38,573 - INFO -main.py : 331 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 18:07:38,696 - INFO -main.py : 529 :begin_test - caseId为3的用例完毕
+2019-03-20 18:07:38,699 - INFO -main.py : 470 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.24秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 18:07:38,702 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 18:07:44,413 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 18:07:44,498 - INFO -main.py : 85 :bind_key - 绑定钥匙失败
+2019-03-20 18:07:44,498 - INFO -main.py : 416 :before_test - 本次测试共执行1条用例
+2019-03-20 18:07:44,501 - INFO -main.py : 496 :begin_test - 正在执行caseId为3的用例
+2019-03-20 18:07:44,502 - INFO -main.py : 330 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 18:07:44,502 - INFO -main.py : 331 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 18:07:44,582 - INFO -main.py : 529 :begin_test - caseId为3的用例完毕
+2019-03-20 18:07:44,584 - INFO -main.py : 470 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.17秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 18:07:44,587 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 18:08:01,437 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 18:08:01,549 - INFO -main.py : 81 :bind_key - 绑定钥匙成功
+2019-03-20 18:08:01,550 - INFO -main.py : 416 :before_test - 本次测试共执行1条用例
+2019-03-20 18:08:01,553 - INFO -main.py : 496 :begin_test - 正在执行caseId为3的用例
+2019-03-20 18:08:01,553 - INFO -main.py : 330 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 18:08:01,553 - INFO -main.py : 331 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 18:08:01,633 - INFO -main.py : 529 :begin_test - caseId为3的用例完毕
+2019-03-20 18:08:01,637 - INFO -main.py : 470 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.2秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 18:08:01,641 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 18:08:50,223 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 18:08:50,379 - INFO -main.py : 80 :bind_key - 绑定钥匙成功
+2019-03-20 18:08:50,380 - INFO -main.py : 415 :before_test - 本次测试共执行1条用例
+2019-03-20 18:08:50,388 - INFO -main.py : 495 :begin_test - 正在执行caseId为3的用例
+2019-03-20 18:08:50,389 - INFO -main.py : 329 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 18:08:50,389 - INFO -main.py : 330 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 18:08:50,512 - INFO -main.py : 528 :begin_test - caseId为3的用例完毕
+2019-03-20 18:08:50,515 - INFO -main.py : 469 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.29秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 18:08:50,517 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 18:09:45,606 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 18:09:45,607 - INFO -main.py : 415 :before_test - 本次测试共执行1条用例
+2019-03-20 18:09:45,611 - INFO -main.py : 495 :begin_test - 正在执行caseId为3的用例
+2019-03-20 18:09:45,612 - INFO -main.py : 329 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0880d86fe2b24fe58b477d3b59cb93a8;ln=1;lu=51230084'}
+2019-03-20 18:09:45,612 - INFO -main.py : 330 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 18:09:45,725 - INFO -main.py : 528 :begin_test - caseId为3的用例完毕
+2019-03-20 18:09:45,728 - INFO -main.py : 469 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.12秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 18:09:45,731 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 18:12:00,832 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 18:12:01,297 - INFO -main.py : 80 :bind_key - 绑定钥匙成功
+2019-03-20 18:12:01,298 - INFO -main.py : 415 :before_test - 本次测试共执行1条用例
+2019-03-20 18:12:01,304 - INFO -main.py : 495 :begin_test - 正在执行caseId为3的用例
+2019-03-20 18:12:01,305 - INFO -main.py : 329 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=d38a08a07a024378ba640d5124425bdc;ln=1;lu=51230182'}
+2019-03-20 18:12:01,306 - INFO -main.py : 330 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 18:12:01,497 - INFO -main.py : 528 :begin_test - caseId为3的用例完毕
+2019-03-20 18:12:01,502 - INFO -main.py : 469 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.67秒，共执行用例：1条，成功：1条，失败：0条，阻塞：0条
+2019-03-20 18:12:01,507 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 18:33:48,098 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 18:34:42,582 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 18:34:42,765 - INFO -main.py : 80 :bind_key - 绑定钥匙成功
+2019-03-20 18:34:42,765 - INFO -main.py : 415 :before_test - 本次测试共执行1条用例
+2019-03-20 18:34:42,781 - INFO -main.py : 495 :begin_test - 正在执行caseId为3的用例
+2019-03-20 18:34:42,781 - INFO -main.py : 329 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=d38a08a07a024378ba640d5124425bdc;ln=1;lu=51230182'}
+2019-03-20 18:34:42,781 - INFO -main.py : 330 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 18:34:43,068 - INFO -main.py : 528 :begin_test - caseId为3的用例完毕
+2019-03-20 18:34:43,071 - INFO -main.py : 469 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.49秒，共执行用例：1条，成功：1条，失败：0条，阻塞：0条
+2019-03-20 18:34:43,073 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 18:35:06,287 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 18:35:06,492 - INFO -main.py : 80 :bind_key - 绑定钥匙成功
+2019-03-20 18:35:06,492 - INFO -main.py : 415 :before_test - 本次测试共执行1条用例
+2019-03-20 18:35:06,498 - INFO -main.py : 495 :begin_test - 正在执行caseId为3的用例
+2019-03-20 18:35:06,498 - INFO -main.py : 329 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=d38a08a07a024378ba640d5124425bdc;ln=1;lu=51230182'}
+2019-03-20 18:35:06,498 - INFO -main.py : 330 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 18:35:06,707 - INFO -main.py : 528 :begin_test - caseId为3的用例完毕
+2019-03-20 18:35:06,712 - INFO -main.py : 469 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.42秒，共执行用例：1条，成功：1条，失败：0条，阻塞：0条
+2019-03-20 18:35:06,714 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 18:35:28,739 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 18:35:28,888 - INFO -main.py : 80 :bind_key - 绑定钥匙成功
+2019-03-20 18:35:28,888 - INFO -main.py : 415 :before_test - 本次测试共执行1条用例
+2019-03-20 18:35:28,899 - INFO -main.py : 495 :begin_test - 正在执行caseId为3的用例
+2019-03-20 18:35:28,900 - INFO -main.py : 329 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=d38a08a07a024378ba640d5124425bdc;ln=1;lu=51230182'}
+2019-03-20 18:35:28,900 - INFO -main.py : 330 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 18:35:29,098 - INFO -main.py : 528 :begin_test - caseId为3的用例完毕
+2019-03-20 18:35:29,101 - INFO -main.py : 469 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.36秒，共执行用例：1条，成功：1条，失败：0条，阻塞：0条
+2019-03-20 18:35:29,104 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 18:35:47,945 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 18:35:48,125 - INFO -main.py : 80 :bind_key - 绑定钥匙成功
+2019-03-20 18:35:48,125 - INFO -main.py : 415 :before_test - 本次测试共执行1条用例
+2019-03-20 18:35:48,130 - INFO -main.py : 495 :begin_test - 正在执行caseId为3的用例
+2019-03-20 18:35:48,130 - INFO -main.py : 329 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=d38a08a07a024378ba640d5124425bdc;ln=1;lu=51230182'}
+2019-03-20 18:35:48,130 - INFO -main.py : 330 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 18:35:48,349 - INFO -main.py : 528 :begin_test - caseId为3的用例完毕
+2019-03-20 18:35:48,355 - INFO -main.py : 469 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.4秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 18:35:48,358 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 18:36:26,986 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 18:36:27,148 - INFO -main.py : 80 :bind_key - 绑定钥匙成功
+2019-03-20 18:36:27,148 - INFO -main.py : 415 :before_test - 本次测试共执行1条用例
+2019-03-20 18:36:27,157 - INFO -main.py : 495 :begin_test - 正在执行caseId为3的用例
+2019-03-20 18:36:27,158 - INFO -main.py : 329 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=d38a08a07a024378ba640d5124425bdc;ln=1;lu=51230182'}
+2019-03-20 18:36:27,158 - INFO -main.py : 330 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 18:36:27,360 - INFO -main.py : 528 :begin_test - caseId为3的用例完毕
+2019-03-20 18:36:27,363 - INFO -main.py : 469 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.37秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 18:36:27,365 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 18:37:07,821 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 18:37:08,032 - INFO -main.py : 80 :bind_key - 绑定钥匙成功
+2019-03-20 18:37:08,032 - INFO -main.py : 415 :before_test - 本次测试共执行1条用例
+2019-03-20 18:37:08,038 - INFO -main.py : 495 :begin_test - 正在执行caseId为3的用例
+2019-03-20 18:37:08,038 - INFO -main.py : 329 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=d38a08a07a024378ba640d5124425bdc;ln=1;lu=51230182'}
+2019-03-20 18:37:08,039 - INFO -main.py : 330 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 18:37:08,245 - INFO -main.py : 528 :begin_test - caseId为3的用例完毕
+2019-03-20 18:37:08,251 - INFO -main.py : 469 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.42秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 18:37:08,256 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 18:37:40,063 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 18:37:40,233 - INFO -main.py : 80 :bind_key - 绑定钥匙成功
+2019-03-20 18:37:40,234 - INFO -main.py : 415 :before_test - 本次测试共执行1条用例
+2019-03-20 18:37:40,243 - INFO -main.py : 495 :begin_test - 正在执行caseId为3的用例
+2019-03-20 18:37:40,243 - INFO -main.py : 329 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=d38a08a07a024378ba640d5124425bdc;ln=1;lu=51230182'}
+2019-03-20 18:37:40,244 - INFO -main.py : 330 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 18:37:40,526 - INFO -main.py : 528 :begin_test - caseId为3的用例完毕
+2019-03-20 18:37:40,530 - INFO -main.py : 469 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.46秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 18:37:40,533 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 18:37:59,006 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 18:37:59,177 - INFO -main.py : 80 :bind_key - 绑定钥匙成功
+2019-03-20 18:37:59,177 - INFO -main.py : 415 :before_test - 本次测试共执行1条用例
+2019-03-20 18:37:59,185 - INFO -main.py : 495 :begin_test - 正在执行caseId为3的用例
+2019-03-20 18:37:59,185 - INFO -main.py : 329 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=d38a08a07a024378ba640d5124425bdc;ln=1;lu=51230182'}
+2019-03-20 18:37:59,186 - INFO -main.py : 330 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 18:37:59,408 - INFO -main.py : 528 :begin_test - caseId为3的用例完毕
+2019-03-20 18:37:59,412 - INFO -main.py : 469 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.4秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 18:37:59,414 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 18:38:27,112 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 18:38:27,271 - INFO -main.py : 80 :bind_key - 绑定钥匙成功
+2019-03-20 18:38:27,271 - INFO -main.py : 415 :before_test - 本次测试共执行1条用例
+2019-03-20 18:38:27,278 - INFO -main.py : 495 :begin_test - 正在执行caseId为3的用例
+2019-03-20 18:38:27,279 - INFO -main.py : 329 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=d38a08a07a024378ba640d5124425bdc;ln=1;lu=51230182'}
+2019-03-20 18:38:27,279 - INFO -main.py : 330 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 18:38:27,528 - INFO -main.py : 528 :begin_test - caseId为3的用例完毕
+2019-03-20 18:38:27,534 - INFO -main.py : 469 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.42秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 18:38:27,539 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 18:38:43,981 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 18:38:44,181 - INFO -main.py : 80 :bind_key - 绑定钥匙成功
+2019-03-20 18:38:44,182 - INFO -main.py : 415 :before_test - 本次测试共执行1条用例
+2019-03-20 18:38:44,196 - INFO -main.py : 495 :begin_test - 正在执行caseId为3的用例
+2019-03-20 18:38:44,198 - INFO -main.py : 329 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=d38a08a07a024378ba640d5124425bdc;ln=1;lu=51230182'}
+2019-03-20 18:38:44,199 - INFO -main.py : 330 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 18:38:45,845 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 18:38:45,988 - INFO -main.py : 80 :bind_key - 绑定钥匙成功
+2019-03-20 18:38:45,988 - INFO -main.py : 415 :before_test - 本次测试共执行1条用例
+2019-03-20 18:38:45,991 - INFO -main.py : 495 :begin_test - 正在执行caseId为3的用例
+2019-03-20 18:38:45,992 - INFO -main.py : 329 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=d38a08a07a024378ba640d5124425bdc;ln=1;lu=51230182'}
+2019-03-20 18:38:45,992 - INFO -main.py : 330 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 18:38:46,262 - INFO -main.py : 528 :begin_test - caseId为3的用例完毕
+2019-03-20 18:38:46,265 - INFO -main.py : 469 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.42秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 18:38:46,268 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-20 18:39:30,172 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 18:39:30,296 - INFO -main.py : 80 :bind_key - 绑定钥匙成功
+2019-03-20 18:39:30,297 - INFO -main.py : 415 :before_test - 本次测试共执行1条用例
+2019-03-20 18:39:30,312 - INFO -main.py : 495 :begin_test - 正在执行caseId为3的用例
+2019-03-20 18:39:30,312 - INFO -main.py : 329 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=d38a08a07a024378ba640d5124425bdc;ln=1;lu=51230182'}
+2019-03-20 18:39:30,314 - INFO -main.py : 330 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 18:39:40,160 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 18:39:40,341 - INFO -main.py : 80 :bind_key - 绑定钥匙成功
+2019-03-20 18:39:40,341 - INFO -main.py : 415 :before_test - 本次测试共执行1条用例
+2019-03-20 18:39:40,349 - INFO -main.py : 495 :begin_test - 正在执行caseId为3的用例
+2019-03-20 18:39:40,350 - INFO -main.py : 329 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=d38a08a07a024378ba640d5124425bdc;ln=1;lu=51230182'}
+2019-03-20 18:39:40,350 - INFO -main.py : 330 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 18:40:02,298 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 18:40:02,448 - INFO -main.py : 80 :bind_key - 绑定钥匙成功
+2019-03-20 18:40:02,448 - INFO -main.py : 415 :before_test - 本次测试共执行1条用例
+2019-03-20 18:40:02,453 - INFO -main.py : 495 :begin_test - 正在执行caseId为3的用例
+2019-03-20 18:40:02,453 - INFO -main.py : 329 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=d38a08a07a024378ba640d5124425bdc;ln=1;lu=51230182'}
+2019-03-20 18:40:02,453 - INFO -main.py : 330 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 18:40:11,785 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 18:40:11,946 - INFO -main.py : 80 :bind_key - 绑定钥匙成功
+2019-03-20 18:40:11,946 - INFO -main.py : 415 :before_test - 本次测试共执行1条用例
+2019-03-20 18:40:11,949 - INFO -main.py : 495 :begin_test - 正在执行caseId为3的用例
+2019-03-20 18:40:11,950 - INFO -main.py : 329 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=d38a08a07a024378ba640d5124425bdc;ln=1;lu=51230182'}
+2019-03-20 18:40:11,950 - INFO -main.py : 330 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 18:40:19,039 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 18:40:19,216 - INFO -main.py : 80 :bind_key - 绑定钥匙成功
+2019-03-20 18:40:19,217 - INFO -main.py : 415 :before_test - 本次测试共执行1条用例
+2019-03-20 18:40:19,223 - INFO -main.py : 495 :begin_test - 正在执行caseId为3的用例
+2019-03-20 18:40:19,224 - INFO -main.py : 329 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=d38a08a07a024378ba640d5124425bdc;ln=1;lu=51230182'}
+2019-03-20 18:40:19,224 - INFO -main.py : 330 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 18:42:00,133 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 18:42:00,344 - INFO -main.py : 80 :bind_key - 绑定钥匙成功
+2019-03-20 18:42:00,344 - INFO -main.py : 415 :before_test - 本次测试共执行1条用例
+2019-03-20 18:42:00,349 - INFO -main.py : 495 :begin_test - 正在执行caseId为3的用例
+2019-03-20 18:42:00,350 - INFO -main.py : 329 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=d38a08a07a024378ba640d5124425bdc;ln=1;lu=51230182'}
+2019-03-20 18:42:00,350 - INFO -main.py : 330 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 18:42:16,972 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 18:42:17,133 - INFO -main.py : 80 :bind_key - 绑定钥匙成功
+2019-03-20 18:42:17,133 - INFO -main.py : 415 :before_test - 本次测试共执行1条用例
+2019-03-20 18:42:17,139 - INFO -main.py : 495 :begin_test - 正在执行caseId为3的用例
+2019-03-20 18:42:17,139 - INFO -main.py : 329 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=d38a08a07a024378ba640d5124425bdc;ln=1;lu=51230182'}
+2019-03-20 18:42:17,139 - INFO -main.py : 330 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 18:42:43,518 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 18:42:50,378 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 18:43:05,490 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 18:43:05,649 - INFO -main.py : 80 :bind_key - 绑定钥匙成功
+2019-03-20 18:43:05,649 - INFO -main.py : 415 :before_test - 本次测试共执行1条用例
+2019-03-20 18:43:05,654 - INFO -main.py : 495 :begin_test - 正在执行caseId为3的用例
+2019-03-20 18:43:05,655 - INFO -main.py : 329 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=d38a08a07a024378ba640d5124425bdc;ln=1;lu=51230182'}
+2019-03-20 18:43:05,655 - INFO -main.py : 330 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 18:43:17,238 - INFO -parse_excel.py : 23 :__init__ - 用例路径：E:\project\newapi\cases\case_examlpe.xlsx
+2019-03-20 18:43:17,375 - INFO -main.py : 80 :bind_key - 绑定钥匙成功
+2019-03-20 18:43:17,375 - INFO -main.py : 415 :before_test - 本次测试共执行1条用例
+2019-03-20 18:43:17,379 - INFO -main.py : 495 :begin_test - 正在执行caseId为3的用例
+2019-03-20 18:43:17,379 - INFO -main.py : 329 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=d38a08a07a024378ba640d5124425bdc;ln=1;lu=51230182'}
+2019-03-20 18:43:17,379 - INFO -main.py : 330 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-20 18:43:17,609 - INFO -main.py : 528 :begin_test - caseId为3的用例完毕
+2019-03-20 18:43:17,613 - INFO -main.py : 469 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时0.37秒，共执行用例：1条，成功：0条，失败：1条，阻塞：0条
+2019-03-20 18:43:17,615 - INFO -report.py : 152 :get_report - 正在写入用例执行情况

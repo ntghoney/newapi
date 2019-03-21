@@ -59,9 +59,9 @@ class __HandleCase(object):
                         value = value.replace(":", "：")
                     checkPints[key] = value
         else:
-            key, value = item.split("=")
+            key, value = item.split("=",1)
             if "=" in item:
-                key, value = item.split("=")
+                key, value = item.split("=",1)
                 if ":" in value:
                     value = value.replace(":", "：")
             checkPints[key] = value
@@ -142,6 +142,8 @@ class __HandleCase(object):
         all_case = [dict(zip(CASENAME, row)) for row in row_values]
         for case in all_case:
             for k, v in case.items():
+                if k == RELATEDAPI:
+                    v = v.replace("\n", "")
                 if not v:
                     case[k] = None
                     continue
@@ -160,7 +162,6 @@ class __HandleCase(object):
                         v = json.loads(v, encoding="utf8")
                         case[k] = v
                     except json.JSONDecodeError as e:
-                        log.info("关联api解析错误  %s" % e)
                         case[k] = v
                 if k == EXPECT:
                     v = self.__handle_checkpoint(v)
