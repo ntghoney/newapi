@@ -41,11 +41,11 @@ REASON = "reason"
 # 数据库配置信息
 SQLINFO = {
     "local": {
-        "host": "172.16.2.20",
-        "port": 3306,
+        "host": "fp01.ops.gaoshou.me",
+        "port": 3307,
         "user": "root",
-        "password": "123456",
-        "database": "apitest"
+        "password": "",
+        "database": "api_test1"
     },
     "fp01":{
         "host": "fp01.ops.gaoshou.me",

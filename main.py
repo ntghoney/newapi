@@ -93,7 +93,7 @@ def bind_key(session_id):
         sys.exit(-1)
 
 
-def install_certificate(sid, db):
+def install_certificate(sid, uid, db: ConMysql):
     """
     安装证书
     :param sid:session_id
@@ -101,6 +101,14 @@ def install_certificate(sid, db):
     """
     cu = HebeSession(db)
     udid = "udid07A8-26B2-4749-AFF3-0435B6ED525"
+    sql = """
+           INSERT INTO user_device_certificate
+           (user_id,udid,issuer_cn,subject_cn,serial_number,not_before,client_ip,created_at)
+           VALUES (%s,"%s","33ab9800f1378cb13ea4eeb6a4ce56af2987ec69",
+           "D8DEBC4A-8EE7-4953-9259-556F87353D5C","13220895031545118235832",
+           "2017-03-11 07:55:23","10.168.205.147","%s")
+       """ % (uid, udid,get_current_time())
+    db.execute_sql(sql)
     cu.bind_sid_udid(sid=sid, udid=udid)
     info = cu.get_session_info(sid)
     if info.get("udid", "") == udid:
@@ -160,6 +168,9 @@ class Run(object):
         rp = pc.get_info("related_params")
         s = re.findall(p, parmas)  # 找到${id}整体
         log.info("参数化前%s" % parmas)
+        if rp is None:
+            log.info("参数化失败，related_params为空")
+            return parmas
         if not s:
             return parmas
         for i in s:
@@ -353,7 +364,6 @@ class Run(object):
         related_api = case.get(RELATEDAPI)
         # 获得关联接口
         related_api_info = self.__get_related_api(related_api)
-        print(related_api)
         # 将当前用例执行的接口信息信息附加在关联接口后
         related_api_info.append(get_api(case))
         # 如果关联接口中的headers信息为空，使用当前用例接口的headers信息
@@ -365,6 +375,7 @@ class Run(object):
             api_params = api.get(PARMAS)
             api_method = api.get(METHOD)
             related_params = api.get(RELEATEDPARAMS)
+            log.info("执行接口%s" % api_host)
             if api_params is not None and \
                     isinstance(api_params, dict) \
                     and "phone" in api_params.keys():
@@ -394,6 +405,7 @@ class Run(object):
             # 处理关联参数
             try:
                 response = res.json()
+                print(response)
                 if related_params is not None:
                     related_params = related_params.split(",")
                     for rp in related_params:
@@ -407,11 +419,13 @@ class Run(object):
                             if not isinstance(temp_res, dict):
                                 # json数组,取第一个json作为关联参数
                                 if isinstance(temp_res, list):
-                                    temp_res = temp_res[0]
-                                    continue
+                                    if temp_res:
+                                        temp_res = temp_res[0]
+                                        continue
+                                    break
                                 pc.wirte_info("related_params", rp, str(temp_res))
                             if temp_res is None:
-                                continue
+                                break
                 # 遍历到最后一个接口，即当前用例接口
                 if related_api_info.index(api) == len(related_api_info) - 1:
                     # 用例执行完毕后再次参数化
@@ -463,10 +477,11 @@ class Run(object):
         all_case = get_case()  # 获得所有用例
         self.start_time = time.time()
         s_id = pc.get_info("user").get("session")
+        u_id=pc.get_info("user").get("uid")
         # 绑定钥匙
         bind_key(s_id)
         # 安装证书
-        install_certificate(s_id, self.db_server)
+        install_certificate(s_id, u_id,self.db_server)
         # 获得本次测试执行的用例
         self.cases = get_excute_case(all_case)
         log.info("本次测试共执行%s条用例" % len(self.cases))
@@ -599,10 +614,15 @@ class Run(object):
         """
         assert isinstance(result, Result)
         # 执行用例前，不符合用例书写规则的用例执行结果全部定位block
-        print(res)
         if res.get("code") == "error":
-            result.ispass = FAIL
-            result.reason = res.get("response")
+            status_code = res.get("status_code")
+            for key, value in points.items():
+                if key == "status_code":
+                    if str(value) != str(status_code):
+                        reason = "status_code预期为%s,实际为%s" % (value, status_code)
+                        result.ispass = FAIL
+                        result.reason = reason
+                        return
             return
         if res.get("block"):
             result.ispass = "block"
@@ -610,16 +630,8 @@ class Run(object):
             return
         if result.ispass != "pass":
             return
-        status_code = res.get("status_code")
         res = res.get("response")
         for key, value in points.items():
-            if key == "status_code":
-                if str(value) != str(status_code):
-                    reason = "status_code预期为%s,实际为%s" % (value, status_code)
-                    result.ispass = FAIL
-                    result.reason = reason
-                    return
-                return
             # 简单检查点 eg:err_code=0
             if "." not in key:
                 if res.get(key) is None:
@@ -661,7 +673,7 @@ class Run(object):
                         return
                     if str(temp_res) != str(value):
                         reason = "检查点%s预期结果为:%s,实际结果为:%s" % (
-                            key, str(res.get(key)), value)
+                            key, value, str(temp_res))
                         result.ispass = FAIL
                         result.reason = reason
                         return

@@ -283,3 +283,4 @@ class HebeSession(object):
                                                      idfa=cache_idfa)
         return self.set_sid_info_cache(sid=sid, udid=udid, uid=0,
                                                  idfa=cache_idfa)
+print(cache('session').get(SESSION_CACHE_KEY%"9b21a3ff5b4346f68f1b9a53ba7e5e34"))

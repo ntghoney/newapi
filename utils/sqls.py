@@ -116,6 +116,7 @@ class ConMysql(object):
             if value is None:
                 sql += " %s=Null," % (key)
             elif isinstance(value, str):
+                value=value.replace('"',"'")
                 sql += """ %s="%s",""" % (key, value)
             elif isinstance(value, dict):
                 value = json.dumps(value, ensure_ascii=False, cls=MyEncoder)

@@ -142,17 +142,18 @@ class __HandleCase(object):
         all_case = [dict(zip(CASENAME, row)) for row in row_values]
         for case in all_case:
             for k, v in case.items():
-                if k == RELATEDAPI:
+                if (k == CASEID or k == APIID or k == RELATEDAPI) and not isinstance(v, str):
+                    case[k] = int(v)
+                if k == RELATEDAPI and isinstance(v,str):
                     v = v.replace("\n", "")
                 if not v:
                     case[k] = None
                     continue
-                if (k == CASEID or k == APIID or k == RELATEDAPI) and not isinstance(v, str):
-                    case[k] = int(v)
                 if k == PARMAS:
                     try:
                         case[k] = json.loads(v, encoding="utf8")
-                    except:
+                    except Exception as e:
+                        log.info(e)
                         case[k] = {}
                         log.info("参数不符合json格式")
                 if k == METHOD:

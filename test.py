@@ -88,7 +88,19 @@
 #         print(e)
 #         pass
 
-import re
-vv =['249166', '249161', '249158']
-v   =['249166', '249161', '249158']
-print(v in vv)
+
+import requests,re
+from main import bind_key,install_certificate
+from utils.sqls import ConMysql
+
+h={"task_id":1}
+# dis_p = re.compile(r"DIS4=(.*?);")
+# s=requests.post("http://fp01.ops.gaoshou.me/s5/create_user")
+# s_id=re.findall(dis_p, s.headers["Set-Cookie"])[-1]
+# print(s_id)
+g=requests.get("http://fp01.ops.gaoshou.me//s4k/subtask.list",headers={"cookie":"7f7dbd23417541a2a639b31491ec12c1"})
+print(g.text)
+# bind_key("7f7dbd23417541a2a639b31491ec12c1")
+# install_certificate(sid="7f7dbd23417541a2a639b31491ec12c1",db=ConMysql("fp01"))
+# a=requests.get("http://fp01.ops.gaoshou.me/s4/lite.subtask.start")
+# print(a.text)
