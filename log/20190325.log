@@ -1,0 +1,868 @@
+2019-03-25 18:56:07,269 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_subtask.xlsx
+2019-03-25 18:56:07,278 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_user.xlsx
+2019-03-25 18:56:07,563 - INFO -main.py : 89 :bind_key - 绑定钥匙成功
+2019-03-25 18:56:08,066 - INFO -main.py : 116 :install_certificate - 证书安装成功
+2019-03-25 18:56:08,067 - INFO -main.py : 516 :before_test - 本次测试共执行7条用例
+2019-03-25 18:56:09,428 - INFO -main.py : 602 :begin_test - 正在执行caseId为sub_task_2的用例
+2019-03-25 18:56:09,430 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=cf377119d6e544d58df6c2093c30f358;ln=1;lu=51229926'}
+2019-03-25 18:56:09,430 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 18:56:09,430 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 18:56:09,611 - INFO -main.py : 635 :begin_test - caseId为sub_task_2的用例完毕
+2019-03-25 18:56:09,612 - INFO -main.py : 602 :begin_test - 正在执行caseId为sub_task_3的用例
+2019-03-25 18:56:09,613 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=cf377119d6e544d58df6c2093c30f358;ln=1;lu=51229926'}
+2019-03-25 18:56:09,614 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 18:56:09,614 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 18:56:09,731 - INFO -main.py : 635 :begin_test - caseId为sub_task_3的用例完毕
+2019-03-25 18:56:09,731 - INFO -main.py : 602 :begin_test - 正在执行caseId为sub_task_4的用例
+2019-03-25 18:56:09,732 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=cf377119d6e544d58df6c2093c30f358;ln=1;lu=51229926'}
+2019-03-25 18:56:09,732 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 18:56:09,732 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.open.status?task_id=261564&task_type=1
+2019-03-25 18:56:09,847 - INFO -main.py : 635 :begin_test - caseId为sub_task_4的用例完毕
+2019-03-25 18:56:09,848 - INFO -main.py : 602 :begin_test - 正在执行caseId为sub_task_5的用例
+2019-03-25 18:56:09,848 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=cf377119d6e544d58df6c2093c30f358;ln=1;lu=51229926'}
+2019-03-25 18:56:09,849 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 18:56:09,849 - INFO -main.py : 379 :__excute_case - 执行接口/s5k/v2/subtask.open
+2019-03-25 18:56:09,854 - INFO -main.py : 414 :__excute_case - headers------->{'X-QK-TIME': '1553565369', 'X-QK-SCHEME': 'com.qqsp.app', 'X-QK-CDID': 'D2szej8SQavz6V+lQlLlhNsgn4rLJgKcXOxtWzdkI6VigXe5', 'X-QK-TOKEN': '20d2277d121c3a4fabdb86360cf117cf', 'X-QK-APPV': 'iPhone11,6|1570.120000|com.qqsp.app|1.0.1', 'X-QK-API-KEY': 'c26007f41f472932454ea80deabd612c', 'X-QK-SIGN': '379144560FCA85F20375B45411EE3752', 'X-QK-EXTENSION': '12.2|1|1517bfd3f7ea41c4abc', 'X-QK-AUTH': 'A624A1D7-E227-431A-8413-E50638B56C0A|000007A8-26B2-4749-AFF3-0435B6ED525E|', 'X-QK-PUSH-STATE': '1', 'X-QK-DIS': 'cf377119d6e544d58df6c2093c30f358', 'X-QK-TAG': ''}
+2019-03-25 18:56:09,962 - INFO -main.py : 635 :begin_test - caseId为sub_task_5的用例完毕
+2019-03-25 18:56:09,962 - INFO -main.py : 602 :begin_test - 正在执行caseId为sub_task_6的用例
+2019-03-25 18:56:09,963 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=cf377119d6e544d58df6c2093c30f358;ln=1;lu=51229926'}
+2019-03-25 18:56:09,963 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 18:56:09,963 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.checkState
+2019-03-25 18:56:09,963 - INFO -main.py : 397 :__excute_case - 正在调用/s4/lite.subtask.checkState接口，进程休眠20s。。。
+2019-03-25 18:58:07,738 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_subtask.xlsx
+2019-03-25 18:58:07,747 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_user.xlsx
+2019-03-25 18:58:08,047 - INFO -main.py : 89 :bind_key - 绑定钥匙成功
+2019-03-25 18:58:08,482 - INFO -main.py : 116 :install_certificate - 证书安装成功
+2019-03-25 18:58:08,483 - INFO -main.py : 517 :before_test - 本次测试共执行7条用例
+2019-03-25 18:58:10,521 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_2的用例
+2019-03-25 18:58:10,522 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=e576f2d1df7648c0b00ce1f5ce1e4e70;ln=1;lu=51229927'}
+2019-03-25 18:58:10,522 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 18:58:10,523 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 18:58:10,712 - INFO -main.py : 636 :begin_test - caseId为sub_task_2的用例完毕
+2019-03-25 18:58:10,713 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_3的用例
+2019-03-25 18:58:10,714 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=e576f2d1df7648c0b00ce1f5ce1e4e70;ln=1;lu=51229927'}
+2019-03-25 18:58:10,714 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 18:58:10,714 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 18:58:10,941 - INFO -main.py : 636 :begin_test - caseId为sub_task_3的用例完毕
+2019-03-25 18:58:10,941 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_4的用例
+2019-03-25 18:58:10,942 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=e576f2d1df7648c0b00ce1f5ce1e4e70;ln=1;lu=51229927'}
+2019-03-25 18:58:10,942 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 18:58:10,942 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.open.status?task_id=261564&task_type=1
+2019-03-25 18:58:11,139 - INFO -main.py : 636 :begin_test - caseId为sub_task_4的用例完毕
+2019-03-25 18:58:11,140 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_5的用例
+2019-03-25 18:58:11,140 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=e576f2d1df7648c0b00ce1f5ce1e4e70;ln=1;lu=51229927'}
+2019-03-25 18:58:11,141 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 18:58:11,141 - INFO -main.py : 379 :__excute_case - 执行接口/s5k/v2/subtask.open
+2019-03-25 18:58:11,147 - INFO -main.py : 414 :__excute_case - headers------->{'X-QK-DIS': 'e576f2d1df7648c0b00ce1f5ce1e4e70', 'X-QK-API-KEY': 'c26007f41f472932454ea80deabd612c', 'X-QK-TIME': '1553565491', 'X-QK-APPV': 'iPhone11,6|1570.120000|com.qqsp.app|1.0.1', 'X-QK-TOKEN': '20d2277d121c3a4fabdb86360cf117cf', 'X-QK-TAG': '', 'X-QK-CDID': 'D2szej8SQavz6V+lQlLlhNsgn4rLJgKcXOxtWzdkI6VigXe5', 'X-QK-PUSH-STATE': '1', 'X-QK-SIGN': '231296422E25D4B46DF6C22444F44C51', 'X-QK-SCHEME': 'com.qqsp.app', 'X-QK-AUTH': 'A624A1D7-E227-431A-8413-E50638B56C0A|000007A8-26B2-4749-AFF3-0435B6ED525E|', 'X-QK-EXTENSION': '12.2|1|1517bfd3f7ea41c4abc'}
+2019-03-25 18:58:11,263 - INFO -main.py : 636 :begin_test - caseId为sub_task_5的用例完毕
+2019-03-25 18:58:11,263 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_6的用例
+2019-03-25 18:58:11,263 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=e576f2d1df7648c0b00ce1f5ce1e4e70;ln=1;lu=51229927'}
+2019-03-25 18:58:11,263 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 18:58:11,264 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.checkState
+2019-03-25 18:58:11,264 - INFO -main.py : 397 :__excute_case - 正在调用/s4/lite.subtask.checkState接口，进程休眠20s。。。
+2019-03-25 19:01:24,452 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_subtask.xlsx
+2019-03-25 19:01:24,465 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_user.xlsx
+2019-03-25 19:01:29,654 - INFO -main.py : 89 :bind_key - 绑定钥匙成功
+2019-03-25 19:01:30,216 - INFO -main.py : 116 :install_certificate - 证书安装成功
+2019-03-25 19:01:30,217 - INFO -main.py : 517 :before_test - 本次测试共执行7条用例
+2019-03-25 19:01:31,938 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_2的用例
+2019-03-25 19:01:31,939 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=b650a98e20b84ca6b14ec0071a44f4ae;ln=1;lu=51229928'}
+2019-03-25 19:01:31,940 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:01:31,940 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 19:01:32,102 - INFO -main.py : 636 :begin_test - caseId为sub_task_2的用例完毕
+2019-03-25 19:01:32,102 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_3的用例
+2019-03-25 19:01:32,104 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=b650a98e20b84ca6b14ec0071a44f4ae;ln=1;lu=51229928'}
+2019-03-25 19:01:32,104 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:01:32,104 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 19:01:32,287 - INFO -main.py : 636 :begin_test - caseId为sub_task_3的用例完毕
+2019-03-25 19:01:32,287 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_4的用例
+2019-03-25 19:01:32,287 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=b650a98e20b84ca6b14ec0071a44f4ae;ln=1;lu=51229928'}
+2019-03-25 19:01:32,287 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:01:32,287 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.open.status?task_id=261564&task_type=1
+2019-03-25 19:01:32,445 - INFO -main.py : 636 :begin_test - caseId为sub_task_4的用例完毕
+2019-03-25 19:01:32,445 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_5的用例
+2019-03-25 19:01:32,446 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=b650a98e20b84ca6b14ec0071a44f4ae;ln=1;lu=51229928'}
+2019-03-25 19:01:32,446 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:01:32,446 - INFO -main.py : 379 :__excute_case - 执行接口/s5k/v2/subtask.open
+2019-03-25 19:01:32,450 - INFO -main.py : 414 :__excute_case - headers------->{'X-QK-API-KEY': 'c26007f41f472932454ea80deabd612c', 'X-QK-AUTH': 'A624A1D7-E227-431A-8413-E50638B56C0A|000007A8-26B2-4749-AFF3-0435B6ED525E|', 'X-QK-TOKEN': '20d2277d121c3a4fabdb86360cf117cf', 'X-QK-SIGN': '10A047F3FE9D315069372440A7D59DFC', 'X-QK-TIME': '1553565692', 'X-QK-TAG': '', 'X-QK-SCHEME': 'com.qqsp.app', 'X-QK-CDID': 'D2szej8SQavz6V+lQlLlhNsgn4rLJgKcXOxtWzdkI6VigXe5', 'X-QK-EXTENSION': '12.2|1|1517bfd3f7ea41c4abc', 'X-QK-APPV': 'iPhone11,6|1570.120000|com.qqsp.app|1.0.1', 'X-QK-DIS': 'b650a98e20b84ca6b14ec0071a44f4ae', 'X-QK-PUSH-STATE': '1'}
+2019-03-25 19:01:32,588 - INFO -main.py : 636 :begin_test - caseId为sub_task_5的用例完毕
+2019-03-25 19:01:32,588 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_6的用例
+2019-03-25 19:01:32,589 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=b650a98e20b84ca6b14ec0071a44f4ae;ln=1;lu=51229928'}
+2019-03-25 19:01:32,589 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:01:32,589 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.checkState
+2019-03-25 19:01:32,589 - INFO -main.py : 397 :__excute_case - 正在调用/s4/lite.subtask.checkState接口，进程休眠20s。。。
+2019-03-25 19:03:15,069 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_subtask.xlsx
+2019-03-25 19:03:15,073 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_user.xlsx
+2019-03-25 19:03:15,332 - INFO -main.py : 89 :bind_key - 绑定钥匙成功
+2019-03-25 19:03:15,848 - INFO -main.py : 116 :install_certificate - 证书安装成功
+2019-03-25 19:03:15,848 - INFO -main.py : 517 :before_test - 本次测试共执行7条用例
+2019-03-25 19:03:18,254 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_2的用例
+2019-03-25 19:03:18,255 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=739dd3d430d947bba2ca7f1682485d99;ln=1;lu=51229929'}
+2019-03-25 19:03:18,255 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:03:18,256 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 19:03:18,455 - INFO -main.py : 636 :begin_test - caseId为sub_task_2的用例完毕
+2019-03-25 19:03:18,455 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_3的用例
+2019-03-25 19:03:18,455 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=739dd3d430d947bba2ca7f1682485d99;ln=1;lu=51229929'}
+2019-03-25 19:03:18,455 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:03:18,455 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 19:03:23,544 - INFO -main.py : 636 :begin_test - caseId为sub_task_3的用例完毕
+2019-03-25 19:03:23,545 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_4的用例
+2019-03-25 19:03:23,546 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=739dd3d430d947bba2ca7f1682485d99;ln=1;lu=51229929'}
+2019-03-25 19:03:23,547 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:03:23,547 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.open.status?task_id=261564&task_type=1
+2019-03-25 19:03:23,729 - INFO -main.py : 636 :begin_test - caseId为sub_task_4的用例完毕
+2019-03-25 19:03:23,730 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_5的用例
+2019-03-25 19:03:23,730 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=739dd3d430d947bba2ca7f1682485d99;ln=1;lu=51229929'}
+2019-03-25 19:03:23,731 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:03:23,731 - INFO -main.py : 379 :__excute_case - 执行接口/s5k/v2/subtask.open
+2019-03-25 19:04:40,802 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_subtask.xlsx
+2019-03-25 19:04:40,813 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_user.xlsx
+2019-03-25 19:04:41,079 - INFO -main.py : 89 :bind_key - 绑定钥匙成功
+2019-03-25 19:04:41,590 - INFO -main.py : 116 :install_certificate - 证书安装成功
+2019-03-25 19:04:41,591 - INFO -main.py : 517 :before_test - 本次测试共执行7条用例
+2019-03-25 19:04:44,329 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_2的用例
+2019-03-25 19:04:44,329 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=8d862d544b1b4ea0ac83b1797a024d5b;ln=1;lu=51229930'}
+2019-03-25 19:04:44,329 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:04:44,330 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 19:04:44,430 - INFO -main.py : 636 :begin_test - caseId为sub_task_2的用例完毕
+2019-03-25 19:04:44,431 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_3的用例
+2019-03-25 19:04:44,432 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=8d862d544b1b4ea0ac83b1797a024d5b;ln=1;lu=51229930'}
+2019-03-25 19:04:44,432 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:04:44,432 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 19:04:44,574 - INFO -main.py : 636 :begin_test - caseId为sub_task_3的用例完毕
+2019-03-25 19:04:44,574 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_4的用例
+2019-03-25 19:04:44,575 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=8d862d544b1b4ea0ac83b1797a024d5b;ln=1;lu=51229930'}
+2019-03-25 19:04:44,575 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:04:44,575 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.open.status?task_id=261564&task_type=1
+2019-03-25 19:04:44,733 - INFO -main.py : 636 :begin_test - caseId为sub_task_4的用例完毕
+2019-03-25 19:04:44,733 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_5的用例
+2019-03-25 19:04:44,733 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=8d862d544b1b4ea0ac83b1797a024d5b;ln=1;lu=51229930'}
+2019-03-25 19:04:44,733 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:04:44,733 - INFO -main.py : 379 :__excute_case - 执行接口/s5k/v2/subtask.open
+2019-03-25 19:04:44,734 - INFO -main.py : 414 :__excute_case - headers------->{'X-QK-PUSH-STATE': '1', 'X-QK-DIS': '8d862d544b1b4ea0ac83b1797a024d5b', 'X-QK-CDID': 'D2szej8SQavz6V+lQlLlhNsgn4rLJgKcXOxtWzdkI6VigXe5', 'X-QK-SIGN': '95943A8F9828D197C22E2CE7EC16EDAC', 'X-QK-TOKEN': '20d2277d121c3a4fabdb86360cf117cf', 'X-QK-APPV': 'iPhone11,6|1570.120000|com.qqsp.app|1.0.1', 'X-QK-TIME': '1553565884', 'X-QK-AUTH': 'A624A1D7-E227-431A-8413-E50638B56C0A|000007A8-26B2-4749-AFF3-0435B6ED525E|', 'X-QK-API-KEY': 'c26007f41f472932454ea80deabd612c', 'X-QK-TAG': '', 'X-QK-SCHEME': 'com.qqsp.app', 'X-QK-EXTENSION': '12.2|1|1517bfd3f7ea41c4abc'}
+2019-03-25 19:04:44,906 - INFO -main.py : 636 :begin_test - caseId为sub_task_5的用例完毕
+2019-03-25 19:04:44,906 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_6的用例
+2019-03-25 19:04:44,907 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=8d862d544b1b4ea0ac83b1797a024d5b;ln=1;lu=51229930'}
+2019-03-25 19:04:44,907 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:04:44,907 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.checkState
+2019-03-25 19:04:44,907 - INFO -main.py : 397 :__excute_case - 正在调用/s4/lite.subtask.checkState接口，进程休眠20s。。。
+2019-03-25 19:07:55,858 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_subtask.xlsx
+2019-03-25 19:07:55,869 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_user.xlsx
+2019-03-25 19:07:56,116 - INFO -main.py : 89 :bind_key - 绑定钥匙成功
+2019-03-25 19:07:56,646 - INFO -main.py : 116 :install_certificate - 证书安装成功
+2019-03-25 19:07:56,647 - INFO -main.py : 517 :before_test - 本次测试共执行7条用例
+2019-03-25 19:07:58,475 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_2的用例
+2019-03-25 19:07:58,476 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=8710054463d345928f2723a03a65aade;ln=1;lu=51229931'}
+2019-03-25 19:07:58,476 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:07:58,477 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 19:07:58,640 - INFO -main.py : 636 :begin_test - caseId为sub_task_2的用例完毕
+2019-03-25 19:07:58,640 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_3的用例
+2019-03-25 19:07:58,641 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=8710054463d345928f2723a03a65aade;ln=1;lu=51229931'}
+2019-03-25 19:07:58,641 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:07:58,642 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 19:07:58,813 - INFO -main.py : 636 :begin_test - caseId为sub_task_3的用例完毕
+2019-03-25 19:07:58,813 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_4的用例
+2019-03-25 19:07:58,813 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=8710054463d345928f2723a03a65aade;ln=1;lu=51229931'}
+2019-03-25 19:07:58,813 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:07:58,813 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.open.status?task_id=261564&task_type=1
+2019-03-25 19:07:59,014 - INFO -main.py : 636 :begin_test - caseId为sub_task_4的用例完毕
+2019-03-25 19:07:59,015 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_5的用例
+2019-03-25 19:07:59,016 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=8710054463d345928f2723a03a65aade;ln=1;lu=51229931'}
+2019-03-25 19:07:59,016 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:07:59,017 - INFO -main.py : 379 :__excute_case - 执行接口/s5k/v2/subtask.open
+2019-03-25 19:08:23,364 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_subtask.xlsx
+2019-03-25 19:08:23,372 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_user.xlsx
+2019-03-25 19:08:23,609 - INFO -main.py : 89 :bind_key - 绑定钥匙成功
+2019-03-25 19:08:24,040 - INFO -main.py : 116 :install_certificate - 证书安装成功
+2019-03-25 19:08:24,041 - INFO -main.py : 517 :before_test - 本次测试共执行7条用例
+2019-03-25 19:08:25,919 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_2的用例
+2019-03-25 19:08:25,921 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=c6a358635fb6499381c58809f5d799fa;ln=1;lu=51229932'}
+2019-03-25 19:08:25,921 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:08:25,922 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 19:08:31,089 - INFO -main.py : 636 :begin_test - caseId为sub_task_2的用例完毕
+2019-03-25 19:08:31,090 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_3的用例
+2019-03-25 19:08:31,091 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=c6a358635fb6499381c58809f5d799fa;ln=1;lu=51229932'}
+2019-03-25 19:08:31,091 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:08:31,091 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 19:08:31,313 - INFO -main.py : 636 :begin_test - caseId为sub_task_3的用例完毕
+2019-03-25 19:08:31,314 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_4的用例
+2019-03-25 19:08:31,315 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=c6a358635fb6499381c58809f5d799fa;ln=1;lu=51229932'}
+2019-03-25 19:08:31,316 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:08:31,316 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.open.status?task_id=261564&task_type=1
+2019-03-25 19:08:31,472 - INFO -main.py : 636 :begin_test - caseId为sub_task_4的用例完毕
+2019-03-25 19:08:31,473 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_5的用例
+2019-03-25 19:08:31,473 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=c6a358635fb6499381c58809f5d799fa;ln=1;lu=51229932'}
+2019-03-25 19:08:31,473 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:08:31,474 - INFO -main.py : 379 :__excute_case - 执行接口/s5k/v2/subtask.open
+2019-03-25 19:08:31,476 - INFO -main.py : 414 :__excute_case - headers------->{'X-QK-DIS': 'c6a358635fb6499381c58809f5d799fa', 'X-QK-PUSH-STATE': '1', 'X-QK-TAG': '', 'X-QK-CDID': 'D2szej8SQavz6V+lQlLlhNsgn4rLJgKcXOxtWzdkI6VigXe5', 'X-QK-APPV': 'iPhone11,6|1570.120000|com.qqsp.app|1.0.1', 'X-QK-TOKEN': '20d2277d121c3a4fabdb86360cf117cf', 'X-QK-API-KEY': 'c26007f41f472932454ea80deabd612c', 'X-QK-SIGN': 'FA7557460455D233C0FF17B638F092D7', 'X-QK-SCHEME': 'com.qqsp.app', 'X-QK-EXTENSION': '12.2|1|1517bfd3f7ea41c4abc', 'X-QK-TIME': '1553566111', 'X-QK-AUTH': 'A624A1D7-E227-431A-8413-E50638B56C0A|000007A8-26B2-4749-AFF3-0435B6ED525E|'}
+2019-03-25 19:08:31,575 - INFO -main.py : 636 :begin_test - caseId为sub_task_5的用例完毕
+2019-03-25 19:08:31,575 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_6的用例
+2019-03-25 19:08:31,576 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=c6a358635fb6499381c58809f5d799fa;ln=1;lu=51229932'}
+2019-03-25 19:08:31,576 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:08:31,576 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.checkState
+2019-03-25 19:08:31,576 - INFO -main.py : 397 :__excute_case - 正在调用/s4/lite.subtask.checkState接口，进程休眠20s。。。
+2019-03-25 19:08:51,762 - INFO -main.py : 636 :begin_test - caseId为sub_task_6的用例完毕
+2019-03-25 19:08:51,763 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_7的用例
+2019-03-25 19:08:51,764 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=c6a358635fb6499381c58809f5d799fa;ln=1;lu=51229932'}
+2019-03-25 19:08:51,764 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:08:51,764 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.checkState
+2019-03-25 19:08:51,764 - INFO -main.py : 397 :__excute_case - 正在调用/s4/lite.subtask.checkState接口，进程休眠20s。。。
+2019-03-25 19:09:11,892 - INFO -main.py : 636 :begin_test - caseId为sub_task_7的用例完毕
+2019-03-25 19:09:11,892 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_8的用例
+2019-03-25 19:09:11,893 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=c6a358635fb6499381c58809f5d799fa;ln=1;lu=51229932'}
+2019-03-25 19:09:11,893 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:09:11,893 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.checkState
+2019-03-25 19:09:11,894 - INFO -main.py : 397 :__excute_case - 正在调用/s4/lite.subtask.checkState接口，进程休眠20s。。。
+2019-03-25 19:09:16,218 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_subtask.xlsx
+2019-03-25 19:09:16,227 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_user.xlsx
+2019-03-25 19:09:16,475 - INFO -main.py : 89 :bind_key - 绑定钥匙成功
+2019-03-25 19:09:16,995 - INFO -main.py : 116 :install_certificate - 证书安装成功
+2019-03-25 19:09:16,996 - INFO -main.py : 517 :before_test - 本次测试共执行7条用例
+2019-03-25 19:09:19,258 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_2的用例
+2019-03-25 19:09:19,259 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=d0513923cdd545ad875ddb1f9c9182b2;ln=1;lu=51229933'}
+2019-03-25 19:09:19,260 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:09:19,260 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 19:09:19,438 - INFO -main.py : 636 :begin_test - caseId为sub_task_2的用例完毕
+2019-03-25 19:09:19,438 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_3的用例
+2019-03-25 19:09:19,439 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=d0513923cdd545ad875ddb1f9c9182b2;ln=1;lu=51229933'}
+2019-03-25 19:09:19,439 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:09:19,440 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 19:09:19,614 - INFO -main.py : 636 :begin_test - caseId为sub_task_3的用例完毕
+2019-03-25 19:09:19,615 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_4的用例
+2019-03-25 19:09:19,615 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=d0513923cdd545ad875ddb1f9c9182b2;ln=1;lu=51229933'}
+2019-03-25 19:09:19,615 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:09:19,615 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.open.status?task_id=261564&task_type=1
+2019-03-25 19:09:19,770 - INFO -main.py : 636 :begin_test - caseId为sub_task_4的用例完毕
+2019-03-25 19:09:19,771 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_5的用例
+2019-03-25 19:09:19,771 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=d0513923cdd545ad875ddb1f9c9182b2;ln=1;lu=51229933'}
+2019-03-25 19:09:19,772 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:09:19,772 - INFO -main.py : 379 :__excute_case - 执行接口/s5k/v2/subtask.open
+2019-03-25 19:09:19,777 - INFO -main.py : 414 :__excute_case - headers------->{'X-QK-EXTENSION': '12.2|1|1517bfd3f7ea41c4abc', 'X-QK-APPV': 'iPhone11,6|1570.120000|com.qqsp.app|1.0.1', 'X-QK-DIS': 'd0513923cdd545ad875ddb1f9c9182b2', 'X-QK-AUTH': 'A624A1D7-E227-431A-8413-E50638B56C0A|000007A8-26B2-4749-AFF3-0435B6ED525E|', 'X-QK-SCHEME': 'com.qqsp.app', 'X-QK-TAG': '', 'X-QK-SIGN': 'D25CB43BC3DDF0761209860164544782', 'X-QK-TIME': '1553566159', 'X-QK-API-KEY': 'c26007f41f472932454ea80deabd612c', 'X-QK-PUSH-STATE': '1', 'X-QK-TOKEN': '20d2277d121c3a4fabdb86360cf117cf', 'X-QK-CDID': 'D2szej8SQavz6V+lQlLlhNsgn4rLJgKcXOxtWzdkI6VigXe5'}
+2019-03-25 19:09:19,919 - INFO -main.py : 636 :begin_test - caseId为sub_task_5的用例完毕
+2019-03-25 19:09:19,919 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_6的用例
+2019-03-25 19:09:19,920 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=d0513923cdd545ad875ddb1f9c9182b2;ln=1;lu=51229933'}
+2019-03-25 19:09:19,920 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:09:19,920 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.checkState
+2019-03-25 19:09:19,920 - INFO -main.py : 397 :__excute_case - 正在调用/s4/lite.subtask.checkState接口，进程休眠20s。。。
+2019-03-25 19:14:20,346 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_subtask.xlsx
+2019-03-25 19:14:20,356 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_user.xlsx
+2019-03-25 19:14:20,592 - INFO -main.py : 89 :bind_key - 绑定钥匙成功
+2019-03-25 19:14:21,027 - INFO -main.py : 116 :install_certificate - 证书安装成功
+2019-03-25 19:14:21,027 - INFO -main.py : 517 :before_test - 本次测试共执行7条用例
+2019-03-25 19:14:23,309 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_2的用例
+2019-03-25 19:14:23,310 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=b7a17a86584b432ab676d3c0aae8be41;ln=1;lu=51229934'}
+2019-03-25 19:14:23,310 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:14:23,311 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 19:14:23,409 - INFO -main.py : 636 :begin_test - caseId为sub_task_2的用例完毕
+2019-03-25 19:14:23,410 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_3的用例
+2019-03-25 19:14:23,411 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=b7a17a86584b432ab676d3c0aae8be41;ln=1;lu=51229934'}
+2019-03-25 19:14:23,411 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:14:23,412 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 19:14:23,599 - INFO -main.py : 636 :begin_test - caseId为sub_task_3的用例完毕
+2019-03-25 19:14:23,599 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_4的用例
+2019-03-25 19:14:23,600 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=b7a17a86584b432ab676d3c0aae8be41;ln=1;lu=51229934'}
+2019-03-25 19:14:23,600 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:14:23,600 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.open.status?task_id=261564&task_type=1
+2019-03-25 19:14:24,015 - INFO -main.py : 636 :begin_test - caseId为sub_task_4的用例完毕
+2019-03-25 19:14:24,016 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_5的用例
+2019-03-25 19:14:24,016 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=b7a17a86584b432ab676d3c0aae8be41;ln=1;lu=51229934'}
+2019-03-25 19:14:24,017 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:14:24,017 - INFO -main.py : 379 :__excute_case - 执行接口/s5k/v2/subtask.open
+2019-03-25 19:14:24,024 - INFO -main.py : 414 :__excute_case - headers------->{'X-QK-SCHEME': 'com.qqsp.app', 'X-QK-EXTENSION': '12.2|1|1517bfd3f7ea41c4abc', 'X-QK-APPV': 'iPhone11,6|1570.120000|com.qqsp.app|1.0.1', 'X-QK-DIS': 'b7a17a86584b432ab676d3c0aae8be41', 'X-QK-PUSH-STATE': '1', 'X-QK-SIGN': '0C9660A11F357031D500FA2B734684FB', 'X-QK-TAG': '', 'X-QK-TOKEN': '20d2277d121c3a4fabdb86360cf117cf', 'X-QK-CDID': 'D2szej8SQavz6V+lQlLlhNsgn4rLJgKcXOxtWzdkI6VigXe5', 'X-QK-API-KEY': 'c26007f41f472932454ea80deabd612c', 'X-QK-AUTH': 'A624A1D7-E227-431A-8413-E50638B56C0A|000007A8-26B2-4749-AFF3-0435B6ED525E|', 'X-QK-TIME': '1553566464'}
+2019-03-25 19:14:24,224 - INFO -main.py : 636 :begin_test - caseId为sub_task_5的用例完毕
+2019-03-25 19:14:24,225 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_6的用例
+2019-03-25 19:14:24,226 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=b7a17a86584b432ab676d3c0aae8be41;ln=1;lu=51229934'}
+2019-03-25 19:14:24,226 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:14:24,227 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.checkState
+2019-03-25 19:14:24,227 - INFO -main.py : 397 :__excute_case - 正在调用/s4/lite.subtask.checkState接口，进程休眠20s。。。
+2019-03-25 19:14:59,972 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_subtask.xlsx
+2019-03-25 19:14:59,983 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_user.xlsx
+2019-03-25 19:15:05,253 - INFO -main.py : 89 :bind_key - 绑定钥匙成功
+2019-03-25 19:15:05,717 - INFO -main.py : 116 :install_certificate - 证书安装成功
+2019-03-25 19:15:05,719 - INFO -main.py : 517 :before_test - 本次测试共执行7条用例
+2019-03-25 19:15:07,525 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_2的用例
+2019-03-25 19:15:07,526 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=b34bb7f381c943a49d95ad00f47f3a31;ln=1;lu=51229935'}
+2019-03-25 19:15:07,526 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:15:07,527 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 19:15:07,719 - INFO -main.py : 636 :begin_test - caseId为sub_task_2的用例完毕
+2019-03-25 19:15:07,719 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_3的用例
+2019-03-25 19:15:07,719 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=b34bb7f381c943a49d95ad00f47f3a31;ln=1;lu=51229935'}
+2019-03-25 19:15:07,719 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:15:07,720 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 19:15:07,838 - INFO -main.py : 636 :begin_test - caseId为sub_task_3的用例完毕
+2019-03-25 19:15:07,838 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_4的用例
+2019-03-25 19:15:07,839 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=b34bb7f381c943a49d95ad00f47f3a31;ln=1;lu=51229935'}
+2019-03-25 19:15:07,839 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:15:07,839 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.open.status?task_id=261564&task_type=1
+2019-03-25 19:15:08,059 - INFO -main.py : 636 :begin_test - caseId为sub_task_4的用例完毕
+2019-03-25 19:15:08,060 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_5的用例
+2019-03-25 19:15:08,061 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=b34bb7f381c943a49d95ad00f47f3a31;ln=1;lu=51229935'}
+2019-03-25 19:15:08,061 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:15:08,062 - INFO -main.py : 379 :__excute_case - 执行接口/s5k/v2/subtask.open
+2019-03-25 19:15:08,071 - INFO -main.py : 414 :__excute_case - headers------->{'X-QK-DIS': 'b34bb7f381c943a49d95ad00f47f3a31', 'X-QK-TOKEN': '20d2277d121c3a4fabdb86360cf117cf', 'X-QK-EXTENSION': '12.2|1|1517bfd3f7ea41c4abc', 'X-QK-CDID': 'D2szej8SQavz6V+lQlLlhNsgn4rLJgKcXOxtWzdkI6VigXe5', 'X-QK-API-KEY': 'c26007f41f472932454ea80deabd612c', 'X-QK-SIGN': '7E62FD0F81DED643E0202FCC91DB6A37', 'X-QK-AUTH': 'A624A1D7-E227-431A-8413-E50638B56C0A|000007A8-26B2-4749-AFF3-0435B6ED525E|', 'X-QK-PUSH-STATE': '1', 'X-QK-APPV': 'iPhone11,6|1570.120000|com.qqsp.app|1.0.1', 'X-QK-SCHEME': 'com.qqsp.app', 'X-QK-TAG': '', 'X-QK-TIME': '1553566508'}
+2019-03-25 19:15:08,289 - INFO -main.py : 636 :begin_test - caseId为sub_task_5的用例完毕
+2019-03-25 19:15:08,289 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_6的用例
+2019-03-25 19:15:08,290 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=b34bb7f381c943a49d95ad00f47f3a31;ln=1;lu=51229935'}
+2019-03-25 19:15:08,290 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:15:08,290 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.checkState
+2019-03-25 19:15:08,290 - INFO -main.py : 397 :__excute_case - 正在调用/s4/lite.subtask.checkState接口，进程休眠20s。。。
+2019-03-25 19:16:23,018 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_subtask.xlsx
+2019-03-25 19:16:23,025 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_user.xlsx
+2019-03-25 19:16:23,255 - INFO -main.py : 89 :bind_key - 绑定钥匙成功
+2019-03-25 19:16:23,734 - INFO -main.py : 116 :install_certificate - 证书安装成功
+2019-03-25 19:16:23,735 - INFO -main.py : 517 :before_test - 本次测试共执行7条用例
+2019-03-25 19:16:26,530 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_2的用例
+2019-03-25 19:16:26,531 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=65c8405315064dfa8653a61f490d50e0;ln=1;lu=51229936'}
+2019-03-25 19:16:26,531 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:16:26,532 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 19:16:31,690 - INFO -main.py : 636 :begin_test - caseId为sub_task_2的用例完毕
+2019-03-25 19:16:31,690 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_3的用例
+2019-03-25 19:16:31,691 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=65c8405315064dfa8653a61f490d50e0;ln=1;lu=51229936'}
+2019-03-25 19:16:31,692 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:16:31,692 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 19:16:31,840 - INFO -main.py : 636 :begin_test - caseId为sub_task_3的用例完毕
+2019-03-25 19:16:31,841 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_4的用例
+2019-03-25 19:16:31,842 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=65c8405315064dfa8653a61f490d50e0;ln=1;lu=51229936'}
+2019-03-25 19:16:31,842 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:16:31,843 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.open.status?task_id=261564&task_type=1
+2019-03-25 19:16:31,986 - INFO -main.py : 636 :begin_test - caseId为sub_task_4的用例完毕
+2019-03-25 19:16:31,986 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_5的用例
+2019-03-25 19:16:31,987 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=65c8405315064dfa8653a61f490d50e0;ln=1;lu=51229936'}
+2019-03-25 19:16:31,987 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:16:31,987 - INFO -main.py : 379 :__excute_case - 执行接口/s5k/v2/subtask.open
+2019-03-25 19:16:31,991 - INFO -main.py : 414 :__excute_case - headers------->{'X-QK-SIGN': '0C05C19C5AD4C1A88FC700BFB0AEFE97', 'X-QK-CDID': 'D2szej8SQavz6V+lQlLlhNsgn4rLJgKcXOxtWzdkI6VigXe5', 'X-QK-EXTENSION': '12.2|1|1517bfd3f7ea41c4abc', 'X-QK-PUSH-STATE': '1', 'X-QK-APPV': 'iPhone11,6|1570.120000|com.qqsp.app|1.0.1', 'X-QK-TAG': '', 'X-QK-SCHEME': 'com.qqsp.app', 'X-QK-AUTH': 'A624A1D7-E227-431A-8413-E50638B56C0A|000007A8-26B2-4749-AFF3-0435B6ED525E|', 'X-QK-DIS': '65c8405315064dfa8653a61f490d50e0', 'X-QK-TIME': '1553566591', 'X-QK-API-KEY': 'c26007f41f472932454ea80deabd612c', 'X-QK-TOKEN': '20d2277d121c3a4fabdb86360cf117cf'}
+2019-03-25 19:16:32,580 - INFO -main.py : 636 :begin_test - caseId为sub_task_5的用例完毕
+2019-03-25 19:16:32,581 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_6的用例
+2019-03-25 19:16:32,582 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=65c8405315064dfa8653a61f490d50e0;ln=1;lu=51229936'}
+2019-03-25 19:16:32,582 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:16:32,582 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.checkState
+2019-03-25 19:16:32,583 - INFO -main.py : 397 :__excute_case - 正在调用/s4/lite.subtask.checkState接口，进程休眠20s。。。
+2019-03-25 19:17:21,759 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_subtask.xlsx
+2019-03-25 19:17:21,767 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_user.xlsx
+2019-03-25 19:17:22,051 - INFO -main.py : 89 :bind_key - 绑定钥匙成功
+2019-03-25 19:17:22,521 - INFO -main.py : 116 :install_certificate - 证书安装成功
+2019-03-25 19:17:22,522 - INFO -main.py : 517 :before_test - 本次测试共执行7条用例
+2019-03-25 19:17:24,024 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_2的用例
+2019-03-25 19:17:24,025 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=5a26e4092cb64c0794f363b8fa7f42e9;ln=1;lu=51229937'}
+2019-03-25 19:17:24,026 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:17:24,026 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 19:17:24,185 - INFO -main.py : 636 :begin_test - caseId为sub_task_2的用例完毕
+2019-03-25 19:17:24,186 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_3的用例
+2019-03-25 19:17:24,187 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=5a26e4092cb64c0794f363b8fa7f42e9;ln=1;lu=51229937'}
+2019-03-25 19:17:24,187 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:17:24,187 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 19:17:24,342 - INFO -main.py : 636 :begin_test - caseId为sub_task_3的用例完毕
+2019-03-25 19:17:24,342 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_4的用例
+2019-03-25 19:17:24,342 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=5a26e4092cb64c0794f363b8fa7f42e9;ln=1;lu=51229937'}
+2019-03-25 19:17:24,342 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:17:24,343 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.open.status?task_id=261564&task_type=1
+2019-03-25 19:17:24,527 - INFO -main.py : 636 :begin_test - caseId为sub_task_4的用例完毕
+2019-03-25 19:17:24,528 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_5的用例
+2019-03-25 19:17:24,528 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=5a26e4092cb64c0794f363b8fa7f42e9;ln=1;lu=51229937'}
+2019-03-25 19:17:24,529 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:17:24,529 - INFO -main.py : 379 :__excute_case - 执行接口/s5k/v2/subtask.open
+2019-03-25 19:28:59,314 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_subtask.xlsx
+2019-03-25 19:28:59,320 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_user.xlsx
+2019-03-25 19:28:59,560 - INFO -main.py : 89 :bind_key - 绑定钥匙成功
+2019-03-25 19:28:59,995 - INFO -main.py : 116 :install_certificate - 证书安装成功
+2019-03-25 19:28:59,996 - INFO -main.py : 517 :before_test - 本次测试共执行7条用例
+2019-03-25 19:29:02,353 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_2的用例
+2019-03-25 19:29:02,354 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=65f541c215344ca283c1e9bb250bd6ff;ln=1;lu=51229938'}
+2019-03-25 19:29:02,355 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:29:02,355 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 19:29:02,468 - INFO -main.py : 636 :begin_test - caseId为sub_task_2的用例完毕
+2019-03-25 19:29:02,469 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_3的用例
+2019-03-25 19:29:02,470 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=65f541c215344ca283c1e9bb250bd6ff;ln=1;lu=51229938'}
+2019-03-25 19:29:02,470 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:29:02,471 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 19:29:07,638 - INFO -main.py : 636 :begin_test - caseId为sub_task_3的用例完毕
+2019-03-25 19:29:07,639 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_4的用例
+2019-03-25 19:29:07,639 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=65f541c215344ca283c1e9bb250bd6ff;ln=1;lu=51229938'}
+2019-03-25 19:29:07,640 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:29:07,640 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.open.status?task_id=261564&task_type=1
+2019-03-25 19:29:07,796 - INFO -main.py : 636 :begin_test - caseId为sub_task_4的用例完毕
+2019-03-25 19:29:07,796 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_5的用例
+2019-03-25 19:29:07,797 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=65f541c215344ca283c1e9bb250bd6ff;ln=1;lu=51229938'}
+2019-03-25 19:29:07,798 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:29:07,798 - INFO -main.py : 379 :__excute_case - 执行接口/s5k/v2/subtask.open
+2019-03-25 19:30:29,862 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_subtask.xlsx
+2019-03-25 19:30:29,876 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_user.xlsx
+2019-03-25 19:30:30,133 - INFO -main.py : 89 :bind_key - 绑定钥匙成功
+2019-03-25 19:30:30,581 - INFO -main.py : 116 :install_certificate - 证书安装成功
+2019-03-25 19:30:30,582 - INFO -main.py : 517 :before_test - 本次测试共执行7条用例
+2019-03-25 19:30:32,719 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_2的用例
+2019-03-25 19:30:32,720 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=49acabd5e42f4901a5e6be1db8d04e68;ln=1;lu=51229939'}
+2019-03-25 19:30:32,721 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:30:32,721 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 19:30:32,838 - INFO -main.py : 636 :begin_test - caseId为sub_task_2的用例完毕
+2019-03-25 19:30:32,838 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_3的用例
+2019-03-25 19:30:32,840 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=49acabd5e42f4901a5e6be1db8d04e68;ln=1;lu=51229939'}
+2019-03-25 19:30:32,841 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:30:32,841 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 19:30:32,972 - INFO -main.py : 636 :begin_test - caseId为sub_task_3的用例完毕
+2019-03-25 19:30:32,972 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_4的用例
+2019-03-25 19:30:32,973 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=49acabd5e42f4901a5e6be1db8d04e68;ln=1;lu=51229939'}
+2019-03-25 19:30:32,973 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:30:32,973 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.open.status?task_id=261564&task_type=1
+2019-03-25 19:30:33,145 - INFO -main.py : 636 :begin_test - caseId为sub_task_4的用例完毕
+2019-03-25 19:30:33,145 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_5的用例
+2019-03-25 19:30:33,145 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=49acabd5e42f4901a5e6be1db8d04e68;ln=1;lu=51229939'}
+2019-03-25 19:30:33,146 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:30:33,146 - INFO -main.py : 379 :__excute_case - 执行接口/s5k/v2/subtask.open
+2019-03-25 19:30:33,149 - INFO -main.py : 414 :__excute_case - headers------->{'X-QK-EXTENSION': '12.2|1|1517bfd3f7ea41c4abc', 'X-QK-CDID': 'D2szej8SQavz6V+lQlLlhNsgn4rLJgKcXOxtWzdkI6VigXe5', 'X-QK-TOKEN': '20d2277d121c3a4fabdb86360cf117cf', 'X-QK-TAG': '', 'X-QK-SIGN': '5DA98E282D8BE97DE05E6F92C8F7F5B5', 'X-QK-APPV': 'iPhone11,6|1570.120000|com.qqsp.app|1.0.1', 'X-QK-TIME': '1553567433', 'X-QK-AUTH': 'A624A1D7-E227-431A-8413-E50638B56C0A|000007A8-26B2-4749-AFF3-0435B6ED525E|', 'X-QK-PUSH-STATE': '1', 'X-QK-API-KEY': 'c26007f41f472932454ea80deabd612c', 'X-QK-DIS': '49acabd5e42f4901a5e6be1db8d04e68', 'X-QK-SCHEME': 'com.qqsp.app'}
+2019-03-25 19:30:33,277 - INFO -main.py : 636 :begin_test - caseId为sub_task_5的用例完毕
+2019-03-25 19:30:33,277 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_6的用例
+2019-03-25 19:30:33,278 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=49acabd5e42f4901a5e6be1db8d04e68;ln=1;lu=51229939'}
+2019-03-25 19:30:33,278 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:30:33,278 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.checkState
+2019-03-25 19:30:33,278 - INFO -main.py : 397 :__excute_case - 正在调用/s4/lite.subtask.checkState接口，进程休眠20s。。。
+2019-03-25 19:31:02,310 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_subtask.xlsx
+2019-03-25 19:31:02,316 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_user.xlsx
+2019-03-25 19:31:02,590 - INFO -main.py : 89 :bind_key - 绑定钥匙成功
+2019-03-25 19:31:02,963 - INFO -main.py : 116 :install_certificate - 证书安装成功
+2019-03-25 19:31:02,964 - INFO -main.py : 517 :before_test - 本次测试共执行7条用例
+2019-03-25 19:31:05,091 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_2的用例
+2019-03-25 19:31:05,092 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0401bf6280b64e3999d90dce16ecc0e9;ln=1;lu=51229940'}
+2019-03-25 19:31:05,093 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:31:05,093 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 19:31:10,262 - INFO -main.py : 636 :begin_test - caseId为sub_task_2的用例完毕
+2019-03-25 19:31:10,263 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_3的用例
+2019-03-25 19:31:10,264 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0401bf6280b64e3999d90dce16ecc0e9;ln=1;lu=51229940'}
+2019-03-25 19:31:10,264 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:31:10,264 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 19:31:10,432 - INFO -main.py : 636 :begin_test - caseId为sub_task_3的用例完毕
+2019-03-25 19:31:10,432 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_4的用例
+2019-03-25 19:31:10,433 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0401bf6280b64e3999d90dce16ecc0e9;ln=1;lu=51229940'}
+2019-03-25 19:31:10,433 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:31:10,434 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.open.status?task_id=261564&task_type=1
+2019-03-25 19:31:10,589 - INFO -main.py : 636 :begin_test - caseId为sub_task_4的用例完毕
+2019-03-25 19:31:10,589 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_5的用例
+2019-03-25 19:31:10,589 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0401bf6280b64e3999d90dce16ecc0e9;ln=1;lu=51229940'}
+2019-03-25 19:31:10,589 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:31:10,589 - INFO -main.py : 379 :__excute_case - 执行接口/s5k/v2/subtask.open
+2019-03-25 19:31:10,591 - INFO -main.py : 414 :__excute_case - headers------->{'X-QK-DIS': '0401bf6280b64e3999d90dce16ecc0e9', 'X-QK-PUSH-STATE': '1', 'X-QK-SIGN': '90ACD1D447E9E486109420F38306232F', 'X-QK-APPV': 'iPhone11,6|1570.120000|com.qqsp.app|1.0.1', 'X-QK-TOKEN': '20d2277d121c3a4fabdb86360cf117cf', 'X-QK-API-KEY': 'c26007f41f472932454ea80deabd612c', 'X-QK-TAG': '', 'X-QK-SCHEME': 'com.qqsp.app', 'X-QK-TIME': '1553567470', 'X-QK-EXTENSION': '12.2|1|1517bfd3f7ea41c4abc', 'X-QK-AUTH': 'A624A1D7-E227-431A-8413-E50638B56C0A|000007A8-26B2-4749-AFF3-0435B6ED525E|', 'X-QK-CDID': 'D2szej8SQavz6V+lQlLlhNsgn4rLJgKcXOxtWzdkI6VigXe5'}
+2019-03-25 19:31:10,749 - INFO -main.py : 636 :begin_test - caseId为sub_task_5的用例完毕
+2019-03-25 19:31:10,750 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_6的用例
+2019-03-25 19:31:10,750 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=0401bf6280b64e3999d90dce16ecc0e9;ln=1;lu=51229940'}
+2019-03-25 19:31:10,750 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:31:10,751 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.checkState
+2019-03-25 19:31:10,751 - INFO -main.py : 397 :__excute_case - 正在调用/s4/lite.subtask.checkState接口，进程休眠20s。。。
+2019-03-25 19:31:58,391 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_subtask.xlsx
+2019-03-25 19:31:58,406 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_user.xlsx
+2019-03-25 19:31:58,601 - INFO -main.py : 93 :bind_key - 绑定钥匙失败
+2019-03-25 19:32:35,328 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_subtask.xlsx
+2019-03-25 19:32:35,336 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_user.xlsx
+2019-03-25 19:32:35,536 - INFO -main.py : 93 :bind_key - 绑定钥匙失败
+2019-03-25 19:33:06,029 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_subtask.xlsx
+2019-03-25 19:33:06,039 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_user.xlsx
+2019-03-25 19:33:06,338 - INFO -main.py : 89 :bind_key - 绑定钥匙成功
+2019-03-25 19:33:06,851 - INFO -main.py : 116 :install_certificate - 证书安装成功
+2019-03-25 19:33:06,852 - INFO -main.py : 517 :before_test - 本次测试共执行7条用例
+2019-03-25 19:33:09,608 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_2的用例
+2019-03-25 19:33:09,610 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=e57bfe7b67e44301b380c85141624da1;ln=1;lu=51229943'}
+2019-03-25 19:33:09,610 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:33:09,611 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 19:33:09,756 - INFO -main.py : 636 :begin_test - caseId为sub_task_2的用例完毕
+2019-03-25 19:33:09,757 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_3的用例
+2019-03-25 19:33:09,758 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=e57bfe7b67e44301b380c85141624da1;ln=1;lu=51229943'}
+2019-03-25 19:33:09,758 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:33:09,758 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 19:33:09,906 - INFO -main.py : 636 :begin_test - caseId为sub_task_3的用例完毕
+2019-03-25 19:33:09,907 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_4的用例
+2019-03-25 19:33:09,907 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=e57bfe7b67e44301b380c85141624da1;ln=1;lu=51229943'}
+2019-03-25 19:33:09,907 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:33:09,907 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.open.status?task_id=261564&task_type=1
+2019-03-25 19:33:10,082 - INFO -main.py : 636 :begin_test - caseId为sub_task_4的用例完毕
+2019-03-25 19:33:10,083 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_5的用例
+2019-03-25 19:33:10,084 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=e57bfe7b67e44301b380c85141624da1;ln=1;lu=51229943'}
+2019-03-25 19:33:10,084 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:33:10,084 - INFO -main.py : 379 :__excute_case - 执行接口/s5k/v2/subtask.open
+2019-03-25 19:33:10,091 - INFO -main.py : 414 :__excute_case - headers------->{'X-QK-PUSH-STATE': '1', 'X-QK-CDID': 'D2szej8SQavz6V+lQlLlhNsgn4rLJgKcXOxtWzdkI6VigXe5', 'X-QK-TAG': '', 'X-QK-AUTH': 'A624A1D7-E227-431A-8413-E50638B56C0A|000007A8-26B2-4749-AFF3-0435B6ED525E|', 'X-QK-SIGN': 'AAE7299940DCBA70E8E1D16B0CAD4458', 'X-QK-SCHEME': 'com.qqsp.app', 'X-QK-EXTENSION': '12.2|1|1517bfd3f7ea41c4abc', 'X-QK-TIME': '1553567590', 'X-QK-APPV': 'iPhone11,6|1570.120000|com.qqsp.app|1.0.1', 'X-QK-TOKEN': '20d2277d121c3a4fabdb86360cf117cf', 'X-QK-API-KEY': 'c26007f41f472932454ea80deabd612c', 'X-QK-DIS': 'e57bfe7b67e44301b380c85141624da1'}
+2019-03-25 19:33:10,262 - INFO -main.py : 636 :begin_test - caseId为sub_task_5的用例完毕
+2019-03-25 19:33:10,263 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_6的用例
+2019-03-25 19:33:10,263 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=e57bfe7b67e44301b380c85141624da1;ln=1;lu=51229943'}
+2019-03-25 19:33:10,263 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:33:10,263 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.checkState
+2019-03-25 19:33:10,263 - INFO -main.py : 397 :__excute_case - 正在调用/s4/lite.subtask.checkState接口，进程休眠20s。。。
+2019-03-25 19:33:52,992 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_subtask.xlsx
+2019-03-25 19:33:53,006 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_user.xlsx
+2019-03-25 19:33:53,219 - INFO -main.py : 89 :bind_key - 绑定钥匙成功
+2019-03-25 19:33:53,695 - INFO -main.py : 116 :install_certificate - 证书安装成功
+2019-03-25 19:33:53,696 - INFO -main.py : 517 :before_test - 本次测试共执行7条用例
+2019-03-25 19:33:55,951 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_2的用例
+2019-03-25 19:33:55,953 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=23a786e90d25477c8b94e802d6012804;ln=1;lu=51229944'}
+2019-03-25 19:33:55,953 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:33:55,954 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 19:33:56,162 - INFO -main.py : 636 :begin_test - caseId为sub_task_2的用例完毕
+2019-03-25 19:33:56,163 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_3的用例
+2019-03-25 19:33:56,164 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=23a786e90d25477c8b94e802d6012804;ln=1;lu=51229944'}
+2019-03-25 19:33:56,165 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:33:56,165 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 19:33:56,283 - INFO -main.py : 636 :begin_test - caseId为sub_task_3的用例完毕
+2019-03-25 19:33:56,284 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_4的用例
+2019-03-25 19:33:56,284 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=23a786e90d25477c8b94e802d6012804;ln=1;lu=51229944'}
+2019-03-25 19:33:56,285 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:33:56,285 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.open.status?task_id=261564&task_type=1
+2019-03-25 19:33:56,498 - INFO -main.py : 636 :begin_test - caseId为sub_task_4的用例完毕
+2019-03-25 19:33:56,498 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_5的用例
+2019-03-25 19:33:56,498 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=23a786e90d25477c8b94e802d6012804;ln=1;lu=51229944'}
+2019-03-25 19:33:56,498 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:33:56,498 - INFO -main.py : 379 :__excute_case - 执行接口/s5k/v2/subtask.open
+2019-03-25 19:33:56,501 - INFO -main.py : 414 :__excute_case - headers------->{'X-QK-SIGN': '36BEFFFD669345FB067387E17ACB06ED', 'X-QK-TIME': '1553567636', 'X-QK-DIS': '23a786e90d25477c8b94e802d6012804', 'X-QK-PUSH-STATE': '1', 'X-QK-API-KEY': 'c26007f41f472932454ea80deabd612c', 'X-QK-APPV': 'iPhone11,6|1570.120000|com.qqsp.app|1.0.1', 'X-QK-TOKEN': '20d2277d121c3a4fabdb86360cf117cf', 'X-QK-AUTH': 'A624A1D7-E227-431A-8413-E50638B56C0A|000007A8-26B2-4749-AFF3-0435B6ED525E|', 'X-QK-TAG': '', 'X-QK-CDID': 'D2szej8SQavz6V+lQlLlhNsgn4rLJgKcXOxtWzdkI6VigXe5', 'X-QK-SCHEME': 'com.qqsp.app', 'X-QK-EXTENSION': '12.2|1|1517bfd3f7ea41c4abc'}
+2019-03-25 19:33:56,732 - INFO -main.py : 636 :begin_test - caseId为sub_task_5的用例完毕
+2019-03-25 19:33:56,733 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_6的用例
+2019-03-25 19:33:56,734 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=23a786e90d25477c8b94e802d6012804;ln=1;lu=51229944'}
+2019-03-25 19:33:56,735 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:33:56,735 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.checkState
+2019-03-25 19:33:56,735 - INFO -main.py : 397 :__excute_case - 正在调用/s4/lite.subtask.checkState接口，进程休眠20s。。。
+2019-03-25 19:48:34,574 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_subtask.xlsx
+2019-03-25 19:48:34,587 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_user.xlsx
+2019-03-25 19:48:34,841 - INFO -main.py : 89 :bind_key - 绑定钥匙成功
+2019-03-25 19:48:35,571 - INFO -main.py : 116 :install_certificate - 证书安装成功
+2019-03-25 19:48:35,572 - INFO -main.py : 517 :before_test - 本次测试共执行7条用例
+2019-03-25 19:48:40,442 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_2的用例
+2019-03-25 19:48:40,443 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=ab88c87557ff4c1c8910000579f1b022;ln=1;lu=51229945'}
+2019-03-25 19:48:40,443 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:48:40,444 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 19:48:40,794 - INFO -main.py : 636 :begin_test - caseId为sub_task_2的用例完毕
+2019-03-25 19:48:40,794 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_3的用例
+2019-03-25 19:48:40,795 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=ab88c87557ff4c1c8910000579f1b022;ln=1;lu=51229945'}
+2019-03-25 19:48:40,795 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:48:40,796 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 19:48:41,226 - INFO -main.py : 636 :begin_test - caseId为sub_task_3的用例完毕
+2019-03-25 19:48:41,227 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_4的用例
+2019-03-25 19:48:41,227 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=ab88c87557ff4c1c8910000579f1b022;ln=1;lu=51229945'}
+2019-03-25 19:48:41,228 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:48:41,228 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.open.status?task_id=261564&task_type=1
+2019-03-25 19:48:41,702 - INFO -main.py : 636 :begin_test - caseId为sub_task_4的用例完毕
+2019-03-25 19:48:41,702 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_5的用例
+2019-03-25 19:48:41,702 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=ab88c87557ff4c1c8910000579f1b022;ln=1;lu=51229945'}
+2019-03-25 19:48:41,702 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:48:41,702 - INFO -main.py : 379 :__excute_case - 执行接口/s5k/v2/subtask.open
+2019-03-25 19:49:01,371 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_subtask.xlsx
+2019-03-25 19:49:01,380 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_user.xlsx
+2019-03-25 19:49:02,061 - INFO -main.py : 89 :bind_key - 绑定钥匙成功
+2019-03-25 19:49:03,782 - INFO -main.py : 116 :install_certificate - 证书安装成功
+2019-03-25 19:49:03,782 - INFO -main.py : 517 :before_test - 本次测试共执行7条用例
+2019-03-25 19:49:15,052 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_2的用例
+2019-03-25 19:49:15,053 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=1f4511eec1c94074aee5cc3dfe276d64;ln=1;lu=51229946'}
+2019-03-25 19:49:15,054 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:49:15,055 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 19:49:15,571 - INFO -main.py : 636 :begin_test - caseId为sub_task_2的用例完毕
+2019-03-25 19:49:15,572 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_3的用例
+2019-03-25 19:49:15,573 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=1f4511eec1c94074aee5cc3dfe276d64;ln=1;lu=51229946'}
+2019-03-25 19:49:15,573 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:49:15,573 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 19:49:16,038 - INFO -main.py : 636 :begin_test - caseId为sub_task_3的用例完毕
+2019-03-25 19:49:16,039 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_4的用例
+2019-03-25 19:49:16,039 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=1f4511eec1c94074aee5cc3dfe276d64;ln=1;lu=51229946'}
+2019-03-25 19:49:16,040 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:49:16,040 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.open.status?task_id=261564&task_type=1
+2019-03-25 19:49:16,382 - INFO -main.py : 636 :begin_test - caseId为sub_task_4的用例完毕
+2019-03-25 19:49:16,382 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_5的用例
+2019-03-25 19:49:16,382 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=1f4511eec1c94074aee5cc3dfe276d64;ln=1;lu=51229946'}
+2019-03-25 19:49:16,382 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 19:49:16,383 - INFO -main.py : 379 :__excute_case - 执行接口/s5k/v2/subtask.open
+2019-03-25 20:27:30,022 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_subtask.xlsx
+2019-03-25 20:27:30,031 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_user.xlsx
+2019-03-25 20:27:35,221 - INFO -main.py : 93 :bind_key - 绑定钥匙失败
+2019-03-25 20:28:11,086 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_subtask.xlsx
+2019-03-25 20:28:11,089 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_user.xlsx
+2019-03-25 20:28:11,327 - INFO -main.py : 89 :bind_key - 绑定钥匙成功
+2019-03-25 20:28:11,809 - INFO -main.py : 116 :install_certificate - 证书安装成功
+2019-03-25 20:28:11,811 - INFO -main.py : 517 :before_test - 本次测试共执行7条用例
+2019-03-25 20:28:14,156 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_2的用例
+2019-03-25 20:28:14,157 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=e968fff459c3479ca455d26d2bd820e1;ln=1;lu=51229949'}
+2019-03-25 20:28:14,157 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 20:28:14,157 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 20:28:19,343 - INFO -main.py : 636 :begin_test - caseId为sub_task_2的用例完毕
+2019-03-25 20:28:19,344 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_3的用例
+2019-03-25 20:28:19,344 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=e968fff459c3479ca455d26d2bd820e1;ln=1;lu=51229949'}
+2019-03-25 20:28:19,345 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 20:28:19,345 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 20:28:19,567 - INFO -main.py : 636 :begin_test - caseId为sub_task_3的用例完毕
+2019-03-25 20:28:19,567 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_4的用例
+2019-03-25 20:28:19,568 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=e968fff459c3479ca455d26d2bd820e1;ln=1;lu=51229949'}
+2019-03-25 20:28:19,568 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 20:28:19,569 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.open.status?task_id=261564&task_type=1
+2019-03-25 20:28:19,734 - INFO -main.py : 636 :begin_test - caseId为sub_task_4的用例完毕
+2019-03-25 20:28:19,735 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_5的用例
+2019-03-25 20:28:19,735 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=e968fff459c3479ca455d26d2bd820e1;ln=1;lu=51229949'}
+2019-03-25 20:28:19,735 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 20:28:19,736 - INFO -main.py : 379 :__excute_case - 执行接口/s5k/v2/subtask.open
+2019-03-25 20:28:38,078 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_subtask.xlsx
+2019-03-25 20:28:38,091 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_user.xlsx
+2019-03-25 20:28:38,367 - INFO -main.py : 89 :bind_key - 绑定钥匙成功
+2019-03-25 20:28:39,013 - INFO -main.py : 116 :install_certificate - 证书安装成功
+2019-03-25 20:28:39,014 - INFO -main.py : 517 :before_test - 本次测试共执行7条用例
+2019-03-25 20:28:41,556 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_2的用例
+2019-03-25 20:28:41,557 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=c521750b26cd44f098a2cc1b8a9ecf53;ln=1;lu=51229950'}
+2019-03-25 20:28:41,558 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 20:28:41,558 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 20:28:46,748 - INFO -main.py : 636 :begin_test - caseId为sub_task_2的用例完毕
+2019-03-25 20:28:46,749 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_3的用例
+2019-03-25 20:28:46,750 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=c521750b26cd44f098a2cc1b8a9ecf53;ln=1;lu=51229950'}
+2019-03-25 20:28:46,750 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 20:28:46,751 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 20:28:46,972 - INFO -main.py : 636 :begin_test - caseId为sub_task_3的用例完毕
+2019-03-25 20:28:46,973 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_4的用例
+2019-03-25 20:28:46,974 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=c521750b26cd44f098a2cc1b8a9ecf53;ln=1;lu=51229950'}
+2019-03-25 20:28:46,974 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 20:28:46,975 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.open.status?task_id=261564&task_type=1
+2019-03-25 20:28:47,142 - INFO -main.py : 636 :begin_test - caseId为sub_task_4的用例完毕
+2019-03-25 20:28:47,142 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_5的用例
+2019-03-25 20:28:47,143 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=c521750b26cd44f098a2cc1b8a9ecf53;ln=1;lu=51229950'}
+2019-03-25 20:28:47,143 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 20:28:47,144 - INFO -main.py : 379 :__excute_case - 执行接口/s5k/v2/subtask.open
+2019-03-25 20:28:47,149 - INFO -main.py : 414 :__excute_case - headers------->{'X-QK-TAG': '', 'X-QK-TOKEN': '20d2277d121c3a4fabdb86360cf117cf', 'X-QK-SIGN': 'E27ACA1DB4C9A82537970AEC9585E9EB', 'X-QK-CDID': 'D2szej8SQavz6V+lQlLlhNsgn4rLJgKcXOxtWzdkI6VigXe5', 'X-QK-TIME': '1553570927', 'X-QK-AUTH': 'A624A1D7-E227-431A-8413-E50638B56C0A|000007A8-26B2-4749-AFF3-0435B6ED525E|', 'X-QK-EXTENSION': '12.2|1|1517bfd3f7ea41c4abc', 'X-QK-PUSH-STATE': '1', 'X-QK-APPV': 'iPhone11,6|1570.120000|com.qqsp.app|1.0.1', 'X-QK-SCHEME': 'com.qqsp.app', 'X-QK-DIS': 'c521750b26cd44f098a2cc1b8a9ecf53', 'X-QK-API-KEY': 'c26007f41f472932454ea80deabd612c'}
+2019-03-25 20:28:47,319 - INFO -main.py : 636 :begin_test - caseId为sub_task_5的用例完毕
+2019-03-25 20:28:47,319 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_6的用例
+2019-03-25 20:28:47,319 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=c521750b26cd44f098a2cc1b8a9ecf53;ln=1;lu=51229950'}
+2019-03-25 20:28:47,319 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 20:28:47,319 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.checkState
+2019-03-25 20:28:47,320 - INFO -main.py : 397 :__excute_case - 正在调用/s4/lite.subtask.checkState接口，进程休眠20s。。。
+2019-03-25 21:00:18,760 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_subtask.xlsx
+2019-03-25 21:00:18,778 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_user.xlsx
+2019-03-25 21:00:19,083 - INFO -main.py : 89 :bind_key - 绑定钥匙成功
+2019-03-25 21:00:19,628 - INFO -main.py : 116 :install_certificate - 证书安装成功
+2019-03-25 21:00:19,628 - INFO -main.py : 517 :before_test - 本次测试共执行7条用例
+2019-03-25 21:00:22,379 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_2的用例
+2019-03-25 21:00:22,381 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=170958aa0f704f569942a4a7cd6b4cd9;ln=1;lu=51229951'}
+2019-03-25 21:00:22,381 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 21:00:22,382 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 21:00:22,524 - INFO -main.py : 636 :begin_test - caseId为sub_task_2的用例完毕
+2019-03-25 21:00:22,524 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_3的用例
+2019-03-25 21:00:22,527 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=170958aa0f704f569942a4a7cd6b4cd9;ln=1;lu=51229951'}
+2019-03-25 21:00:22,527 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 21:00:22,528 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 21:00:22,677 - INFO -main.py : 636 :begin_test - caseId为sub_task_3的用例完毕
+2019-03-25 21:00:22,677 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_4的用例
+2019-03-25 21:00:22,677 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=170958aa0f704f569942a4a7cd6b4cd9;ln=1;lu=51229951'}
+2019-03-25 21:00:22,678 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 21:00:22,678 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.open.status?task_id=261564&task_type=1
+2019-03-25 21:00:22,912 - INFO -main.py : 636 :begin_test - caseId为sub_task_4的用例完毕
+2019-03-25 21:00:22,913 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_5的用例
+2019-03-25 21:00:22,918 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=170958aa0f704f569942a4a7cd6b4cd9;ln=1;lu=51229951'}
+2019-03-25 21:00:22,918 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 21:00:22,919 - INFO -main.py : 379 :__excute_case - 执行接口/s5k/v2/subtask.open
+2019-03-25 21:00:22,927 - INFO -main.py : 414 :__excute_case - headers------->{'X-QK-TOKEN': '20d2277d121c3a4fabdb86360cf117cf', 'X-QK-SIGN': '0EE4873E6A27927EA6A1102D8A8A828E', 'X-QK-SCHEME': 'com.qqsp.app', 'X-QK-APPV': 'iPhone11,6|1570.120000|com.qqsp.app|1.0.1', 'X-QK-DIS': '170958aa0f704f569942a4a7cd6b4cd9', 'X-QK-CDID': 'D2szej8SQavz6V+lQlLlhNsgn4rLJgKcXOxtWzdkI6VigXe5', 'X-QK-PUSH-STATE': '1', 'X-QK-API-KEY': 'c26007f41f472932454ea80deabd612c', 'X-QK-TAG': '', 'X-QK-EXTENSION': '12.2|1|1517bfd3f7ea41c4abc', 'X-QK-TIME': '1553572822', 'X-QK-AUTH': 'A624A1D7-E227-431A-8413-E50638B56C0A|000007A8-26B2-4749-AFF3-0435B6ED525E|'}
+2019-03-25 21:00:23,124 - INFO -main.py : 636 :begin_test - caseId为sub_task_5的用例完毕
+2019-03-25 21:00:23,125 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_6的用例
+2019-03-25 21:00:23,125 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=170958aa0f704f569942a4a7cd6b4cd9;ln=1;lu=51229951'}
+2019-03-25 21:00:23,125 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 21:00:23,126 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.checkState
+2019-03-25 21:00:23,126 - INFO -main.py : 397 :__excute_case - 正在调用/s4/lite.subtask.checkState接口，进程休眠20s。。。
+2019-03-25 22:23:46,916 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_subtask.xlsx
+2019-03-25 22:23:46,928 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_user.xlsx
+2019-03-25 22:23:47,200 - INFO -main.py : 89 :bind_key - 绑定钥匙成功
+2019-03-25 22:23:47,651 - INFO -main.py : 116 :install_certificate - 证书安装成功
+2019-03-25 22:23:47,651 - INFO -main.py : 517 :before_test - 本次测试共执行7条用例
+2019-03-25 22:23:49,264 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_2的用例
+2019-03-25 22:23:49,266 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=ee7d903bc6b04ee2bbdd4f2a400b0859;ln=1;lu=51229952'}
+2019-03-25 22:23:49,266 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 22:23:49,267 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 22:23:49,430 - INFO -main.py : 636 :begin_test - caseId为sub_task_2的用例完毕
+2019-03-25 22:23:49,430 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_3的用例
+2019-03-25 22:23:49,432 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=ee7d903bc6b04ee2bbdd4f2a400b0859;ln=1;lu=51229952'}
+2019-03-25 22:23:49,432 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 22:23:49,432 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 22:23:49,546 - INFO -main.py : 636 :begin_test - caseId为sub_task_3的用例完毕
+2019-03-25 22:23:49,547 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_4的用例
+2019-03-25 22:23:49,547 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=ee7d903bc6b04ee2bbdd4f2a400b0859;ln=1;lu=51229952'}
+2019-03-25 22:23:49,547 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 22:23:49,547 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.open.status?task_id=261564&task_type=1
+2019-03-25 22:23:54,708 - INFO -main.py : 636 :begin_test - caseId为sub_task_4的用例完毕
+2019-03-25 22:23:54,708 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_5的用例
+2019-03-25 22:23:54,708 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=ee7d903bc6b04ee2bbdd4f2a400b0859;ln=1;lu=51229952'}
+2019-03-25 22:23:54,708 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 22:23:54,708 - INFO -main.py : 379 :__excute_case - 执行接口/s5k/v2/subtask.open
+2019-03-25 22:23:54,723 - INFO -main.py : 414 :__excute_case - headers------->{'X-QK-DIS': 'ee7d903bc6b04ee2bbdd4f2a400b0859', 'X-QK-TOKEN': '20d2277d121c3a4fabdb86360cf117cf', 'X-QK-API-KEY': 'c26007f41f472932454ea80deabd612c', 'X-QK-TAG': '', 'X-QK-APPV': 'iPhone11,6|1570.120000|com.qqsp.app|1.0.1', 'X-QK-PUSH-STATE': '1', 'X-QK-SIGN': '1716CEEBB06BA76C5291EE2EE63BDB6B', 'X-QK-TIME': '1553577834', 'X-QK-SCHEME': 'com.qqsp.app', 'X-QK-AUTH': 'A624A1D7-E227-431A-8413-E50638B56C0A|000007A8-26B2-4749-AFF3-0435B6ED525E|', 'X-QK-CDID': 'D2szej8SQavz6V+lQlLlhNsgn4rLJgKcXOxtWzdkI6VigXe5', 'X-QK-EXTENSION': '12.2|1|1517bfd3f7ea41c4abc'}
+2019-03-25 22:23:54,848 - INFO -main.py : 636 :begin_test - caseId为sub_task_5的用例完毕
+2019-03-25 22:23:54,849 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_6的用例
+2019-03-25 22:23:54,850 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=ee7d903bc6b04ee2bbdd4f2a400b0859;ln=1;lu=51229952'}
+2019-03-25 22:23:54,850 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 22:23:54,850 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.checkState
+2019-03-25 22:23:54,850 - INFO -main.py : 397 :__excute_case - 正在调用/s4/lite.subtask.checkState接口，进程休眠20s。。。
+2019-03-25 22:44:49,984 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_subtask.xlsx
+2019-03-25 22:44:50,002 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_user.xlsx
+2019-03-25 22:44:50,296 - INFO -main.py : 89 :bind_key - 绑定钥匙成功
+2019-03-25 22:44:50,776 - INFO -main.py : 116 :install_certificate - 证书安装成功
+2019-03-25 22:44:50,776 - INFO -main.py : 517 :before_test - 本次测试共执行7条用例
+2019-03-25 22:44:53,588 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_2的用例
+2019-03-25 22:44:53,590 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=b5598d2a122c439b98a1b8f54f69c2ed;ln=1;lu=51229953'}
+2019-03-25 22:44:53,591 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 22:44:53,592 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 22:44:53,738 - INFO -main.py : 636 :begin_test - caseId为sub_task_2的用例完毕
+2019-03-25 22:44:53,740 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_3的用例
+2019-03-25 22:44:53,742 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=b5598d2a122c439b98a1b8f54f69c2ed;ln=1;lu=51229953'}
+2019-03-25 22:44:53,742 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 22:44:53,742 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 22:44:53,907 - INFO -main.py : 636 :begin_test - caseId为sub_task_3的用例完毕
+2019-03-25 22:44:53,907 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_4的用例
+2019-03-25 22:44:53,907 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=b5598d2a122c439b98a1b8f54f69c2ed;ln=1;lu=51229953'}
+2019-03-25 22:44:53,907 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 22:44:53,908 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.open.status?task_id=261564&task_type=1
+2019-03-25 22:44:54,048 - INFO -main.py : 636 :begin_test - caseId为sub_task_4的用例完毕
+2019-03-25 22:44:54,049 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_5的用例
+2019-03-25 22:44:54,049 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=b5598d2a122c439b98a1b8f54f69c2ed;ln=1;lu=51229953'}
+2019-03-25 22:44:54,050 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 22:44:54,050 - INFO -main.py : 379 :__excute_case - 执行接口/s5k/v2/subtask.open
+2019-03-25 22:44:54,058 - INFO -main.py : 414 :__excute_case - headers------->{'X-QK-TOKEN': '20d2277d121c3a4fabdb86360cf117cf', 'X-QK-SIGN': '2AA21488702F55E1CDF0D3F44A4F0DEA', 'X-QK-AUTH': 'A624A1D7-E227-431A-8413-E50638B56C0A|000007A8-26B2-4749-AFF3-0435B6ED525E|', 'X-QK-API-KEY': 'c26007f41f472932454ea80deabd612c', 'X-QK-DIS': 'b5598d2a122c439b98a1b8f54f69c2ed', 'X-QK-TIME': '1553579094', 'X-QK-EXTENSION': '12.2|1|1517bfd3f7ea41c4abc', 'X-QK-SCHEME': 'com.qqsp.app', 'X-QK-APPV': 'iPhone11,6|1570.120000|com.qqsp.app|1.0.1', 'X-QK-PUSH-STATE': '1', 'X-QK-CDID': 'D2szej8SQavz6V+lQlLlhNsgn4rLJgKcXOxtWzdkI6VigXe5', 'X-QK-TAG': ''}
+2019-03-25 22:44:54,175 - INFO -main.py : 636 :begin_test - caseId为sub_task_5的用例完毕
+2019-03-25 22:44:54,175 - INFO -main.py : 603 :begin_test - 正在执行caseId为sub_task_6的用例
+2019-03-25 22:44:54,176 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=b5598d2a122c439b98a1b8f54f69c2ed;ln=1;lu=51229953'}
+2019-03-25 22:44:54,176 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 22:44:54,176 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.checkState
+2019-03-25 22:44:54,176 - INFO -main.py : 397 :__excute_case - 正在调用/s4/lite.subtask.checkState接口，进程休眠20s。。。
+2019-03-25 22:54:32,757 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_subtask.xlsx
+2019-03-25 22:54:32,764 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_user.xlsx
+2019-03-25 22:54:33,279 - INFO -main.py : 89 :bind_key - 绑定钥匙成功
+2019-03-25 22:54:34,566 - INFO -main.py : 116 :install_certificate - 证书安装成功
+2019-03-25 22:54:34,567 - INFO -main.py : 517 :before_test - 本次测试共执行7条用例
+2019-03-25 23:00:15,461 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_subtask.xlsx
+2019-03-25 23:00:15,476 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_user.xlsx
+2019-03-25 23:00:15,716 - INFO -main.py : 89 :bind_key - 绑定钥匙成功
+2019-03-25 23:00:16,352 - INFO -main.py : 116 :install_certificate - 证书安装成功
+2019-03-25 23:00:16,352 - INFO -main.py : 522 :before_test - 本次测试共执行7条用例
+2019-03-25 23:00:31,441 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_subtask.xlsx
+2019-03-25 23:00:31,450 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_user.xlsx
+2019-03-25 23:00:31,703 - INFO -main.py : 89 :bind_key - 绑定钥匙成功
+2019-03-25 23:00:32,345 - INFO -main.py : 116 :install_certificate - 证书安装成功
+2019-03-25 23:00:32,346 - INFO -main.py : 522 :before_test - 本次测试共执行7条用例
+2019-03-25 23:00:34,633 - INFO -main.py : 608 :begin_test - 正在执行caseId为sub_task_2的用例
+2019-03-25 23:00:34,635 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=aa17b26b42fd429e8eed6564f56e1e80;ln=1;lu=51229956'}
+2019-03-25 23:00:34,635 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 23:00:34,636 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 23:00:34,782 - INFO -main.py : 641 :begin_test - caseId为sub_task_2的用例完毕
+2019-03-25 23:00:34,783 - INFO -main.py : 608 :begin_test - 正在执行caseId为sub_task_3的用例
+2019-03-25 23:00:34,784 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=aa17b26b42fd429e8eed6564f56e1e80;ln=1;lu=51229956'}
+2019-03-25 23:00:34,784 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 23:00:34,785 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 23:00:34,950 - INFO -main.py : 641 :begin_test - caseId为sub_task_3的用例完毕
+2019-03-25 23:00:34,950 - INFO -main.py : 608 :begin_test - 正在执行caseId为sub_task_4的用例
+2019-03-25 23:00:34,950 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=aa17b26b42fd429e8eed6564f56e1e80;ln=1;lu=51229956'}
+2019-03-25 23:00:34,950 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 23:00:34,951 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.open.status?task_id=261564&task_type=1
+2019-03-25 23:00:35,148 - INFO -main.py : 641 :begin_test - caseId为sub_task_4的用例完毕
+2019-03-25 23:00:35,149 - INFO -main.py : 608 :begin_test - 正在执行caseId为sub_task_5的用例
+2019-03-25 23:00:35,149 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=aa17b26b42fd429e8eed6564f56e1e80;ln=1;lu=51229956'}
+2019-03-25 23:00:35,150 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 23:00:35,150 - INFO -main.py : 379 :__excute_case - 执行接口/s5k/v2/subtask.open
+2019-03-25 23:00:35,158 - INFO -main.py : 414 :__excute_case - headers------->{'X-QK-TAG': '', 'X-QK-TOKEN': '20d2277d121c3a4fabdb86360cf117cf', 'X-QK-EXTENSION': '12.2|1|1517bfd3f7ea41c4abc', 'X-QK-PUSH-STATE': '1', 'X-QK-SCHEME': 'com.qqsp.app', 'X-QK-TIME': '1553580035', 'X-QK-API-KEY': 'c26007f41f472932454ea80deabd612c', 'X-QK-AUTH': 'A624A1D7-E227-431A-8413-E50638B56C0A|000007A8-26B2-4749-AFF3-0435B6ED525E|', 'X-QK-DIS': 'aa17b26b42fd429e8eed6564f56e1e80', 'X-QK-CDID': 'D2szej8SQavz6V+lQlLlhNsgn4rLJgKcXOxtWzdkI6VigXe5', 'X-QK-APPV': 'iPhone11,6|1570.120000|com.qqsp.app|1.0.1', 'X-QK-SIGN': '638A929865F1E85034BD20EEA51534D5'}
+2019-03-25 23:01:40,997 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_subtask.xlsx
+2019-03-25 23:01:41,010 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_user.xlsx
+2019-03-25 23:01:41,304 - INFO -main.py : 89 :bind_key - 绑定钥匙成功
+2019-03-25 23:01:41,939 - INFO -main.py : 116 :install_certificate - 证书安装成功
+2019-03-25 23:01:41,940 - INFO -main.py : 523 :before_test - 本次测试共执行7条用例
+2019-03-25 23:01:44,761 - INFO -main.py : 609 :begin_test - 正在执行caseId为sub_task_2的用例
+2019-03-25 23:01:44,762 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=67524939e86a4c52aae3f7d2d2bb1abb;ln=1;lu=51229957'}
+2019-03-25 23:01:44,762 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 23:01:44,763 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 23:01:44,891 - INFO -main.py : 642 :begin_test - caseId为sub_task_2的用例完毕
+2019-03-25 23:01:44,891 - INFO -main.py : 609 :begin_test - 正在执行caseId为sub_task_3的用例
+2019-03-25 23:01:44,893 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=67524939e86a4c52aae3f7d2d2bb1abb;ln=1;lu=51229957'}
+2019-03-25 23:01:44,894 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 23:01:44,894 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 23:01:45,046 - INFO -main.py : 642 :begin_test - caseId为sub_task_3的用例完毕
+2019-03-25 23:01:45,047 - INFO -main.py : 609 :begin_test - 正在执行caseId为sub_task_4的用例
+2019-03-25 23:01:45,047 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=67524939e86a4c52aae3f7d2d2bb1abb;ln=1;lu=51229957'}
+2019-03-25 23:01:45,047 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 23:01:45,047 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.open.status?task_id=261564&task_type=1
+2019-03-25 23:01:45,208 - INFO -main.py : 642 :begin_test - caseId为sub_task_4的用例完毕
+2019-03-25 23:01:45,209 - INFO -main.py : 609 :begin_test - 正在执行caseId为sub_task_5的用例
+2019-03-25 23:01:45,209 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=67524939e86a4c52aae3f7d2d2bb1abb;ln=1;lu=51229957'}
+2019-03-25 23:01:45,210 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 23:01:45,210 - INFO -main.py : 379 :__excute_case - 执行接口/s5k/v2/subtask.open
+2019-03-25 23:01:45,217 - INFO -main.py : 414 :__excute_case - headers------->{'X-QK-AUTH': 'A624A1D7-E227-431A-8413-E50638B56C0A|000007A8-26B2-4749-AFF3-0435B6ED525E|', 'X-QK-API-KEY': 'c26007f41f472932454ea80deabd612c', 'X-QK-TIME': '1553580105', 'X-QK-APPV': 'iPhone11,6|1570.120000|com.qqsp.app|1.0.1', 'X-QK-SCHEME': 'com.qqsp.app', 'X-QK-SIGN': '3A67E2E5393BA237F0F14702843448B1', 'X-QK-EXTENSION': '12.2|1|1517bfd3f7ea41c4abc', 'X-QK-TAG': '', 'X-QK-DIS': '67524939e86a4c52aae3f7d2d2bb1abb', 'X-QK-CDID': 'D2szej8SQavz6V+lQlLlhNsgn4rLJgKcXOxtWzdkI6VigXe5', 'X-QK-TOKEN': '20d2277d121c3a4fabdb86360cf117cf', 'X-QK-PUSH-STATE': '1'}
+2019-03-25 23:06:52,361 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_subtask.xlsx
+2019-03-25 23:06:52,366 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_user.xlsx
+2019-03-25 23:06:52,636 - INFO -main.py : 89 :bind_key - 绑定钥匙成功
+2019-03-25 23:06:53,196 - INFO -main.py : 116 :install_certificate - 证书安装成功
+2019-03-25 23:06:53,196 - INFO -main.py : 524 :before_test - 本次测试共执行7条用例
+2019-03-25 23:06:55,396 - INFO -main.py : 610 :begin_test - 正在执行caseId为sub_task_2的用例
+2019-03-25 23:06:55,397 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=8d061fe867ea4fa9bf8881099cc6fb2c;ln=1;lu=51229958'}
+2019-03-25 23:06:55,397 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 23:06:55,397 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 23:06:55,585 - INFO -main.py : 643 :begin_test - caseId为sub_task_2的用例完毕
+2019-03-25 23:06:55,586 - INFO -main.py : 610 :begin_test - 正在执行caseId为sub_task_3的用例
+2019-03-25 23:06:55,586 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=8d061fe867ea4fa9bf8881099cc6fb2c;ln=1;lu=51229958'}
+2019-03-25 23:06:55,586 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 23:06:55,586 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 23:06:55,723 - INFO -main.py : 643 :begin_test - caseId为sub_task_3的用例完毕
+2019-03-25 23:06:55,723 - INFO -main.py : 610 :begin_test - 正在执行caseId为sub_task_4的用例
+2019-03-25 23:06:55,723 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=8d061fe867ea4fa9bf8881099cc6fb2c;ln=1;lu=51229958'}
+2019-03-25 23:06:55,723 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 23:06:55,723 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.open.status?task_id=261564&task_type=1
+2019-03-25 23:06:55,958 - INFO -main.py : 643 :begin_test - caseId为sub_task_4的用例完毕
+2019-03-25 23:06:55,958 - INFO -main.py : 610 :begin_test - 正在执行caseId为sub_task_5的用例
+2019-03-25 23:06:55,959 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=8d061fe867ea4fa9bf8881099cc6fb2c;ln=1;lu=51229958'}
+2019-03-25 23:06:55,960 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 23:06:55,960 - INFO -main.py : 379 :__excute_case - 执行接口/s5k/v2/subtask.open
+2019-03-25 23:06:55,964 - INFO -main.py : 415 :__excute_case - headers------->{'X-QK-TAG': '', 'X-QK-APPV': 'iPhone11,6|1570.120000|com.qqsp.app|1.0.1', 'X-QK-SCHEME': 'com.qqsp.app', 'X-QK-API-KEY': 'c26007f41f472932454ea80deabd612c', 'X-QK-DIS': '8d061fe867ea4fa9bf8881099cc6fb2c', 'X-QK-PUSH-STATE': '1', 'X-QK-CDID': 'D2szej8SQavz6V+lQlLlhNsgn4rLJgKcXOxtWzdkI6VigXe5', 'X-QK-EXTENSION': '12.2|1|1517bfd3f7ea41c4abc', 'X-QK-TOKEN': '20d2277d121c3a4fabdb86360cf117cf', 'X-QK-SIGN': 'F25B62EB543CD5F0364CC26C14EC7F24', 'X-QK-AUTH': 'A624A1D7-E227-431A-8413-E50638B56C0A|000007A8-26B2-4749-AFF3-0435B6ED525E|', 'X-QK-TIME': '1553580415'}
+2019-03-25 23:06:56,144 - INFO -main.py : 643 :begin_test - caseId为sub_task_5的用例完毕
+2019-03-25 23:06:56,145 - INFO -main.py : 610 :begin_test - 正在执行caseId为sub_task_6的用例
+2019-03-25 23:06:56,145 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=8d061fe867ea4fa9bf8881099cc6fb2c;ln=1;lu=51229958'}
+2019-03-25 23:06:56,145 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 23:06:56,145 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.checkState
+2019-03-25 23:06:56,146 - INFO -main.py : 397 :__excute_case - 正在调用/s4/lite.subtask.checkState接口，进程休眠20s。。。
+2019-03-25 23:07:16,277 - INFO -main.py : 643 :begin_test - caseId为sub_task_6的用例完毕
+2019-03-25 23:07:16,278 - INFO -main.py : 610 :begin_test - 正在执行caseId为sub_task_7的用例
+2019-03-25 23:07:16,279 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=8d061fe867ea4fa9bf8881099cc6fb2c;ln=1;lu=51229958'}
+2019-03-25 23:07:16,279 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 23:07:16,279 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.checkState
+2019-03-25 23:07:16,282 - INFO -main.py : 397 :__excute_case - 正在调用/s4/lite.subtask.checkState接口，进程休眠20s。。。
+2019-03-25 23:07:36,486 - INFO -main.py : 643 :begin_test - caseId为sub_task_7的用例完毕
+2019-03-25 23:07:36,487 - INFO -main.py : 610 :begin_test - 正在执行caseId为sub_task_8的用例
+2019-03-25 23:07:36,487 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=8d061fe867ea4fa9bf8881099cc6fb2c;ln=1;lu=51229958'}
+2019-03-25 23:07:36,488 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 23:07:36,489 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.checkState
+2019-03-25 23:07:36,489 - INFO -main.py : 397 :__excute_case - 正在调用/s4/lite.subtask.checkState接口，进程休眠20s。。。
+2019-03-25 23:07:56,689 - INFO -main.py : 643 :begin_test - caseId为sub_task_8的用例完毕
+2019-03-25 23:07:57,376 - INFO -main.py : 578 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时64.32秒，共执行用例：7条，成功：6条，失败：1条，阻塞：0条
+2019-03-25 23:07:57,381 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-25 23:15:52,869 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_subtask.xlsx
+2019-03-25 23:15:52,878 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_user.xlsx
+2019-03-25 23:15:53,093 - INFO -main.py : 89 :bind_key - 绑定钥匙成功
+2019-03-25 23:15:53,659 - INFO -main.py : 116 :install_certificate - 证书安装成功
+2019-03-25 23:15:53,664 - INFO -main.py : 522 :before_test - 本次测试共执行7条用例
+2019-03-25 23:15:55,830 - INFO -main.py : 608 :begin_test - 正在执行caseId为sub_task_2的用例
+2019-03-25 23:15:55,832 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=7ff2ab76ecf24b2d8c3148efcb59c9a2;ln=1;lu=51229959'}
+2019-03-25 23:15:55,832 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 23:15:55,833 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 23:15:55,994 - INFO -main.py : 641 :begin_test - caseId为sub_task_2的用例完毕
+2019-03-25 23:15:55,995 - INFO -main.py : 608 :begin_test - 正在执行caseId为sub_task_3的用例
+2019-03-25 23:15:55,996 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=7ff2ab76ecf24b2d8c3148efcb59c9a2;ln=1;lu=51229959'}
+2019-03-25 23:15:55,996 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 23:15:55,996 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-25 23:15:56,201 - INFO -main.py : 641 :begin_test - caseId为sub_task_3的用例完毕
+2019-03-25 23:15:56,202 - INFO -main.py : 608 :begin_test - 正在执行caseId为sub_task_4的用例
+2019-03-25 23:15:56,202 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=7ff2ab76ecf24b2d8c3148efcb59c9a2;ln=1;lu=51229959'}
+2019-03-25 23:15:56,202 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 23:15:56,202 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.open.status
+2019-03-25 23:15:56,344 - INFO -main.py : 641 :begin_test - caseId为sub_task_4的用例完毕
+2019-03-25 23:15:56,344 - INFO -main.py : 608 :begin_test - 正在执行caseId为sub_task_5的用例
+2019-03-25 23:15:56,345 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=7ff2ab76ecf24b2d8c3148efcb59c9a2;ln=1;lu=51229959'}
+2019-03-25 23:15:56,345 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 23:15:56,346 - INFO -main.py : 379 :__excute_case - 执行接口/s5k/v2/subtask.open
+2019-03-25 23:15:56,353 - INFO -main.py : 418 :__excute_case - headers------->{'X-QK-SCHEME': 'com.qqsp.app', 'X-QK-AUTH': 'A624A1D7-E227-431A-8413-E50638B56C0A|000007A8-26B2-4749-AFF3-0435B6ED525E|', 'X-QK-PUSH-STATE': '1', 'X-QK-CDID': 'D2szej8SQavz6V+lQlLlhNsgn4rLJgKcXOxtWzdkI6VigXe5', 'X-QK-API-KEY': 'c26007f41f472932454ea80deabd612c', 'X-QK-DIS': '7ff2ab76ecf24b2d8c3148efcb59c9a2', 'X-QK-EXTENSION': '12.2|1|1517bfd3f7ea41c4abc', 'X-QK-TOKEN': '20d2277d121c3a4fabdb86360cf117cf', 'X-QK-SIGN': '07E29BFC314FDCDA467BA0652CD06462', 'X-QK-TIME': '1553580956', 'X-QK-APPV': 'iPhone11,6|1570.120000|com.qqsp.app|1.0.1', 'X-QK-TAG': ''}
+2019-03-25 23:15:56,513 - INFO -main.py : 641 :begin_test - caseId为sub_task_5的用例完毕
+2019-03-25 23:15:56,514 - INFO -main.py : 608 :begin_test - 正在执行caseId为sub_task_6的用例
+2019-03-25 23:15:56,514 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=7ff2ab76ecf24b2d8c3148efcb59c9a2;ln=1;lu=51229959'}
+2019-03-25 23:15:56,514 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 23:15:56,514 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.checkState
+2019-03-25 23:15:56,514 - INFO -main.py : 397 :__excute_case - 正在调用/s4/lite.subtask.checkState接口，进程休眠20s。。。
+2019-03-25 23:16:16,878 - INFO -main.py : 641 :begin_test - caseId为sub_task_6的用例完毕
+2019-03-25 23:16:16,880 - INFO -main.py : 608 :begin_test - 正在执行caseId为sub_task_7的用例
+2019-03-25 23:16:16,881 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=7ff2ab76ecf24b2d8c3148efcb59c9a2;ln=1;lu=51229959'}
+2019-03-25 23:16:16,881 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 23:16:16,882 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.checkState
+2019-03-25 23:16:16,882 - INFO -main.py : 397 :__excute_case - 正在调用/s4/lite.subtask.checkState接口，进程休眠20s。。。
+2019-03-25 23:16:37,137 - INFO -main.py : 641 :begin_test - caseId为sub_task_7的用例完毕
+2019-03-25 23:16:37,137 - INFO -main.py : 608 :begin_test - 正在执行caseId为sub_task_8的用例
+2019-03-25 23:16:37,138 - INFO -main.py : 371 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=7ff2ab76ecf24b2d8c3148efcb59c9a2;ln=1;lu=51229959'}
+2019-03-25 23:16:37,138 - INFO -main.py : 372 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-25 23:16:37,139 - INFO -main.py : 379 :__excute_case - 执行接口/s4/lite.subtask.checkState
+2019-03-25 23:16:37,139 - INFO -main.py : 397 :__excute_case - 正在调用/s4/lite.subtask.checkState接口，进程休眠20s。。。
+2019-03-25 23:16:57,288 - INFO -main.py : 641 :begin_test - caseId为sub_task_8的用例完毕
+2019-03-25 23:16:57,801 - INFO -main.py : 576 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时64.41秒，共执行用例：7条，成功：6条，失败：1条，阻塞：0条
+2019-03-25 23:16:57,806 - INFO -report.py : 152 :get_report - 正在写入用例执行情况

@@ -98,9 +98,50 @@ h={"task_id":1}
 # s=requests.post("http://fp01.ops.gaoshou.me/s5/create_user")
 # s_id=re.findall(dis_p, s.headers["Set-Cookie"])[-1]
 # print(s_id)
-g=requests.get("http://fp01.ops.gaoshou.me//s4k/subtask.list",headers={"cookie":"7f7dbd23417541a2a639b31491ec12c1"})
-print(g.text)
+# g=requests.get("http://fp01.ops.gaoshou.me//s4k/subtask.list",headers={"cookie":"7f7dbd23417541a2a639b31491ec12c1"})
+# print(g.text)
 # bind_key("7f7dbd23417541a2a639b31491ec12c1")
 # install_certificate(sid="7f7dbd23417541a2a639b31491ec12c1",db=ConMysql("fp01"))
 # a=requests.get("http://fp01.ops.gaoshou.me/s4/lite.subtask.start")
 # print(a.text)
+a = {'X-QK-EXTENSION': '12.2|1|1517bfd3f7ea41c4abc',
+     'X-QK-AUTH': 'A624A1D7-E227-431A-8413-E50638B56C0A|000007A8-26B2-4749-AFF3-0435B6ED525E|',
+     'X-QK-TOKEN': '20d2277d121c3a4fabdb86360cf117cf', 'X-QK-DIS': '35568b53766c4d36b0e0795d5e2dbf68',
+     'X-QK-API-KEY': 'c26007f41f472932454ea80deabd612c', 'X-QK-SIGN': 'CF5ACB4B34625C3774302A4C1781F488',
+     'X-QK-CDID': 'D2szej8SQavz6V+lQlLlhNsgn4rLJgKcXOxtWzdkI6VigXe5', 'X-QK-PUSH-STATE': '1', 'X-QK-TIME': '1553245274',
+     'X-QK-APPV': 'iPhone11,6|1570.120000|com.qqsp.app|1.0.1', 'X-QK-SCHEME': 'com.qqsp.app', 'X-QK-TAG': ''}
+
+pp = {"name": "zs", "age": 15}
+from utils.cryptor_util import Crypto
+import msgpack,requests
+crypto=Crypto()
+crypto.configure(CRYPTO_KEY = b'1514e2f07add21f4a6aba875588592a')
+
+s='+'.join([
+	'%s=%s' % (k, v) for k, v in sorted(pp.items())])
+
+
+value=msgpack.dumps(pp)
+plan_data=crypto.encrypt(value,iterations=10)
+print(plan_data)
+
+g=requests.post("http://172.16.2.244:5000/demo",data="ssss",json={"data":str(plan_data)})
+print(g.text)
+print(g.request.body)
+print(type(g.request.body))
+
+
+
+# print(g.request.values)
+# print(g.text)
+
+#
+# decode_plan_data=crypto.decrypt(plan_data,iterations=10)
+# decode_value=msgpack.loads(decode_plan_data,encoding="utf8")
+# print(sorted(pp))
+# print("value----->%s"%value)
+# print("plan_data------->%s"%plan_data)
+#
+# print("decode_plan_data------->%s"%decode_plan_data)
+# print("decode_value--------%s"%decode_value)
+

@@ -2940,3 +2940,210 @@
 2019-03-21 23:45:28,589 - INFO -main.py : 606 :begin_test - caseId为user_8的用例完毕
 2019-03-21 23:45:30,251 - INFO -main.py : 541 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时5.16秒，共执行用例：12条，成功：9条，失败：3条，阻塞：0条
 2019-03-21 23:45:30,255 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-21 23:52:16,224 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_subtask.xlsx
+2019-03-21 23:52:16,232 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_user.xlsx
+2019-03-21 23:52:16,436 - INFO -main.py : 88 :bind_key - 绑定钥匙成功
+2019-03-21 23:52:17,072 - INFO -main.py : 115 :install_certificate - 证书安装成功
+2019-03-21 23:52:17,073 - INFO -main.py : 487 :before_test - 本次测试共执行12条用例
+2019-03-21 23:52:19,258 - INFO -main.py : 573 :begin_test - 正在执行caseId为sub_task_1的用例
+2019-03-21 23:52:19,261 - INFO -main.py : 370 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=8c7e942acb414e95ab56a78cebd4d067;ln=1;lu=51229853'}
+2019-03-21 23:52:19,262 - INFO -main.py : 371 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-21 23:52:19,263 - INFO -main.py : 378 :__excute_case - 执行接口/s4/subtask.detail
+2019-03-21 23:52:19,364 - INFO -main.py : 606 :begin_test - caseId为sub_task_1的用例完毕
+2019-03-21 23:52:19,366 - INFO -main.py : 573 :begin_test - 正在执行caseId为sub_task_2的用例
+2019-03-21 23:52:19,367 - INFO -main.py : 370 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=8c7e942acb414e95ab56a78cebd4d067;ln=1;lu=51229853'}
+2019-03-21 23:52:19,368 - INFO -main.py : 371 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-21 23:52:19,369 - INFO -main.py : 378 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-21 23:52:19,593 - INFO -main.py : 606 :begin_test - caseId为sub_task_2的用例完毕
+2019-03-21 23:52:19,593 - INFO -main.py : 573 :begin_test - 正在执行caseId为sub_task_3的用例
+2019-03-21 23:52:19,594 - INFO -main.py : 370 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=8c7e942acb414e95ab56a78cebd4d067;ln=1;lu=51229853'}
+2019-03-21 23:52:19,594 - INFO -main.py : 371 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-21 23:52:19,594 - INFO -main.py : 378 :__excute_case - 执行接口/s4/subtask.giveup
+2019-03-21 23:52:19,785 - INFO -main.py : 606 :begin_test - caseId为sub_task_3的用例完毕
+2019-03-21 23:52:19,785 - INFO -main.py : 573 :begin_test - 正在执行caseId为sub_task_4的用例
+2019-03-21 23:52:19,866 - INFO -main.py : 370 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=8c7e942acb414e95ab56a78cebd4d067;ln=1;lu=51229853'}
+2019-03-21 23:52:19,866 - INFO -main.py : 371 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-21 23:52:19,866 - INFO -main.py : 378 :__excute_case - 执行接口/s4/lite.subtask.list
+2019-03-21 23:52:20,169 - INFO -main.py : 170 :__replace_params - 参数化前${payload.tasks.id}
+2019-03-21 23:52:20,169 - INFO -main.py : 172 :__replace_params - 参数化失败，related_params为空
+2019-03-21 23:52:20,169 - INFO -main.py : 378 :__excute_case - 执行接口/s4/lite.subtask.start
+2019-03-21 23:52:20,360 - INFO -main.py : 170 :__replace_params - 参数化前${payload.tasks.id}
+2019-03-21 23:52:20,361 - INFO -main.py : 172 :__replace_params - 参数化失败，related_params为空
+2019-03-21 23:52:20,361 - INFO -main.py : 606 :begin_test - caseId为sub_task_4的用例完毕
+2019-03-21 23:52:20,362 - INFO -main.py : 573 :begin_test - 正在执行caseId为user_1的用例
+2019-03-21 23:52:20,363 - INFO -main.py : 370 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=8c7e942acb414e95ab56a78cebd4d067;ln=1;lu=51229853'}
+2019-03-21 23:52:20,363 - INFO -main.py : 371 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-21 23:52:20,363 - INFO -main.py : 378 :__excute_case - 执行接口/s5/create_user
+2019-03-21 23:52:20,567 - INFO -main.py : 400 :__excute_case - 调用/s5/create_user接口，headers信息改变，为{'cookie': 'DIS4=8c7e942acb414e95ab56a78cebd4d067'}
+2019-03-21 23:52:20,573 - INFO -main.py : 170 :__replace_params - 参数化前select * from zhuanqian_1.user where id = ${payload.uid}
+2019-03-21 23:52:20,574 - INFO -main.py : 184 :__replace_params - 参数化后select * from zhuanqian_1.user where id = 51229853
+2019-03-21 23:52:20,574 - INFO -main.py : 170 :__replace_params - 参数化前select * from zhuanqian.user_info where user_id=${payload.uid}
+2019-03-21 23:52:20,575 - INFO -main.py : 184 :__replace_params - 参数化后select * from zhuanqian.user_info where user_id=51229853
+2019-03-21 23:52:20,575 - INFO -main.py : 170 :__replace_params - 参数化前select * from zhuanqian.user where id = ${payload.uid} 
+2019-03-21 23:52:20,575 - INFO -main.py : 184 :__replace_params - 参数化后select * from zhuanqian.user where id = 51229853 
+2019-03-21 23:52:20,746 - INFO -main.py : 606 :begin_test - caseId为user_1的用例完毕
+2019-03-21 23:52:20,747 - INFO -main.py : 573 :begin_test - 正在执行caseId为user_2的用例
+2019-03-21 23:52:20,748 - INFO -main.py : 370 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=8c7e942acb414e95ab56a78cebd4d067;ln=1;lu=51229853'}
+2019-03-21 23:52:20,749 - INFO -main.py : 371 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-21 23:52:20,749 - INFO -main.py : 378 :__excute_case - 执行接口/s5/dashboard
+2019-03-21 23:52:20,941 - INFO -main.py : 606 :begin_test - caseId为user_2的用例完毕
+2019-03-21 23:52:20,941 - INFO -main.py : 573 :begin_test - 正在执行caseId为user_3的用例
+2019-03-21 23:52:20,941 - INFO -main.py : 370 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=8c7e942acb414e95ab56a78cebd4d067;ln=1;lu=51229853'}
+2019-03-21 23:52:20,941 - INFO -main.py : 371 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-21 23:52:20,941 - INFO -main.py : 378 :__excute_case - 执行接口/s4/lite.subtask.list
+2019-03-21 23:52:21,242 - INFO -main.py : 606 :begin_test - caseId为user_3的用例完毕
+2019-03-21 23:52:21,243 - INFO -main.py : 573 :begin_test - 正在执行caseId为user_4的用例
+2019-03-21 23:52:21,243 - INFO -main.py : 370 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=8c7e942acb414e95ab56a78cebd4d067;ln=1;lu=51229853'}
+2019-03-21 23:52:21,244 - INFO -main.py : 371 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-21 23:52:21,244 - INFO -main.py : 378 :__excute_case - 执行接口/s5/create_user
+2019-03-21 23:52:21,450 - INFO -main.py : 400 :__excute_case - 调用/s5/create_user接口，headers信息改变，为{'cookie': 'DIS4=8c7e942acb414e95ab56a78cebd4d067'}
+2019-03-21 23:52:21,451 - INFO -main.py : 438 :__excute_case - 当前接口4返回<Response [405]>,无法转换为json，参数化失败
+2019-03-21 23:52:21,451 - INFO -main.py : 606 :begin_test - caseId为user_4的用例完毕
+2019-03-21 23:52:21,452 - INFO -main.py : 573 :begin_test - 正在执行caseId为user_5的用例
+2019-03-21 23:52:21,452 - INFO -main.py : 370 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=1122151'}
+2019-03-21 23:52:21,452 - INFO -main.py : 371 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-21 23:52:21,453 - INFO -main.py : 378 :__excute_case - 执行接口/s5/create_user
+2019-03-21 23:52:21,699 - INFO -main.py : 400 :__excute_case - 调用/s5/create_user接口，headers信息改变，为{'cookie': 'DIS4=5eb26ad74e2b4b348b2fc410f279174d'}
+2019-03-21 23:52:21,699 - INFO -main.py : 606 :begin_test - caseId为user_5的用例完毕
+2019-03-21 23:52:21,700 - INFO -main.py : 573 :begin_test - 正在执行caseId为user_6的用例
+2019-03-21 23:52:21,700 - INFO -main.py : 370 :__excute_case - 当前接口headers信息为{'cookie': 'mu=123456'}
+2019-03-21 23:52:21,700 - INFO -main.py : 371 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-21 23:52:21,700 - INFO -main.py : 378 :__excute_case - 执行接口/s5/create_user
+2019-03-21 23:52:21,882 - INFO -main.py : 400 :__excute_case - 调用/s5/create_user接口，headers信息改变，为{'cookie': 'DIS4=d39e23501b04498abafae5a4b495fe60'}
+2019-03-21 23:52:21,883 - INFO -main.py : 606 :begin_test - caseId为user_6的用例完毕
+2019-03-21 23:52:21,883 - INFO -main.py : 573 :begin_test - 正在执行caseId为user_7的用例
+2019-03-21 23:52:21,891 - INFO -main.py : 370 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=8c7e942acb414e95ab56a78cebd4d067;ln=1;lu=51229853'}
+2019-03-21 23:52:21,892 - INFO -main.py : 371 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-21 23:52:21,892 - INFO -main.py : 378 :__excute_case - 执行接口/s5/dashboard
+2019-03-21 23:52:22,113 - INFO -main.py : 606 :begin_test - caseId为user_7的用例完毕
+2019-03-21 23:52:22,114 - INFO -main.py : 573 :begin_test - 正在执行caseId为user_8的用例
+2019-03-21 23:52:22,114 - INFO -main.py : 370 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=8c7e942acb414e95ab56a78cebd4d067;ln=1;lu=51229853'}
+2019-03-21 23:52:22,114 - INFO -main.py : 371 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-21 23:52:22,114 - INFO -main.py : 378 :__excute_case - 执行接口/s5/reward.coin.claim.today
+2019-03-21 23:52:22,303 - INFO -main.py : 378 :__excute_case - 执行接口/s5/dashboard
+2019-03-21 23:52:22,471 - INFO -main.py : 606 :begin_test - caseId为user_8的用例完毕
+2019-03-21 23:52:23,860 - INFO -main.py : 541 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时6.24秒，共执行用例：12条，成功：8条，失败：4条，阻塞：0条
+2019-03-21 23:52:23,864 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-21 23:57:43,230 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_subtask.xlsx
+2019-03-21 23:57:43,240 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_user.xlsx
+2019-03-21 23:57:43,466 - INFO -main.py : 88 :bind_key - 绑定钥匙成功
+2019-03-21 23:57:44,078 - INFO -main.py : 115 :install_certificate - 证书安装成功
+2019-03-21 23:57:44,079 - INFO -main.py : 487 :before_test - 本次测试共执行8条用例
+2019-03-21 23:57:45,967 - INFO -main.py : 573 :begin_test - 正在执行caseId为user_1的用例
+2019-03-21 23:57:45,969 - INFO -main.py : 370 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=107fc47f68244571ab5e7a458a0269c0;ln=1;lu=51229856'}
+2019-03-21 23:57:45,970 - INFO -main.py : 371 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-21 23:57:45,970 - INFO -main.py : 378 :__excute_case - 执行接口/s5/create_user
+2019-03-21 23:57:46,179 - INFO -main.py : 400 :__excute_case - 调用/s5/create_user接口，headers信息改变，为{'cookie': 'DIS4=107fc47f68244571ab5e7a458a0269c0'}
+2019-03-21 23:57:46,182 - INFO -main.py : 170 :__replace_params - 参数化前select * from zhuanqian_1.user where id = ${payload.uid}
+2019-03-21 23:57:46,183 - INFO -main.py : 184 :__replace_params - 参数化后select * from zhuanqian_1.user where id = 51229856
+2019-03-21 23:57:46,183 - INFO -main.py : 170 :__replace_params - 参数化前select * from zhuanqian.user_info where user_id=${payload.uid}
+2019-03-21 23:57:46,184 - INFO -main.py : 184 :__replace_params - 参数化后select * from zhuanqian.user_info where user_id=51229856
+2019-03-21 23:57:46,184 - INFO -main.py : 170 :__replace_params - 参数化前select * from zhuanqian.user where id = ${payload.uid} 
+2019-03-21 23:57:46,184 - INFO -main.py : 184 :__replace_params - 参数化后select * from zhuanqian.user where id = 51229856 
+2019-03-21 23:57:46,367 - INFO -main.py : 606 :begin_test - caseId为user_1的用例完毕
+2019-03-21 23:57:46,368 - INFO -main.py : 573 :begin_test - 正在执行caseId为user_2的用例
+2019-03-21 23:57:46,369 - INFO -main.py : 370 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=107fc47f68244571ab5e7a458a0269c0;ln=1;lu=51229856'}
+2019-03-21 23:57:46,369 - INFO -main.py : 371 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-21 23:57:46,370 - INFO -main.py : 378 :__excute_case - 执行接口/s5/dashboard
+2019-03-21 23:57:46,554 - INFO -main.py : 606 :begin_test - caseId为user_2的用例完毕
+2019-03-21 23:57:46,554 - INFO -main.py : 573 :begin_test - 正在执行caseId为user_3的用例
+2019-03-21 23:57:46,554 - INFO -main.py : 370 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=107fc47f68244571ab5e7a458a0269c0;ln=1;lu=51229856'}
+2019-03-21 23:57:46,554 - INFO -main.py : 371 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-21 23:57:46,555 - INFO -main.py : 378 :__excute_case - 执行接口/s4/lite.subtask.list
+2019-03-21 23:57:46,826 - INFO -main.py : 606 :begin_test - caseId为user_3的用例完毕
+2019-03-21 23:57:46,826 - INFO -main.py : 573 :begin_test - 正在执行caseId为user_4的用例
+2019-03-21 23:57:46,827 - INFO -main.py : 370 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=107fc47f68244571ab5e7a458a0269c0;ln=1;lu=51229856'}
+2019-03-21 23:57:46,828 - INFO -main.py : 371 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-21 23:57:46,828 - INFO -main.py : 378 :__excute_case - 执行接口/s5/create_user
+2019-03-21 23:57:47,060 - INFO -main.py : 400 :__excute_case - 调用/s5/create_user接口，headers信息改变，为{'cookie': 'DIS4=107fc47f68244571ab5e7a458a0269c0'}
+2019-03-21 23:57:47,060 - INFO -main.py : 438 :__excute_case - 当前接口4返回<Response [405]>,无法转换为json，参数化失败
+2019-03-21 23:57:47,061 - INFO -main.py : 606 :begin_test - caseId为user_4的用例完毕
+2019-03-21 23:57:47,061 - INFO -main.py : 573 :begin_test - 正在执行caseId为user_5的用例
+2019-03-21 23:57:47,062 - INFO -main.py : 370 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=1122151'}
+2019-03-21 23:57:47,062 - INFO -main.py : 371 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-21 23:57:47,062 - INFO -main.py : 378 :__excute_case - 执行接口/s5/create_user
+2019-03-21 23:57:47,269 - INFO -main.py : 400 :__excute_case - 调用/s5/create_user接口，headers信息改变，为{'cookie': 'DIS4=7e6a22b01d5e4c75b202a098226cc377'}
+2019-03-21 23:57:47,269 - INFO -main.py : 606 :begin_test - caseId为user_5的用例完毕
+2019-03-21 23:57:47,270 - INFO -main.py : 573 :begin_test - 正在执行caseId为user_6的用例
+2019-03-21 23:57:47,270 - INFO -main.py : 370 :__excute_case - 当前接口headers信息为{'cookie': 'mu=123456'}
+2019-03-21 23:57:47,270 - INFO -main.py : 371 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-21 23:57:47,271 - INFO -main.py : 378 :__excute_case - 执行接口/s5/create_user
+2019-03-21 23:57:47,460 - INFO -main.py : 400 :__excute_case - 调用/s5/create_user接口，headers信息改变，为{'cookie': 'DIS4=a6207c4762ef4781a0f4629fd80e2e40'}
+2019-03-21 23:57:47,460 - INFO -main.py : 606 :begin_test - caseId为user_6的用例完毕
+2019-03-21 23:57:47,460 - INFO -main.py : 573 :begin_test - 正在执行caseId为user_7的用例
+2019-03-21 23:57:47,460 - INFO -main.py : 370 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=107fc47f68244571ab5e7a458a0269c0;ln=1;lu=51229856'}
+2019-03-21 23:57:47,460 - INFO -main.py : 371 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-21 23:57:47,460 - INFO -main.py : 378 :__excute_case - 执行接口/s5/dashboard
+2019-03-21 23:57:47,668 - INFO -main.py : 606 :begin_test - caseId为user_7的用例完毕
+2019-03-21 23:57:47,669 - INFO -main.py : 573 :begin_test - 正在执行caseId为user_8的用例
+2019-03-21 23:57:47,669 - INFO -main.py : 370 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=107fc47f68244571ab5e7a458a0269c0;ln=1;lu=51229856'}
+2019-03-21 23:57:47,669 - INFO -main.py : 371 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-21 23:57:47,669 - INFO -main.py : 378 :__excute_case - 执行接口/s5/reward.coin.claim.today
+2019-03-21 23:57:47,844 - INFO -main.py : 378 :__excute_case - 执行接口/s5/dashboard
+2019-03-21 23:57:48,035 - INFO -main.py : 606 :begin_test - caseId为user_8的用例完毕
+2019-03-21 23:57:49,274 - INFO -main.py : 541 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时4.79秒，共执行用例：8条，成功：7条，失败：1条，阻塞：0条
+2019-03-21 23:57:49,279 - INFO -report.py : 152 :get_report - 正在写入用例执行情况
+2019-03-21 23:59:51,034 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_subtask.xlsx
+2019-03-21 23:59:51,042 - INFO -parse_excel.py : 23 :__init__ - 用例路径：/home/ntg/Desktop/newapi/cases/case_user.xlsx
+2019-03-21 23:59:51,350 - INFO -main.py : 88 :bind_key - 绑定钥匙成功
+2019-03-21 23:59:51,864 - INFO -main.py : 115 :install_certificate - 证书安装成功
+2019-03-21 23:59:51,865 - INFO -main.py : 487 :before_test - 本次测试共执行9条用例
+2019-03-21 23:59:53,562 - INFO -main.py : 573 :begin_test - 正在执行caseId为sub_task_1的用例
+2019-03-21 23:59:53,566 - INFO -main.py : 370 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=1d7ac6db7b634043af88ed896e7102d1;ln=1;lu=51229859'}
+2019-03-21 23:59:53,573 - INFO -main.py : 371 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-21 23:59:53,573 - INFO -main.py : 378 :__excute_case - 执行接口/s4/subtask.detail
+2019-03-21 23:59:53,670 - INFO -main.py : 606 :begin_test - caseId为sub_task_1的用例完毕
+2019-03-21 23:59:53,671 - INFO -main.py : 573 :begin_test - 正在执行caseId为user_1的用例
+2019-03-21 23:59:53,671 - INFO -main.py : 370 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=1d7ac6db7b634043af88ed896e7102d1;ln=1;lu=51229859'}
+2019-03-21 23:59:53,671 - INFO -main.py : 371 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-21 23:59:53,671 - INFO -main.py : 378 :__excute_case - 执行接口/s5/create_user
+2019-03-21 23:59:53,855 - INFO -main.py : 400 :__excute_case - 调用/s5/create_user接口，headers信息改变，为{'cookie': 'DIS4=1d7ac6db7b634043af88ed896e7102d1'}
+2019-03-21 23:59:53,856 - INFO -main.py : 170 :__replace_params - 参数化前select * from zhuanqian.user where id = ${payload.uid} 
+2019-03-21 23:59:53,856 - INFO -main.py : 184 :__replace_params - 参数化后select * from zhuanqian.user where id = 51229859 
+2019-03-21 23:59:53,856 - INFO -main.py : 170 :__replace_params - 参数化前select * from zhuanqian.user_info where user_id=${payload.uid}
+2019-03-21 23:59:53,856 - INFO -main.py : 184 :__replace_params - 参数化后select * from zhuanqian.user_info where user_id=51229859
+2019-03-21 23:59:53,856 - INFO -main.py : 170 :__replace_params - 参数化前select * from zhuanqian_1.user where id = ${payload.uid}
+2019-03-21 23:59:53,857 - INFO -main.py : 184 :__replace_params - 参数化后select * from zhuanqian_1.user where id = 51229859
+2019-03-21 23:59:54,007 - INFO -main.py : 606 :begin_test - caseId为user_1的用例完毕
+2019-03-21 23:59:54,007 - INFO -main.py : 573 :begin_test - 正在执行caseId为user_2的用例
+2019-03-21 23:59:54,009 - INFO -main.py : 370 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=1d7ac6db7b634043af88ed896e7102d1;ln=1;lu=51229859'}
+2019-03-21 23:59:54,010 - INFO -main.py : 371 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-21 23:59:54,010 - INFO -main.py : 378 :__excute_case - 执行接口/s5/dashboard
+2019-03-21 23:59:59,257 - INFO -main.py : 606 :begin_test - caseId为user_2的用例完毕
+2019-03-21 23:59:59,258 - INFO -main.py : 573 :begin_test - 正在执行caseId为user_3的用例
+2019-03-21 23:59:59,258 - INFO -main.py : 370 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=1d7ac6db7b634043af88ed896e7102d1;ln=1;lu=51229859'}
+2019-03-21 23:59:59,259 - INFO -main.py : 371 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-21 23:59:59,259 - INFO -main.py : 378 :__excute_case - 执行接口/s4/lite.subtask.list
+2019-03-21 23:59:59,471 - INFO -main.py : 606 :begin_test - caseId为user_3的用例完毕
+2019-03-21 23:59:59,471 - INFO -main.py : 573 :begin_test - 正在执行caseId为user_4的用例
+2019-03-21 23:59:59,475 - INFO -main.py : 370 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=1d7ac6db7b634043af88ed896e7102d1;ln=1;lu=51229859'}
+2019-03-21 23:59:59,475 - INFO -main.py : 371 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-21 23:59:59,476 - INFO -main.py : 378 :__excute_case - 执行接口/s5/create_user
+2019-03-21 23:59:59,629 - INFO -main.py : 400 :__excute_case - 调用/s5/create_user接口，headers信息改变，为{'cookie': 'DIS4=1d7ac6db7b634043af88ed896e7102d1'}
+2019-03-21 23:59:59,630 - INFO -main.py : 438 :__excute_case - 当前接口4返回<Response [405]>,无法转换为json，参数化失败
+2019-03-21 23:59:59,630 - INFO -main.py : 606 :begin_test - caseId为user_4的用例完毕
+2019-03-21 23:59:59,630 - INFO -main.py : 573 :begin_test - 正在执行caseId为user_5的用例
+2019-03-21 23:59:59,630 - INFO -main.py : 370 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=1122151'}
+2019-03-21 23:59:59,630 - INFO -main.py : 371 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-21 23:59:59,631 - INFO -main.py : 378 :__excute_case - 执行接口/s5/create_user
+2019-03-21 23:59:59,861 - INFO -main.py : 400 :__excute_case - 调用/s5/create_user接口，headers信息改变，为{'cookie': 'DIS4=e46e6e8740344899a65eaf43448b9325'}
+2019-03-21 23:59:59,862 - INFO -main.py : 606 :begin_test - caseId为user_5的用例完毕
+2019-03-21 23:59:59,862 - INFO -main.py : 573 :begin_test - 正在执行caseId为user_6的用例
+2019-03-21 23:59:59,862 - INFO -main.py : 370 :__excute_case - 当前接口headers信息为{'cookie': 'mu=123456'}
+2019-03-21 23:59:59,862 - INFO -main.py : 371 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-21 23:59:59,862 - INFO -main.py : 378 :__excute_case - 执行接口/s5/create_user
+2019-03-22 00:00:00,074 - INFO -main.py : 400 :__excute_case - 调用/s5/create_user接口，headers信息改变，为{'cookie': 'DIS4=879b2689d41c4bd998a062f7442f5a97'}
+2019-03-22 00:00:00,074 - INFO -main.py : 606 :begin_test - caseId为user_6的用例完毕
+2019-03-22 00:00:00,074 - INFO -main.py : 573 :begin_test - 正在执行caseId为user_7的用例
+2019-03-22 00:00:00,075 - INFO -main.py : 370 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=1d7ac6db7b634043af88ed896e7102d1;ln=1;lu=51229859'}
+2019-03-22 00:00:00,075 - INFO -main.py : 371 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-22 00:00:00,075 - INFO -main.py : 378 :__excute_case - 执行接口/s5/dashboard
+2019-03-22 00:00:00,307 - INFO -main.py : 606 :begin_test - caseId为user_7的用例完毕
+2019-03-22 00:00:00,307 - INFO -main.py : 573 :begin_test - 正在执行caseId为user_8的用例
+2019-03-22 00:00:00,308 - INFO -main.py : 370 :__excute_case - 当前接口headers信息为{'cookie': 'DIS4=1d7ac6db7b634043af88ed896e7102d1;ln=1;lu=51229859'}
+2019-03-22 00:00:00,308 - INFO -main.py : 371 :__excute_case - 当前用户uid:%s,session:%s
+2019-03-22 00:00:00,309 - INFO -main.py : 378 :__excute_case - 执行接口/s5/reward.coin.claim.today
+2019-03-22 00:00:00,436 - INFO -main.py : 378 :__excute_case - 执行接口/s5/dashboard
+2019-03-22 00:00:00,637 - INFO -main.py : 606 :begin_test - caseId为user_8的用例完毕
+2019-03-22 00:00:02,144 - INFO -main.py : 541 :after_test - 本次测试执行完毕，本次测试环境为：fp01，共耗时9.6秒，共执行用例：9条，成功：7条，失败：2条，阻塞：0条
+2019-03-22 00:00:02,151 - INFO -report.py : 152 :get_report - 正在写入用例执行情况

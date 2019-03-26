@@ -48,8 +48,8 @@ class __Http(object):
         res = requests.get(self.env + path, params=params, headers=headers)
         return res
 
-    def post(self, path, params=None, headers=None):
-        res = requests.post(self.env + path, data=params, headers=headers)
+    def post(self, path, params=None, headers=None,data=None):
+        res = requests.post(self.env + path, params=params,data=data,headers=headers)
         return res
 
     def get_env(self):
@@ -76,15 +76,15 @@ def login(bind="fp01"):
         return None
 
 
-def request_api(host, my_params, my_headers, request_method, bind="fp01"):
+def request_api(host, my_params, my_headers, request_method, bind="fp01",data=None):
     """
     接口请求
     """
     http = __Http(bind=bind)
     if request_method == "POST":
-        res = http.post(host, params=my_params, headers=my_headers)
+        res = http.post(host, params=my_params, data=data,headers=my_headers)
     elif request_method == "GET":
-        res = http.get(host, params=my_params, headers=my_headers)
+        res = http.get(host, params=my_params,headers=my_headers)
     else:
         log.error("ERRRR:暂不支持%s这种请求方式" % request_method)
         return {"error": "暂不支持%s这种请求方式" % request_method}
@@ -140,9 +140,9 @@ class MakeSign(object):
         :param rawData:
         :return:
         """
-
+        print(params)
         params = '+'.join([
-            '%s=%s' % (k, v) for k, v in sorted(params)
+            '%s=%s' % (k, v) for k, v in sorted(params.items())
         ])
 
         tmp_headers = headers
@@ -166,7 +166,7 @@ class MakeSign(object):
             shared_key=shared_key,
             headers=_headers
         )
-
+        print(s)
         m = hashlib.md5()
         m.update(s.encode())
         if rawData:

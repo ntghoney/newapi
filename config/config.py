@@ -56,6 +56,8 @@ SQLINFO = {
     }
 }
 
+CRYPTO_KEY = b'1514e2f07add21f4a6aba875588592a'
+
 # 邮件配置信息
 EMAIL = {
     "server":"smtp.exmail.qq.com",

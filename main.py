@@ -11,12 +11,13 @@ from utils.common import (get_current_time, request_api,
                           KeyHeaders, MakeSign, generate_random_str,
                           login)
 from utils.log import log
-import json, re, time, datetime, sys
+import json, re, time, datetime, sys, msgpack
 from json import JSONDecodeError
 from utils.report import Report
 from utils.html_report import get_html_report
 from utils.hebe_session import HebeSession
 from utils.send_email import send_email_for_all
+from utils.cryptor_util import Crypto
 
 CASETABLE = "testcase"
 RESULTTABLE = "testresult"
@@ -107,7 +108,7 @@ def install_certificate(sid, uid, db: ConMysql):
            VALUES (%s,"%s","33ab9800f1378cb13ea4eeb6a4ce56af2987ec69",
            "D8DEBC4A-8EE7-4953-9259-556F87353D5C","13220895031545118235832",
            "2017-03-11 07:55:23","10.168.205.147","%s")
-       """ % (uid, udid,get_current_time())
+       """ % (uid, udid, get_current_time())
     db.execute_sql(sql)
     cu.bind_sid_udid(sid=sid, udid=udid)
     info = cu.get_session_info(sid)
@@ -353,7 +354,7 @@ class Run(object):
         return infos
 
     def __excute_case(self, case):
-
+        query_string=None
         # 执行前判断用例必填参数是否为空
         case = self.__before_excute(case)
         # 清除上一条用例所产生的参数
@@ -384,6 +385,39 @@ class Run(object):
                 self.__update_message(phone)
             if api_host is None or api_method is None:
                 return {"error": "接口信息不完整"}
+            if api_host == "/s4/lite.subtask.checkState":
+                # for i in range(3):
+                #     res = request_api(
+                #         host=api_host,
+                #         request_method=api_method,
+                #         my_params=api_params,
+                #         my_headers=api_headers
+                #     )
+                #     log.info("正在调用%s接口第%s次，进程休眠3220s。。。" % (api_host,i))
+                log.info("正在调用%s接口，进程休眠20s。。。" % api_host)
+                time.sleep(20)
+            if api_host == "/s5k/v2/subtask.open":
+                crypto = Crypto()
+                crypto.configure(CRYPTO_KEY=b'1514e2f07add21f4a6aba875588592a')
+                # api_params = {"open_status": 1,
+                #               "task_id": 261564,
+                #               "task_type": 1}
+                value = msgpack.dumps(api_params)
+                cipher_data = crypto.encrypt(value, iterations=10)
+                s_id = pc.get_info("user").get("session")
+                kHeader = KeyHeaders(sid=s_id)
+                m_headers = kHeader.build_headers()
+                # uri = '/s5k/v2/key.bind'
+                sign = MakeSign.sign("/s5k/v2/subtask.open",
+                                     m_headers,
+                                     {"body": str(cipher_data)},
+                                     rawData=cipher_data)
+                query_string=cipher_data
+                m_headers = kHeader.with_sign_headers(sign)
+                api_headers = m_headers
+                log.info("headers------->%s" % api_headers)
+                api_params = {"body": str(cipher_data)}
+
             if api.get(APIHEADERS) is None:
                 # 如果关联接口中的headers信息为空，使用当前用例接口的headers信息
                 api_headers = api_headers
@@ -391,7 +425,8 @@ class Run(object):
                 host=api_host,
                 request_method=api_method,
                 my_params=api_params,
-                my_headers=api_headers
+                my_headers=api_headers,
+                data=query_string
             )
             if "create_user" in api_host or "login.mobile" in api_host:
                 h = res.headers["Set-Cookie"]
@@ -477,11 +512,11 @@ class Run(object):
         all_case = get_case()  # 获得所有用例
         self.start_time = time.time()
         s_id = pc.get_info("user").get("session")
-        u_id=pc.get_info("user").get("uid")
+        u_id = pc.get_info("user").get("uid")
         # 绑定钥匙
         bind_key(s_id)
         # 安装证书
-        install_certificate(s_id, u_id,self.db_server)
+        install_certificate(s_id, u_id, self.db_server)
         # 获得本次测试执行的用例
         self.cases = get_excute_case(all_case)
         log.info("本次测试共执行%s条用例" % len(self.cases))
@@ -656,10 +691,11 @@ class Run(object):
                         p = re.compile(r"\((.*?)\)")
                         tem = re.findall(p, v)
                         if not tem:
-                            reason = "用例书写json数组的方式错误"
-                            result.ispass = BLOCK
-                            result.reason = reason
-                            return
+                            # reason = "用例书写json数组的方式错误"
+                            # result.ispass = BLOCK
+                            # result.reason = reason
+                            # return
+                            tem = []
                         v = tem[0].split(",")
                         vv = [str(gg.get(k)) for gg in temp_res]
                         for i in v:

@@ -3,5 +3,6 @@
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$/cases/case_subtask.xlsx" charset="GBK" />
     <file url="file://$PROJECT_DIR$/cases/case_user.xlsx" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/log/20190321.log" charset="GBK" />
   </component>
 </project>
